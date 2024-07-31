@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --verde: #156064;
+  --rosaClaro: #f1dede;
+  --rosaOscuro: #d496a7;
+  --marron: #774936;
+  --negro: black;
+  --negroTransparente: #000000bf;
+  font-family: "Shantell Sans", cursive, arial, sans-serif;
+  color: var(--rosaClaro);
+}
+
+body {
+  background-color: var(--negro);
+}
+
+.texto {
+  color: var(--rosaClaro);
+}
+
+.link:hover {
+  animation-name: Getbig;
+  animation-fill-mode: both;
+  color: rgba(255, 255, 255);
+}
+
+.link:active {
+  color: var(--rosaOscuro);
+}
+
+@keyframes Getbig {
+  0% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 1.1;
+  }
+}
+
+.encabezado {
+  background-image: url("laptop.jpeg");
+  opacity: 0.9;
+}
+
+.final {
+  background-image: url("laptop2.jpg");
+}
+
+.video {
+  height: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .info {
+    align-items: center;
+    background-color: var(--negroTransparente);
+    padding: 10px;
+    border-radius: 15px;
+  }
+
+  .sobre-mi {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+
+  .proyecto {
+    flex-wrap: wrap;
+  }
+
+  .budget {
+    flex-direction: column;
+  }
+}
+
+.cubo {
+  border: 1px solid red;
+  margin: 20px;
+}
+
+.inicio {
+  --glow-color: rgb(217, 176, 255);
+  --glow-spread-color: rgba(191, 123, 255, 0.781);
+  --enhanced-glow-color: rgb(231, 206, 255);
+  --btn-color: rgb(100, 61, 136);
+  border: .25em solid var(--glow-color);
+  padding: 1em 3em;
+  color: var(--glow-color);
+  font-size: 25px;
+  font-weight: bold;
+  background-color: var(--btn-color);
+  border-radius: 1em;
+  outline: none;
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+  text-shadow: 0 0 .5em var(--glow-color);
+  position: relative;
+  transition: all 0.3s;
+}
+
+.inicio::after {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--glow-spread-color);
+  filter: blur(2em);
+  opacity: .7;
+  transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+.inicio:hover {
+  background-color: var(--glow-color);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+    0 0 4em 2em var(--glow-spread-color),
+    inset 0 0 .75em .25em var(--glow-color);
+  animation-name: Getbig;
+  animation-fill-mode: both;
+}
+
+.inicio:active {
+  box-shadow: 0 0 0.6em .25em var(--glow-color),
+    0 0 2.5em 2em var(--glow-spread-color),
+    inset 0 0 .5em .25em var(--glow-color);
+}
