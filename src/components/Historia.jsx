@@ -67,7 +67,7 @@ function Historia() {
                                 policíaca o thriller.
                             </Typography>
                             <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
-                                Desde el 2021 me alucina la halterofilia. Empecé con crossfit, pero el powerlifting
+                                Desde el 2022 me alucina la halterofilia. Empecé con crossfit, pero el powerlifting
                                 me fascinó.
                             </Typography>
                             <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
