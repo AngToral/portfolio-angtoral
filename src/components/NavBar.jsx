@@ -26,7 +26,7 @@ function NavBar() {
 
     return (
         <>
-            <div className="max-h-[768px] w-[calc(100%+48px)] sticky top-0 z-50">
+            <div className="max-h-[768px] sticky top-0 z-50">
                 <Navbar className="fixed border-transparent bg-black sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
                     <div className="flex justify-between items-center">
                         <Button
