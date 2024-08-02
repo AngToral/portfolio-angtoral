@@ -130,7 +130,11 @@ function Proyecto() {
                                     Mi parte del desarrollo ha sido la de Gastos y Viajes.
                                 </Typography>
                                 <Typography>
-                                    Empecé por Gastos, ya que es el núcleo de la web. Al tener conocimientos
+                                    Por la parte del back hice todo lo relacionado al login, algunos crud, y algunos
+                                    modelos, encriptado de contraseña y chequeo de usuario por token.
+                                </Typography>
+                                <Typography>
+                                    En front, empecé por Gastos, ya que es el núcleo de la web. Al tener conocimientos
                                     administrativos y de RRHH, supe exactamente qué necesitaba plasmar, y cómo.
                                     Con lo cual no escatimé en filtros, y la información quería que quedara
                                     amena para el cliente.

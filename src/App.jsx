@@ -45,7 +45,7 @@ function App() {
               FULL STACK DEVELOPER
             </Typography>
             <Typography variant="h4" className="font-shantell text-ang-400 texto mb-2">
-              avtoral@gmail.com
+              avtoral94@gmail.com
             </Typography>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
