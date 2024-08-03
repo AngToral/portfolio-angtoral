@@ -87,22 +87,21 @@ function Historia() {
                         <div className="w-3/4 pl-12 md:pl-20 lg:pl-32">
                             <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
                                 Nací en Caracas, Venezuela, y mis decisiones profesionales empiezan a mis 18
-                                años, cuando terminé el bachiller: ¿qué carrera cursar? Tuve en mis opciones
+                                años cuando terminé el bachiller: ¿qué carrera cursar? Tuve en mis opciones
                                 Arquitectura, Turismo y Economía.
                             </Typography>
                             <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
                                 Empecé Economía, y aunque no se me daba mal, no me estaba enamorando mi futuro
                                 laboral. Estando en un país donde las normas económicas son utopía, aprender
-                                de la materia y entender el por qué de todo, me ha enriquecido mucho. Pero no me veía
-                                trabajando de ello. A los 3 semestres, el poder adquisitivo en mi familia empezó
-                                a decaer, con lo que decidí trabajar en la universidad para pagarme la carrera.
+                                de la materia y entender el por qué de todo, me enriqueció mucho. Pero no me veía
+                                trabajando de ello.
                             </Typography>
                             <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
-                                Me quedaba 1 año para graduarme y decidí estudiar a Administración de Empresas,
-                                y con la carrera, cambié el trabajo también, uno en Compras. Aquí todo se veía
-                                más claro. Estaba a gusto. En esta época tuve la oportunidad de colarme a clases
-                                de Ingeniería Informática, y tampoco se me daba mal. Aquí empezó la espinita de la
-                                programación.
+                                Al 3er semestre, el poder adquisitivo en mi familia empezó
+                                a decaer, por lo que decidí trabajar en la universidad para pagarme la carrera.
+                                Y cuando me quedaba 1 año para graduarme, decidí estudiar a ADE.
+                                Y con la carrera, cambié mi trabajo a Compras. Además, tuve la oportunidad de colarme a
+                                clases de Ingeniería Informática. Aquí empezó la espinita de la programación.
                             </Typography>
                         </div>
                     </div>
