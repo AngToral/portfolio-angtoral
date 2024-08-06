@@ -8,7 +8,7 @@ function Bitacora() {
         document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../bitacora.jpeg')"
     })
 
-    const [openAccordion, setOpenAccordion] = useState(1);
+    const [openAccordion, setOpenAccordion] = useState(0);
     const [activeStep, setActiveStep] = useState(0);
 
     const handleOpenAccordion = (value) => setOpenAccordion(openAccordion === value ? 0 : value);
@@ -52,7 +52,7 @@ function Bitacora() {
                                             className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
                                             activeClassName="ring-0 !bg-white text-white"
                                             completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(0)}
+                                            onClick={() => setActiveStep(1)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
                                                 <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
@@ -64,7 +64,7 @@ function Bitacora() {
                                             className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
                                             activeClassName="ring-0 !bg-white text-white"
                                             completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(1)}
+                                            onClick={() => setActiveStep(2)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
                                                 <Typography className="lg:text-xl font-semibold font-shantell text-white">
@@ -76,7 +76,7 @@ function Bitacora() {
                                             className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
                                             activeClassName="ring-0 !bg-white text-white"
                                             completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(2)}
+                                            onClick={() => setActiveStep(3)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
                                                 <Typography className="lg:text-xl font-semibold font-shantell text-white">
@@ -88,7 +88,7 @@ function Bitacora() {
                                             className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
                                             activeClassName="ring-0 !bg-white text-white"
                                             completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(3)}
+                                            onClick={() => setActiveStep(4)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
                                                 <Typography className="lg:text-xl font-semibold font-shantell text-white">
@@ -100,7 +100,7 @@ function Bitacora() {
                                             className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
                                             activeClassName="ring-0 !bg-white text-white"
                                             completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(4)}
+                                            onClick={() => setActiveStep(5)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
                                                 <Typography className="lg:text-xl font-semibold font-shantell text-white">
@@ -112,7 +112,7 @@ function Bitacora() {
                                             className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
                                             activeClassName="ring-0 !bg-white text-white"
                                             completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(5)}
+                                            onClick={() => setActiveStep(6)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
                                                 <Typography className="lg:text-xl font-semibold font-shantell text-white">
@@ -125,7 +125,7 @@ function Bitacora() {
                             </CardHeader>
                         </div>
                         <div>
-                            {activeStep === 0 ?
+                            {activeStep === 1 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-2xl font-semibold font-shantell text-white">
@@ -144,7 +144,7 @@ function Bitacora() {
                             }
                         </div>
                         <div>
-                            {activeStep === 1 ?
+                            {activeStep === 2 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-2xl font-semibold font-shantell text-white">
@@ -166,7 +166,7 @@ function Bitacora() {
                             }
                         </div>
                         <div>
-                            {activeStep === 2 ?
+                            {activeStep === 3 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-2xl font-semibold font-shantell text-white">
@@ -184,7 +184,7 @@ function Bitacora() {
                             }
                         </div>
                         <div>
-                            {activeStep === 3 ?
+                            {activeStep === 4 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-2xl font-semibold font-shantell text-white">
@@ -201,7 +201,7 @@ function Bitacora() {
                             }
                         </div>
                         <div>
-                            {activeStep === 4 ?
+                            {activeStep === 5 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-2xl font-semibold font-shantell text-white">
@@ -218,7 +218,7 @@ function Bitacora() {
                             }
                         </div>
                         <div>
-                            {activeStep === 5 ?
+                            {activeStep === 6 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-2xl font-semibold font-shantell text-white">
@@ -226,6 +226,51 @@ function Bitacora() {
                                             Cambié un par de cosas para que se viera y entendiera bien al ser responsive.
                                             Agrego la ruta inicial con la imagen del prototipo del home del portfolio,
                                             como un antes del real. Hosting, dominio y ¡listo!
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                    </AccordionBody>
+                </Accordion>
+            </div>
+            <div className="mx-6 animate__animated animate__fadeInDown">
+                <Accordion open={openAccordion === 2} icon={<Icon id={2} open={openAccordion} />}>
+                    <AccordionHeader onClick={() => handleOpenAccordion(2)} className="md:text-2xl font-semibold font-shantell text-white hover:text-white">Fotografía (Ago. 2024)</AccordionHeader>
+                    <AccordionBody>
+                        <div className="w-full py-4 px-8">
+                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
+                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                    <Stepper
+                                        activeStep={activeStep}
+                                        lineClassName="bg-white/50"
+                                        activeLineClassName="bg-white"
+                                    >
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(7)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    1
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                    </Stepper>
+                                </div>
+                            </CardHeader>
+                        </div>
+                        <div>
+                            {activeStep === 7 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                            05 de agosto, 13:30. Busco librerías para aprender y que conecten con la idea que tengo. Escribo las funcionalidades,
+                                            pantallas, schemas y respuestas. Empiezo el backend. Creo carpetas, inicio git, instalo dependencias, uno con
+                                            MongoDB, hago crud, creo rutas, instalo cors, creo back de usuarios. 21:00.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
