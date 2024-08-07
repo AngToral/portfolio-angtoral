@@ -259,6 +259,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(8)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    2
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -271,6 +283,19 @@ function Bitacora() {
                                             05 de agosto, 13:30. Busco librerías para aprender y que conecten con la idea que tengo. Escribo las funcionalidades,
                                             pantallas, schemas y respuestas. Empiezo el backend. Creo carpetas, inicio git, instalo dependencias, uno con
                                             MongoDB, hago crud, creo rutas, instalo cors, creo back de usuarios. 21:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 8 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        06 de agosto, 16:00. Empiezo con el backend del login, instalo bcryptjs, jwt. Verifico que todo funciona 
+                                        con postman. Inicio frontend, creo apis. 19:00
                                         </Typography>
                                     </CardBody>
                                 </Card> :
