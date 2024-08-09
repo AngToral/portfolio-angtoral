@@ -283,6 +283,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(10)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    4
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -322,6 +334,20 @@ function Bitacora() {
                                             07 de agosto, 14:00. Empiezo frontend del login. Instalo tailwindcss, react-router-dom,
                                             librería material-tailwind y antd. Pienso un diseño para la home. Instalo sass, y empiezo
                                             con pantalla de login. 19:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 10 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                            08 de agosto, 16:30. Sigo con la pantalla del login. Importo fuente desde local, que
+                                            descargué de freefaces. Controlo los mensaje de error del back al front. Instalo
+                                            react-js-loader. 21:00.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
