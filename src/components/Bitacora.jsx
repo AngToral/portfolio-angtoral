@@ -331,6 +331,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(14)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    8
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -429,6 +441,21 @@ function Bitacora() {
                                             13 de agosto, 15:00. Sigo con el home, ubicando el navbar como quiero. Al final uso Flex
                                             de AntD, que me facilita las ubicaciones. Hemos (la fotógrafa y yo) creado un concepto de
                                             la web, con lo que reestructuro el navbar. Creamos firma como logo para insertar. 22:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 14 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                            14 de agosto, 14:00. Termino con el home, con la foto y colores definitivos. Instalo i18next
+                                            para hacer la web en inglés y español, empezando con Home. Instalo react icons. Busco liberías
+                                            para hacer scroll chulos, react-scroll-motion. Estuve un rato aprendiendo la librería, y ver
+                                            cuál animación quedaba mejor. 22:00.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
