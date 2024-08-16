@@ -128,7 +128,7 @@ function Bitacora() {
                             {activeStep === 1 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             Este proyecto lo empiezo el 23 de julio a las 13:30, pensando la paleta de colores, la información relevante,
                                             arquitectura de la información, creando el video de mi proyecto final de master, el prototipo
                                             de home, y añadir tareas a Trello. Seleccioné fotos tomadas por mí para ponerlas de fondo.
@@ -147,7 +147,7 @@ function Bitacora() {
                             {activeStep === 2 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             24 de julio: empecé a las 14:30, sigo en el inicio, con mi información de contacto, y sigo con el navbar que en
                                             la noche se me ocurrió que lo que me puede estar molestando es que el fondo opaca el color que quiero.
                                             Y busco la fuente de googles fonts que quiero. He centrado la información, descargado iconos de React-icons
@@ -169,7 +169,7 @@ function Bitacora() {
                             {activeStep === 3 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             25 de julio: empiecé a las 13:20. Cambio la imagen de la universidad primero. Sigo arreglando el CSS de la educación y la
                                             experiencia hasta que quedó como me gusta. Hice el footer, y luego subí el CV para descargar.  Luego he pasado
                                             a investigar librería de animaciones para implementar alguna. Luego de buscar, me he instalado animate.css.
@@ -187,7 +187,7 @@ function Bitacora() {
                             {activeStep === 4 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             26 de julio: empecé a las 14:00. Empecé con el proyecto de FM directamente. Tardé en visualizar cómo plasmar la información.
                                             Usé a chat-GPT para el encabezado del proyecto, ya que quería que fuera como si vendiera la app.
                                             Hoy se interrumpió el tiempo de código por una llamada que tuve.
@@ -204,7 +204,7 @@ function Bitacora() {
                             {activeStep === 5 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             29 de julio: el fin de semana ha sido para descansar y estar con la familia. Hoy retomo a las 12:00, haciendo ajustes
                                             para convertir todo a responsive. No sabía cómo cambiar el fondo de cada ruta independiente. Investigué
                                             y ahora puedo personalizar los fondos como quiera. Primero busqué solo en color, y ya luego con imágenes.
@@ -221,7 +221,7 @@ function Bitacora() {
                             {activeStep === 6 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             30 de julio: abro a las 13:30. Seguimos con el responsive de Bitácora.
                                             Cambié un par de cosas para que se viera y entendiera bien al ser responsive.
                                             Agrego la ruta inicial con la imagen del prototipo del home del portfolio,
@@ -351,7 +351,7 @@ function Bitacora() {
                             {activeStep === 7 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             05 de agosto, 13:30. Busco librerías que conecten con la idea que tengo. Escribo las
                                             funcionalidades, pantallas, schemas y respuestas. Empiezo el backend. Creo carpetas,
                                             inicio git, instalo dependencias, uno con MongoDB, hago crud, creo rutas, instalo cors,
@@ -366,7 +366,7 @@ function Bitacora() {
                             {activeStep === 8 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             06 de agosto, 16:00. Empiezo con el backend del login, instalo bcryptjs, jwt. Verifico que todo funciona
                                             con postman. Inicio frontend, instalo dotenv, creo apis. 19:00
                                         </Typography>
@@ -379,7 +379,7 @@ function Bitacora() {
                             {activeStep === 9 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             07 de agosto, 14:00. Empiezo frontend del login. Instalo tailwindcss, react-router-dom,
                                             librería material-tailwind y antd. Pienso un diseño para la home. Instalo sass, y empiezo
                                             con pantalla de login. 19:00.
@@ -393,7 +393,7 @@ function Bitacora() {
                             {activeStep === 10 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             08 de agosto, 16:30. Sigo con la pantalla del login. Importo fuente desde local que
                                             descargué de freefaces. Controlo los mensaje de error del back al front. Instalo
                                             react-js-loader. 21:00.
@@ -407,7 +407,7 @@ function Bitacora() {
                             {activeStep === 11 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             09 de agosto, 12:30. Sigo con los loaders en el login, y hago el back de envío de
                                             correos para cambiar contraseña. Instalo nodemailer. Creo correo de envío para cambio
                                             de contraseña por olvido, creo función de envío de backend, creo pantalla de frontend,
@@ -423,7 +423,7 @@ function Bitacora() {
                             {activeStep === 12 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             12 de agosto, 16:00. Empiezo con el register. Tuve problemas con como pasaba los datos al
                                             back y no lo leía como un json. Intento meter un navbar, pero no va quedando como quiero.
                                             19:00.
@@ -437,7 +437,7 @@ function Bitacora() {
                             {activeStep === 13 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             13 de agosto, 15:00. Sigo con el home, ubicando el navbar como quiero. Al final uso Flex
                                             de AntD, que me facilita las ubicaciones. Hemos (la fotógrafa y yo) creado un concepto de
                                             la web, con lo que reestructuro el navbar. Creamos firma como logo para insertar. 22:00.
@@ -451,7 +451,7 @@ function Bitacora() {
                             {activeStep === 14 ?
                                 <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
                                     <CardBody >
-                                        <Typography className="lg:text-2xl font-semibold font-shantell text-white">
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
                                             14 de agosto, 14:00. Termino con el home, con la foto y colores definitivos. Instalo i18next
                                             para hacer la web en inglés y español, empezando con Home. Instalo react icons. Busco liberías
                                             para hacer scroll chulos, react-scroll-motion. Estuve un rato aprendiendo la librería, y ver

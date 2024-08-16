@@ -56,21 +56,21 @@ function Historia() {
                     />
                     <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
                         <div className="w-3/4 pl-12 md:w-3/4 md:pl-20 lg:pl-32">
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Quiero empezar contando un poco lo que ocupa mi tiempo libre y mis aficiones.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Amo a los animales, y por eso tengo 4 perros y 3 gatos que son mi vida.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Me gusta leer. Todas las mañana leo un poco. De crecimiento personal, o alguna novela
                                 policíaca o thriller.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Desde el 2022 me alucina la halterofilia. Empecé con crossfit, pero el powerlifting
                                 me fascinó.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Me encanta hacer manualidades. Hago maquetas, rompecabezas, e ilustro digitalmente.
                                 Y desde este año, programar ocupa horas de mis días, y en mis sueños.
                             </Typography>
@@ -85,18 +85,18 @@ function Historia() {
                     />
                     <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
                         <div className="w-3/4 pl-12 md:pl-20 lg:pl-32">
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Nací en Caracas, Venezuela, y mis decisiones profesionales empiezan a mis 18
                                 años cuando terminé el bachiller: ¿qué carrera cursar? Tuve en mis opciones
                                 Arquitectura, Turismo y Economía.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Empecé Economía, y aunque no se me daba mal, no me estaba enamorando mi futuro
                                 laboral. Estando en un país donde las normas económicas son utopía, aprender
                                 de la materia y entender el por qué de todo, me enriqueció mucho. Pero no me veía
                                 trabajando de ello.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Al 3er semestre, el poder adquisitivo en mi familia empezó
                                 a decaer, por lo que decidí trabajar en la universidad para pagarme la carrera.
                                 Y cuando me quedaba 1 año para graduarme, decidí estudiar a ADE.
@@ -114,14 +114,14 @@ function Historia() {
                     />
                     <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
                         <div className="w-3/4 pl-12 md:w-3/4 md:pl-20 lg:pl-32">
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 La situación de mi país estaba cada vez peor, se hacía muy difícil seguir
                                 adelante, y como muchos, planificar mi emigración era parte de mi día a día.
                                 Lo primero era terminar la carrera, y sin siquiera esperar a  tener el título
                                 en mis manos, a mis 24 años
                                 abandoné mi país a buscar mejores oportunidades.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Al tener sangre española, era lógico decidir que mi camino tenía
                                 que ser volver a mis raices, pero dejar mi vida atrás, con una mano delante
                                 y otra detrás, sin familia, ni amigos, y toda mi vida en solo dos maletas, no diré que
@@ -140,7 +140,7 @@ function Historia() {
                     />
                     <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
                         <div className="w-3/4 pl-12 md:w-3/4 md:pl-20 lg:pl-32">
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Tener metas es lo que hace que cualquier humano tenga
                                 ganas de despertar cada mañana. Y mi espinita de programadora seguía latente.
                                 Investigué, y en un abrir y cerrar de ojos, ya estaba empezando mi Master
@@ -148,7 +148,7 @@ function Historia() {
                                 me encanta aprender algo nuevo todos los días, crear, resolver problemas, y
                                 es que ni me doy cuenta del tiempo cuando estoy programando.
                             </Typography>
-                            <Typography className="lg:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Ahora, después del máster, quiero desarrollar proyectos, seguir aprendiendo,
                                 y por supuesto, vivir de esto.
                             </Typography>

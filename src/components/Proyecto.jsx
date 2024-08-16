@@ -28,7 +28,7 @@ function Proyecto() {
                 />
             </div>
             <div className="flex justify-center animate__animated animate__fadeInDown">
-                <Typography className="lg:text-2xl font-semibold font-shantell text-white mx-6 mb-6 max-w-[65rem]">
+                <Typography className="lg:text-2xl font-spinnaker text-white mx-6 mb-6 max-w-[65rem]">
                     La solución web perfecta para simplificar la gestión de gastos de viaje de tus empleados.
                     Nuestra plataforma permite a los empleados enviar de manera rápida y fácil sus justificantes
                     de gastos directamente a Recursos Humanos, eliminando el papeleo tedioso y reduciendo el
@@ -90,18 +90,18 @@ function Proyecto() {
                     <Collapse open={openFuncionality}>
                         <Card className="m-4 max-w-7xl">
                             <CardBody>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     Esta aplicación tiene dos tipos de usuarios, los empleados y los de RRH.
                                     Cada uno de los datos mostrados está filtrado, y si eres RRHH ves los
                                     de toda la empresa, y si eres empleado, solo ves tus datos.
                                 </Typography>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     Los datos de empresa los damos de alta nosotros como dueños de la app,
                                     y luego cada perfil de RRHH da de alta a sus empleados. A su vez, ambos
                                     perfiles puede iniciar sesión (exigida para interactuar con la app)
                                     con su email y su contraseña.
                                 </Typography>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     Se pueden ver gráficas de todos los gastos generados, la lista
                                     de todos los empleados con posibilidad de agregar, editar y eliminar
                                     (funcionalidades solo de RRHH).
@@ -123,23 +123,23 @@ function Proyecto() {
                     <Collapse open={openDevelopment}>
                         <Card className="m-4 max-w-7xl">
                             <CardBody>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     Desde el inicio nos supimos entender para el desarrollo de la web.
                                     Fluyó de manera orgánica, y siempre nos apóyabamos cuando alguien necesitaba
                                     ayuda. No dividimos por tiempo, sino por funcionalidades.
                                     Mi parte del desarrollo ha sido la de Gastos y Viajes.
                                 </Typography>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     Por la parte del back hice todo lo relacionado al login, algunos crud, y algunos
                                     modelos, encriptado de contraseña y chequeo de usuario por token.
                                 </Typography>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     En front, empecé por Gastos, ya que es el núcleo de la web. Al tener conocimientos
                                     administrativos y de RRHH, supe exactamente qué necesitaba plasmar, y cómo.
                                     Con lo cual no escatimé en filtros, y la información quería que quedara
                                     amena para el cliente.
                                 </Typography>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     Aquí mis retos fueron hacer populate a muchas funciones, para mostrar la
                                     información del gasto y del viaje relacionado, usar el contexto para
                                     filtrar la información del empleado o RRHH, crear los correos que se envian
@@ -148,7 +148,7 @@ function Proyecto() {
                                     al final la desarrollo uno de mis compañeros, ya que por tiempo no pude
                                     dedicarle más a que me saliera a mí.
                                 </Typography>
-                                <Typography>
+                                <Typography className="font-spinnaker">
                                     La parte de viajes fue más fácil y corta de desarrollar, ya que no era
                                     el protagonista.
                                 </Typography>

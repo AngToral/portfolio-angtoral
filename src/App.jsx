@@ -68,21 +68,21 @@ function App() {
           <div className='animate__animated animate__backInLeft flex justify-center'>
             <Card className="animate__animated animate__fadeIn mt-6 w-3/4 bg-ang-500 mb-6">
               <CardBody >
-                <Typography className="font-shantell text-ang-300 mb-2 md:text-3xl font-bold">
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-3xl font-bold">
                   Sobre mí
                 </Typography>
-                <Typography className="font-shantell text-ang-300 mb-2 md:text-2xl font-semibold">
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   Soy Angela, una persona organizada, perseverante, consigo solución a cualquier problema,
                   me encanta aprender, trabajar en equipo, y mejorar siempre.
                 </Typography>
-                <Typography className="font-shantell text-ang-300 mb-2 md:text-2xl font-semibold">
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   Tengo una licenciatura en ADE, y llevo más de 10 años trabajando como administrativa.
                   Este 2024 he decidido diversificar mi camino laboral, y estudié un Master en Full Stack Development.
                   Y, ¿por qué desarrollo web? Desde siempre me ha gustado mucho la programación,
                   pero nunca he tenido el tiempo, dinero o valor de empezar este camino.
                   Ahora ya he decidido lanzarme al agua, y busco mi nuevo camino laboral como desarrolladora.
                 </Typography>
-                <Typography className="font-shantell text-ang-300 mb-2 md:text-2xl font-semibold">
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   Ha sido un acierto emprender esta carrera. Me fascina crear, y cuando me
                   siento a programar, se me pasa el tiempo volando. ¡Me encanta!
                 </Typography>
@@ -101,12 +101,12 @@ function App() {
           </ScrollAnimation>
           <div className='flex justify-center mr-10 max-w-[500px]'>
             <ScrollAnimation animateIn="animate__animated animate__backInLeft">
-              <Typography variant="h4" className="ml-10 font-shantell text-ang-300">
+              <Typography variant="h4" className="ml-10 font-spinnaker text-ang-300">
                 Una app web que realicé con mis compañeros para el TFM, que gestiona
                 los gastos de viajes de empleados en las empresas.
               </Typography>
               <div className='flex justify-center'>
-                <Button onClick={handleProyecto} className='font-shantell text-ang-300 mt-4'>
+                <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-4'>
                   ...más
                 </Button>
               </div>
@@ -140,10 +140,10 @@ function App() {
                   </div>
                   <div className='align-center place-content-center mr-4'>
                     <div className='flex '>
-                      <Typography className="font-shantell text-white mb-2 md:text-2xl font-bold">Master en Full Stack Development</Typography>
+                      <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Master en Full Stack Development</Typography>
                     </div>
                     <div className='flex'>
-                      <Typography className="font-shantell text-white mb-2 md:text-xl font-semibold">Nuclio Digital School, Madrid (2024)</Typography>
+                      <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">Nuclio Digital School, Madrid (2024)</Typography>
                     </div>
                   </div>
                 </div>
@@ -159,10 +159,10 @@ function App() {
                   </div>
                   <div className='align-center place-content-center mr-4'>
                     <div className='flex'>
-                      <Typography className="font-shantell text-white mb-2 md:text-2xl font-bold">Administración de Empresas</Typography>
+                      <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Administración de Empresas</Typography>
                     </div>
                     <div className='flex'>
-                      <Typography className="font-shantell text-white mb-2 md:text-xl font-semibold">Universidad Católica Andrés Bello, Caracas (2019)</Typography>
+                      <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">Universidad Católica Andrés Bello, Caracas (2019)</Typography>
                     </div>
                   </div>
                 </div>
@@ -176,17 +176,17 @@ function App() {
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
-                        <Typography className="font-shantell text-white mb-2 md:text-2xl font-bold">Administrativa Financiera-RHH</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Administrativa Financiera-RHH</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-shantell text-white mb-2 md:text-base font-semibold">NVLS, Madrid (ene. 2020 - jul. 2024)</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">NVLS, Madrid (ene. 2020 - jul. 2024)</Typography>
                       </div>
                       <div className='flex'>
                         <div>
-                          <Typography className="font-shantell text-white mb-2 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
                             En todo este tiempo he trabajo en el departamento de Finanzas-RRHH y el de Producción.
                           </Typography>
-                          <Typography className="font-shantell text-white mb-2 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
                             He desarrollado tareas como Responsable de Proveedores manteniendo el
                             control de toda la facturación de proveedores, pagos y vencimiento de
                             facturas, cartera de proveedores, pedidos de compra, control de inventario, e
@@ -205,13 +205,13 @@ function App() {
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex'>
-                        <Typography className="font-shantell text-white mb-2 md:text-2xl font-bold">Administrativa de Compras</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Administrativa de Compras</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-shantell text-white mb-2 md:text-base font-semibold">UCAB, Caracas (sep. 2015 - ene. 2019)</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">UCAB, Caracas (sep. 2015 - ene. 2019)</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-shantell text-white mb-2 md:text-xl font-semibold">
+                        <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
                           En este período ascendí desde becaria hasta especialista de
                           Compras, pasando por unos meses donde tuve que asumir el
                           liderazgo del departamento, desarrollando así mi responsabilidad,
