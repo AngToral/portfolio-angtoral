@@ -319,6 +319,16 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                    </Stepper>
+                                </div>
+                            </CardHeader>
+                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
+                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                    <Stepper
+                                        activeStep={activeStep}
+                                        lineClassName="bg-white/50"
+                                        activeLineClassName="bg-white"
+                                    >
                                         <Step
                                             className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
                                             activeClassName="ring-0 !bg-white text-white"
@@ -340,6 +350,30 @@ function Bitacora() {
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
                                                 <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
                                                     8
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(15)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    9
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(16)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    10
                                                 </Typography>
                                             </div>
                                         </Step>
@@ -456,6 +490,35 @@ function Bitacora() {
                                             para hacer la web en inglés y español, empezando con Home. Instalo react icons. Busco liberías
                                             para hacer scroll chulos, react-scroll-motion. Estuve un rato aprendiendo la librería, y ver
                                             cuál animación quedaba mejor. 22:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 15 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            16 de agosto, 19:00. Busco dos fuentes de google-fonts. La instalo, estructuro la animación y
+                                            las posiciones de las imágenes en servicios. Inserto imagen de fondo en modo móvil en la
+                                            entrada. 22:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 16 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            19 de agosto, 16:00. Hago la parte front del “contáctame”, y el footer. Conecto el botón de
+                                            arriba de contacto con el form. Me estaba costando porque estaba metiendo el id en un div
+                                            dentro de todo el componente, y tiene que ser al inicio del todo. Comienzo pantalla de Sobre
+                                            mí. 21:00.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
