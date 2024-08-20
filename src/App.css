@@ -23,6 +23,7 @@ body {
   animation-name: Getbig;
   animation-fill-mode: both;
   color: rgba(255, 255, 255);
+  cursor: pointer;
 }
 
 .link:active {

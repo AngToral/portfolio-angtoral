@@ -5,6 +5,7 @@ import {
   Button,
   Card,
   CardBody,
+  Collapse,
 } from "@material-tailwind/react";
 import { FaGithub, FaLinkedin, FaRegFileAlt } from 'react-icons/fa';
 import { IconContext } from 'react-icons';
@@ -24,6 +25,10 @@ function App() {
   function handleProyecto() {
     navigate("/proyecto")
   }
+
+  const [open, setOpen] = useState(false);
+
+  const toggleOpen = () => setOpen((cur) => !cur);
 
   return (
     <>
@@ -51,15 +56,29 @@ function App() {
               <IconContext.Provider
                 value={{ color: '#facaca' }}
               >
-                <a target='_blanck' href="../cv.pdf" download={true}>
-                  <FaRegFileAlt className='link h-10 w-10' />
-                </a>
                 <a target='_blanck' href="https://www.linkedin.com/in/angela-toral/">
                   <FaLinkedin className='link ml-4 h-10 w-10' />
                 </a>
                 <a target='_blanck' href="https://github.com/AngToral">
                   <FaGithub className='link ml-4 h-10 w-10' />
                 </a>
+                <div>
+                  <a onClick={toggleOpen}>
+                    <FaRegFileAlt className='link ml-4 h-10 w-10 mb-2' />
+                  </a>
+                  <Collapse open={open}>
+                    <Card className="bg-black">
+                      <CardBody className='flex flex-col'>
+                        <a className="font-spinnaker text-ang-400 mb-1" target='_blanck' href="../cv-en.pdf" download={true}>
+                          English
+                        </a>
+                        <a className="font-spinnaker text-ang-400" target='_blanck' href="../cv-es.pdf" download={true}>
+                          Español
+                        </a>
+                      </CardBody>
+                    </Card>
+                  </Collapse>
+                </div>
               </IconContext.Provider>
             </div>
           </div>
