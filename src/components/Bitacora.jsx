@@ -377,6 +377,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(17)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    11
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -519,6 +531,20 @@ function Bitacora() {
                                             arriba de contacto con el form. Me estaba costando porque estaba metiendo el id en un div
                                             dentro de todo el componente, y tiene que ser al inicio del todo. Comienzo pantalla de Sobre
                                             mí. 21:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 17 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            20 de agosto, 20:00. Coloco un blanco transparente debajo del menú en el Home, para que se distinga
+                                            mejor las letras. Inicio el back y el front de la pantalla de galería. Instalo multer. Agrego cambio
+                                            de nombre a fichero en CRUD. 23:00.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
