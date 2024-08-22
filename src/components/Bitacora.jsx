@@ -389,6 +389,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(18)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    12
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -545,6 +557,26 @@ function Bitacora() {
                                             20 de agosto, 20:00. Coloco un blanco transparente debajo del menú en el Home, para que se distinga
                                             mejor las letras. Inicio el back y el front de la pantalla de galería. Instalo multer. Agrego cambio
                                             de nombre a fichero en CRUD. 23:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 18 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            21 de agosto, 20:00.Creo las apis en el front de la galeria, la creación de fotos funciona con
+                                            Postman. Instalo cloudinary, creo función de upload, compruebo con Postman que funciona. Este
+                                            tema de subir imágenes en un schema donde también hay texto, en el trabajo final se me complicó,
+                                            y se me vuelve a complicar. Veo engorroso tener que crear dos funciones (una de crear texto y otra
+                                            de actualizar con imagen). Me enfrasco en hacerlo en una sola función, pero aunque no sé si es posible,
+                                            de momento lo trabajaré por separado. Estuve mucho tiempo intentado ver cómo puedo guardar las fotos
+                                            dentro de una carpeta en Cloudinary, pero nada me ha funcionado. De momento, creo schema de foto y
+                                            actualizo con la foto correctamente. Tengo que probar a crear de cero (llamando a las dos funciones
+                                            en una misma call). 02:45.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
