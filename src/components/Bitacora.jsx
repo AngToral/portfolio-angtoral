@@ -404,6 +404,28 @@ function Bitacora() {
                                     </Stepper>
                                 </div>
                             </CardHeader>
+                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
+                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                    <Stepper
+                                        activeStep={activeStep}
+                                        lineClassName="bg-white/50"
+                                        activeLineClassName="bg-white"
+                                    >
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(19)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    13
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                    </Stepper>
+                                </div>
+                            </CardHeader>
                         </div>
                         <div>
                             {activeStep === 7 ?
@@ -577,6 +599,25 @@ function Bitacora() {
                                             dentro de una carpeta en Cloudinary, pero nada me ha funcionado. De momento, creo schema de foto y
                                             actualizo con la foto correctamente. Tengo que probar a crear de cero (llamando a las dos funciones
                                             en una misma call). 02:45.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 19 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            22 de agosto, 14:00. Voy pintando las imágenes en la pantalla, hago un componente de cards para las mismas.
+                                            Creo función de eliminar fotos, y está ok, pero no refresca página. AL final era un tontería, estaba pasando
+                                            la variable al modal equivocado. Cambio estilo de botones predeterminados de antd. Luego, hago función de crear
+                                            para hacerlo desde el front, y pruebo que vaya ok. Tengo problemas con el onFinish, porque no me agarra el
+                                            console.log desde el Form, y no logro ver si me agarra o no los valores. Luego de haberlo solucionado, colocando
+                                            un modal render dentro del modal donde se metía el form, queda solucionar que se guarde bien la fecha, el resto
+                                            de los datos están ok. AL final tuve que instalar dayjs para transformar los valores del datepicker. Me estresan
+                                            las fechas en React.js. 00:00.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
