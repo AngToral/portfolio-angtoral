@@ -40,7 +40,7 @@ function Bitacora() {
                 <Accordion open={openAccordion === 1} icon={<Icon id={1} open={openAccordion} />}>
                     <AccordionHeader onClick={() => handleOpenAccordion(1)} className="md:text-2xl font-semibold font-shantell text-white hover:text-white">Portfolio (Jul. 2024)</AccordionHeader>
                     <AccordionBody>
-                        <div className="w-full py-4 px-8">
+                        <div className="w-full">
                             <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
                                 <div className="w-full lg:px-20 px-4 pt-4 pb-8">
                                     <Stepper
@@ -239,7 +239,7 @@ function Bitacora() {
                 <Accordion open={openAccordion === 2} icon={<Icon id={2} open={openAccordion} />}>
                     <AccordionHeader onClick={() => handleOpenAccordion(2)} className="md:text-2xl font-semibold font-shantell text-white hover:text-white">Fotografía (Ago. 2024)</AccordionHeader>
                     <AccordionBody>
-                        <div className="w-full py-4 px-8">
+                        <div className="w-full">
                             <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
                                 <div className="w-full lg:px-20 px-4 pt-4 pb-8">
                                     <Stepper
