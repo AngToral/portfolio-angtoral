@@ -30,7 +30,7 @@ function Historia() {
             >
                 <div className="relative h-full w-full">
                     <img
-                        src="../historia1.jpeg"
+                        src="../historia1.webp"
                         alt="image 1"
                         className="h-full w-full object-cover"
                     />
@@ -50,7 +50,7 @@ function Historia() {
                 </div>
                 <div className="relative h-full w-full">
                     <img
-                        src="../historia2.jpeg"
+                        src="../historia2.webp"
                         alt="image 2"
                         className="h-full w-full object-cover"
                     />
@@ -79,7 +79,7 @@ function Historia() {
                 </div>
                 <div className="relative h-full w-full">
                     <img
-                        src="../historia3.jpeg"
+                        src="../historia3.webp"
                         alt="image 2"
                         className="h-full w-full object-cover"
                     />
@@ -108,7 +108,7 @@ function Historia() {
                 </div>
                 <div className="relative h-full w-full">
                     <img
-                        src="../historia4.jpeg"
+                        src="../historia4.webp"
                         alt="image 2"
                         className="h-full w-full object-cover"
                     />
@@ -134,7 +134,7 @@ function Historia() {
                 </div>
                 <div className="relative h-full w-full">
                     <img
-                        src="../historia5.jpg"
+                        src="../historia5.webp"
                         alt="image 2"
                         className="h-full w-full object-cover"
                     />
@@ -157,7 +157,7 @@ function Historia() {
                 </div>
                 <div className="relative h-full w-full">
                     <img
-                        src="../historia-final.jpeg"
+                        src="../historia-final.webp"
                         alt="image 3"
                         className="h-full w-full object-cover"
                     />

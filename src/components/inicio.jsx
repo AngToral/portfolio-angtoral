@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 function Inicio() {
     useEffect(() => {
-        document.body.style.backgroundImage = "url('../inicio.png')"
+        document.body.style.backgroundImage = "url('../inicio.webp')"
         document.body.style.backgroundSize = "contain"
         document.body.style.backgroundRepeat = "no-repeat"
         document.body.style.backgroundPosition = "center center"

@@ -41,12 +41,12 @@ body {
 }
 
 .encabezado {
-  background-image: url("../laptop.jpeg");
+  background-image: url("../laptop.webp");
   opacity: 0.9;
 }
 
 .final {
-  background-image: url("../laptop2.jpg");
+  background-image: url("../laptop2.webp");
 }
 
 .video {

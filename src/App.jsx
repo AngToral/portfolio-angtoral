@@ -38,7 +38,7 @@ function App() {
           <div >
             <img
               className="animate__animated animate__backInRight h-96 w-96 rounded-full object-cover object-center"
-              src="../angela.png"
+              src="../angela.webp"
               alt="foto-perfil-angela"
             />
           </div>

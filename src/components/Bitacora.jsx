@@ -5,7 +5,7 @@ import '../App.css'
 
 function Bitacora() {
     useEffect(() => {
-        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../bitacora.jpeg')"
+        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../bitacora.webp')"
     })
 
     const [openAccordion, setOpenAccordion] = useState(0);
