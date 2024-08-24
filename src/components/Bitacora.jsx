@@ -423,6 +423,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(20)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    14
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -618,6 +630,25 @@ function Bitacora() {
                                             un modal render dentro del modal donde se metía el form, queda solucionar que se guarde bien la fecha, el resto
                                             de los datos están ok. AL final tuve que instalar dayjs para transformar los valores del datepicker. Me estresan
                                             las fechas en React.js. 00:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 20 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            23 de agosto, 16:00. Hoy toca algo que posiblemente me tome mucho tiempo, crear la entrada de la foto desde cero
+                                            con el texto que lleva todo el modelo. Empiezo por hacer la API, y la vinculo a la función del front, y pruebo.
+                                            Tuve que usar a chatgpt, porque me subía el texto, pero no la imagen. Al final, me dio la función en una sola como
+                                            quería en un inicio. Luego me subía la imagen sin el texto, luego de nuevo solo el texto, hasta que me daba error
+                                            el message de antd. Y luego de varios cambios, ya funciona. Ahora tengo que colocarle un loader. Luego, condicioné
+                                            los parámetros que hay que llenar en back y en front, los mensajes de error, y qué pintar cuando falte el 2do tema.
+                                            Empiezo con editar, tuve unos problemas también, y al final el error estaba en que me faltaba colocar el cloudinary
+                                            en la función de update. Hago unos arreglos visuales, como el empty y los loaders. 00:00
                                         </Typography>
                                     </CardBody>
                                 </Card> :
