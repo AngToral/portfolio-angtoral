@@ -435,6 +435,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(21)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    15
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -649,6 +661,20 @@ function Bitacora() {
                                             los parámetros que hay que llenar en back y en front, los mensajes de error, y qué pintar cuando falte el 2do tema.
                                             Empiezo con editar, tuve unos problemas también, y al final el error estaba en que me faltaba colocar el cloudinary
                                             en la función de update. Hago unos arreglos visuales, como el empty y los loaders. 00:00
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 21 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            02 de septiembre, 17:00. Empiezo con el back del formulario de contacto. Creo función, email, y conecto con el
+                                            front. Ya funciona el fomr para contactar con la fotógrafa. Hago ajustes de Message de AntD, que lo han cambiado.
+                                            Modifico el filtro de Galería, ya que quiero que filtre por ambos temas. 21:30.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
