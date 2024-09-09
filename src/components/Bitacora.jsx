@@ -447,6 +447,18 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(22)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    16
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -675,6 +687,19 @@ function Bitacora() {
                                             02 de septiembre, 17:00. Empiezo con el back del formulario de contacto. Creo función, email, y conecto con el
                                             front. Ya funciona el fomr para contactar con la fotógrafa. Hago ajustes de Message de AntD, que lo han cambiado.
                                             Modifico el filtro de Galería, ya que quiero que filtre por ambos temas. 21:30.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 22 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            08 de septiembre, 16:00. Creo el backend de los testimonios, pruebo con Postman, y empiezo a pintar en el front la BD.
+                                            Luego creo la pantalla del formulario para enviar las opiniones (create). 21:00.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
