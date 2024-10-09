@@ -92,17 +92,17 @@ function App() {
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   Soy Angela, una persona organizada, perseverante, consigo solución a cualquier problema,
-                  me encanta aprender, trabajar en equipo, y mejorar siempre.
+                  creativa, me encanta aprender, trabajar en equipo, y mejorar siempre.
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   Tengo una licenciatura en ADE, y llevo más de 10 años trabajando como administrativa.
                   Este 2024 he decidido diversificar mi camino laboral, y estudié un Master en Full Stack Development.
                   Y, ¿por qué desarrollo web? Desde siempre me ha gustado mucho la programación,
                   pero nunca he tenido el tiempo, dinero o valor de empezar este camino.
-                  Ahora ya he decidido lanzarme al agua, y busco mi nuevo camino laboral como desarrolladora.
+                  Ahora ya he decidido lanzarme al agua, y estoy forjando mi camino laboral como desarrolladora.
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
-                  Ha sido un acierto emprender esta carrera. Me fascina crear, y cuando me
+                  Ha sido un acierto emprender esta carrera. Cuando me
                   siento a programar, se me pasa el tiempo volando. ¡Me encanta!
                 </Typography>
               </CardBody>
@@ -191,6 +191,40 @@ function App() {
             <div>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft">
                 <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>Experiencia</Typography>
+                <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
+                  <div className='flex align-center'>
+                    <div className='align-center place-content-center'>
+                      <div className='flex '>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Web Developer</Typography>
+                      </div>
+                      <div className='flex'>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">(Abril 2024 - Actualidad)</Typography>
+                      </div>
+                      <div className='flex'>
+                        <div>
+                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                            💻 Desde Octubre 2024 estoy colaborando en un proyecto OpenSource de una aplicación móvil destinada a personas con perros
+                            donde puedan llevar toda la información de sus mascotas en el móvil, PetCare Manager (Frontend - React Native)
+                          </Typography>
+                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                            💻 Desde Octubre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
+                          </Typography>
+                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                            💻 Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde mostrar su trabajo
+                            para captar clientes nuevos, mostrar sus reseñas, y con un apartado de blog donde subir fotos con texto escrito por ella,
+                            y otro apartado de galería donde sube sus fotos con tópicos (Full Stack - MERN)
+                          </Typography>
+                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                            💻 Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar
+                            los gastos de viajes de sus empleados, BudgetWise (Full Stack - MERN)
+                          </Typography>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+              </ScrollAnimation>
+              <ScrollAnimation animateIn="animate__animated animate__backInLeft">
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
