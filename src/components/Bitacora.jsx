@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import NavBar from "./NavBar";
-import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, IconButton, Step, Stepper, Typography } from "@material-tailwind/react";
+import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, Step, Stepper, Typography } from "@material-tailwind/react";
 import '../App.css'
 
 function Bitacora() {
@@ -517,6 +517,100 @@ function Bitacora() {
                                                 </Typography>
                                             </div>
                                         </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(27)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    21
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(28)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    22
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(29)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    23
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(30)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    24
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                    </Stepper>
+                                </div>
+                            </CardHeader>
+                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
+                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                    <Stepper
+                                        activeStep={activeStep}
+                                        lineClassName="bg-white/50"
+                                        activeLineClassName="bg-white"
+                                    >
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(31)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    25
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(32)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    26
+                                                </Typography>
+                                            </div>
+                                        </Step>
+                                        <Step
+                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                            activeClassName="ring-0 !bg-white text-white"
+                                            completedClassName="!bg-white text-white"
+                                            onClick={() => setActiveStep(33)}
+                                        >
+                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                    27
+                                                </Typography>
+                                            </div>
+                                        </Step>
                                     </Stepper>
                                 </div>
                             </CardHeader>
@@ -812,6 +906,110 @@ function Bitacora() {
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             24 de septiembre, 15:00. Empiezo añadiendo los botones del navbar en el blog. Agrego imágenes a los correos que se envían.
                                             Inicio con el blog, pinto las entrada en pantalla, hago eliminar, creo el modal para crear y editar. 20:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 27 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            26 de septiembre, 15:00. Escribo que el email proporcionado para la opinión es privado. Cambio los fondos de about me,
+                                            blog, Gallery por unos hechos por mí, y creo el de perfil. Hago el crear entrada de blog en front y en back. No me estaba
+                                            funcionando, pero era porque no tenía hecho el 100% del back ni de las apis. 19:30.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 28 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            01 de octubre, 17:00. Empiezo con editar entrada de blog. Una vez hecho, me doy cuenta que al guardar una entrada con la
+                                            fecha de inicio de mes, me muestra la fecha del día anterior, con dos horas menos. Busco cómo solucionarlo, y no doy con
+                                            ello. 20:15.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 29 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            02 de octubre del 2024, 15:00. Sigo buscando la solución a cómo guardar la fecha correcta en mongoDB. Luego de muchas
+                                            horas, no tenía sentido que en crear foto en galeria sí funcionara bien y en blog no. Así que comparé, lo hice de nuevo
+                                            y funcionó. Algún error tenía que no estaba viendo. Una vez listo el lbog, empecé con la pantalla de Mi perfil. Comencé
+                                            creando las acciones de enviar el correo pidiendo la reseña en español o inglés en el front, y creando los correos en el
+                                            back. Dejo la solicitud de reseña en español correcto, con el correo bonito. 21:15.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 30 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            03 de octubre del 2024, 13:00. Sigo creando el correo en inglés, y probando que se envía correctamente. Sigo con el
+                                            logout. Restrinjo todas las acciones de crear, editar y eliminar con el token del login, ya que sé que todas funcionan.
+                                            Restringido en back correcto. Empiezo un tema que no controlo, y es el useContext. Lo necesito para habilitar los botones
+                                            de agregar datos y el de perfil solo para la fotógrafa (que en principio será la única que tenga usuario), además de
+                                            poder cambiar email y contraseña. Empiezo buscando información y aprendiendo este hook. Consigo además otra herramienta
+                                            que es el useJwt para identificar el token activo. Voy bien, creo que ya está conectado, pero creo que está teniendo
+                                            problemas de coger la data (por sincronización).  Estoy haciendo la prueba, y hasta que no refresco la página, no muestra
+                                            los datos según el contexto. 18:00.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 31 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            Entre el 05 y 07 de octubre. Sigo sin saber qué pasa con el contexto. Buscaré videos de YouTube a ver si hay algo que no estoy
+                                            haciendo. Sé dónde están rompiendo los datos y la actualización, pero soy incapaz de lograr que actualice solo.
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 32 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            08 de octubre, 19:00. He decidido seguir un video de YouTube, borrar lo que tenía, e intentarlo de cero, y por fin lo he
+                                            resuelto. No estoy segura de qué pasaba, lo que he hecho distinto es separar la creación del contexto del componente del mismo,
+                                            y el cómo llamaba al contexto en cada componente. La lógica es la misma, pero ya funciona automático. 20:00
+                                        </Typography>
+                                    </CardBody>
+                                </Card> :
+                                null
+                            }
+                        </div>
+                        <div>
+                            {activeStep === 33 ?
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                    <CardBody >
+                                        <Typography className="lg:text-xl font-spinnaker text-white">
+                                            10 de octubre, 16:00. Ya por último a nivel de lógica, creo el back y el front para enviar correo de cambio de contraseña e email
+                                            desde el perfil. Falta por meter un par de fotos en Home y cuadrarlas bien, y el texto en inglés y español en About me (a esperas
+                                            de la fotógrafa). 19:00
                                         </Typography>
                                     </CardBody>
                                 </Card> :
