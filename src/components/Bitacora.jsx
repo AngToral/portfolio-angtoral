@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import NavBar from "./NavBar";
-import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, Step, Stepper, Typography } from "@material-tailwind/react";
+import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, Carousel, Step, Stepper, Typography } from "@material-tailwind/react";
 import '../App.css'
 
 function Bitacora() {
@@ -240,380 +240,382 @@ function Bitacora() {
                     <AccordionHeader onClick={() => handleOpenAccordion(2)} className="md:text-2xl font-semibold font-shantell text-white hover:text-white">Fotografía (Ago. 2024)</AccordionHeader>
                     <AccordionBody>
                         <div className="w-full">
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
-                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
-                                    <Stepper
-                                        activeStep={activeStep}
-                                        lineClassName="bg-white/50"
-                                        activeLineClassName="bg-white"
-                                    >
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(7)}
+                            <Carousel className="rounded-xl md:pb-6 pb-10">
+                                <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                                    <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                        <Stepper
+                                            activeStep={activeStep}
+                                            lineClassName="bg-white/50"
+                                            activeLineClassName="bg-white"
                                         >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    1
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(8)}
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(7)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        1
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(8)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        2
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(9)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        3
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(10)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        4
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(11)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        5
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(12)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        6
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                        </Stepper>
+                                    </div>
+                                </CardHeader>
+                                <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                                    <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                        <Stepper
+                                            activeStep={activeStep}
+                                            lineClassName="bg-white/50"
+                                            activeLineClassName="bg-white"
                                         >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    2
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(9)}
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(13)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        7
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(14)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        8
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(15)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        9
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(16)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        10
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(17)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        11
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(18)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        12
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                        </Stepper>
+                                    </div>
+                                </CardHeader>
+                                <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                                    <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                        <Stepper
+                                            activeStep={activeStep}
+                                            lineClassName="bg-white/50"
+                                            activeLineClassName="bg-white"
                                         >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    3
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(10)}
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(19)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        13
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(20)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        14
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(21)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        15
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(22)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        16
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(23)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        17
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(24)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        18
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                        </Stepper>
+                                    </div>
+                                </CardHeader>
+                                <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                                    <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                        <Stepper
+                                            activeStep={activeStep}
+                                            lineClassName="bg-white/50"
+                                            activeLineClassName="bg-white"
                                         >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    4
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(11)}
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(25)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        19
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(26)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        20
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(27)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        21
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(28)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        22
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(29)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        23
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(30)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        24
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                        </Stepper>
+                                    </div>
+                                </CardHeader>
+                                <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                                    <div className="w-full lg:px-20 px-4 pt-4 pb-8">
+                                        <Stepper
+                                            activeStep={activeStep}
+                                            lineClassName="bg-white/50"
+                                            activeLineClassName="bg-white"
                                         >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    5
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(12)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    6
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                    </Stepper>
-                                </div>
-                            </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
-                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
-                                    <Stepper
-                                        activeStep={activeStep}
-                                        lineClassName="bg-white/50"
-                                        activeLineClassName="bg-white"
-                                    >
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(13)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    7
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(14)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    8
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(15)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    9
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(16)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    10
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(17)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    11
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(18)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    12
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                    </Stepper>
-                                </div>
-                            </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
-                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
-                                    <Stepper
-                                        activeStep={activeStep}
-                                        lineClassName="bg-white/50"
-                                        activeLineClassName="bg-white"
-                                    >
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(19)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    13
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(20)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    14
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(21)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    15
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(22)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    16
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(23)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    17
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(24)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    18
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                    </Stepper>
-                                </div>
-                            </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
-                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
-                                    <Stepper
-                                        activeStep={activeStep}
-                                        lineClassName="bg-white/50"
-                                        activeLineClassName="bg-white"
-                                    >
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(25)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    19
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(26)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    20
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(27)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    21
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(28)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    22
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(29)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    23
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(30)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    24
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                    </Stepper>
-                                </div>
-                            </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
-                                <div className="w-full lg:px-20 px-4 pt-4 pb-8">
-                                    <Stepper
-                                        activeStep={activeStep}
-                                        lineClassName="bg-white/50"
-                                        activeLineClassName="bg-white"
-                                    >
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(31)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    25
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(32)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    26
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                        <Step
-                                            className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
-                                            activeClassName="ring-0 !bg-white text-white"
-                                            completedClassName="!bg-white text-white"
-                                            onClick={() => setActiveStep(33)}
-                                        >
-                                            <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
-                                                    27
-                                                </Typography>
-                                            </div>
-                                        </Step>
-                                    </Stepper>
-                                </div>
-                            </CardHeader>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(31)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        25
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(32)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        26
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                            <Step
+                                                className="h-4 w-4 !bg-blue-gray-50 text-white/75 cursor-pointer"
+                                                activeClassName="ring-0 !bg-white text-white"
+                                                completedClassName="!bg-white text-white"
+                                                onClick={() => setActiveStep(33)}
+                                            >
+                                                <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
+                                                    <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                        27
+                                                    </Typography>
+                                                </div>
+                                            </Step>
+                                        </Stepper>
+                                    </div>
+                                </CardHeader>
+                            </Carousel>
                         </div>
                         <div>
                             {activeStep === 7 ?
