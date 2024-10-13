@@ -1,6 +1,8 @@
-import { Button, IconButton, MobileNav, Navbar } from "@material-tailwind/react";
+import { Button, Collapse, IconButton, Menu, MenuHandler, MenuItem, MenuList, MobileNav, Navbar } from "@material-tailwind/react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import { FaAngleDown } from "react-icons/fa";
 
 function NavBar() {
     const navigate = useNavigate();
@@ -24,6 +26,8 @@ function NavBar() {
         );
     }, []);
 
+    const [t, i18n] = useTranslation("home")
+
     return (
         <>
             <div className="max-h-[768px] sticky top-0 z-50">
@@ -46,7 +50,7 @@ function NavBar() {
                                         className="font-shantell hidden lg:inline-block text-ang-300 text-lg"
                                         onClick={handleBitacora}
                                     >
-                                        <span>Bitácora</span>
+                                        <span>{t("navbar.binnacle")}</span>
                                     </Button>
                                     <Button
                                         variant="text"
@@ -54,8 +58,19 @@ function NavBar() {
                                         className="font-shantell hidden lg:inline-block text-ang-300 text-lg"
                                         onClick={handleHistoria}
                                     >
-                                        <span>Mi Historia</span>
+                                        <span>{t("navbar.history")}</span>
                                     </Button>
+                                    <Menu>
+                                        <MenuHandler>
+                                            <a variant="text" className="font-display flex text-ang-300 link">
+                                                {t("navbar.language")}<FaAngleDown />
+                                            </a>
+                                        </MenuHandler>
+                                        <MenuList className="bg-foto-700 border-foto-100">
+                                            <MenuItem onClick={() => i18n.changeLanguage("es")} className="text-ang-300 font-display" data-lenguage="es">🇪🇸 Español</MenuItem>
+                                            <MenuItem onClick={() => i18n.changeLanguage("en")} className="text-ang-300 font-display" data-lenguage="en">🇬🇧 English</MenuItem>
+                                        </MenuList>
+                                    </Menu>
                                 </div>
                                 <IconButton
                                     variant="text"
@@ -97,19 +112,19 @@ function NavBar() {
                             </div>
                         </div>
                     </div>
-                    <MobileNav open={openNav}>
+                    <Collapse open={openNav}>
                         <div className="flex justify-center gap-x-1">
                             <Button variant="gradient" size="sm" onClick={handleHome} className="font-shantell text-ang-300">
                                 <span>Home</span>
                             </Button>
                             <Button variant="gradient" size="sm" onClick={handleBitacora} className="font-shantell text-ang-300">
-                                <span>Bitácora</span>
+                                <span>{t("navbar.binnacle")}</span>
                             </Button>
                             <Button variant="gradient" size="sm" onClick={handleHistoria} className="font-shantell text-ang-300">
-                                <span>Mi Historia</span>
+                                <span>{t("navbar.history")}</span>
                             </Button>
                         </div>
-                    </MobileNav>
+                    </Collapse>
                 </Navbar>
             </div>
         </>

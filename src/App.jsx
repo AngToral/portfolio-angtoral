@@ -14,12 +14,14 @@ import 'animate.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import { useNavigate } from "react-router-dom";
 import NavBar from './components/NavBar';
+import { useTranslation } from 'react-i18next';
 
 function App() {
   useEffect(() => {
     document.body.style.background = "black"
   })
 
+  const [t, i18n] = useTranslation("home")
   const navigate = useNavigate();
 
   function handleProyecto() {
@@ -88,22 +90,16 @@ function App() {
             <Card className="animate__animated animate__fadeIn mt-6 w-3/4 bg-ang-500 mb-6">
               <CardBody >
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-3xl font-bold">
-                  Sobre mí
+                  {t("me.aboutme")}
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
-                  Soy Angela, una persona organizada, perseverante, consigo solución a cualquier problema,
-                  creativa, me encanta aprender, trabajar en equipo, y mejorar siempre.
+                  {t("me.first")}
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
-                  Tengo una licenciatura en ADE, y llevo más de 10 años trabajando como administrativa.
-                  Este 2024 he decidido diversificar mi camino laboral, y estudié un Master en Full Stack Development.
-                  Y, ¿por qué desarrollo web? Desde siempre me ha gustado mucho la programación,
-                  pero nunca he tenido el tiempo, dinero o valor de empezar este camino.
-                  Ahora ya he decidido lanzarme al agua, y estoy forjando mi camino laboral como desarrolladora.
+                  {t("me.second")}
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
-                  Ha sido un acierto emprender esta carrera. Cuando me
-                  siento a programar, se me pasa el tiempo volando. ¡Me encanta!
+                  {t("me.third")}
                 </Typography>
               </CardBody>
             </Card>
@@ -121,12 +117,11 @@ function App() {
           <div className='flex justify-center mr-10 max-w-[500px]'>
             <ScrollAnimation animateIn="animate__animated animate__backInLeft">
               <Typography variant="h4" className="ml-10 font-spinnaker text-ang-300">
-                Una app web que realicé con mis compañeros para el TFM, que gestiona
-                los gastos de viajes de empleados en las empresas.
+                {t("budgetwise.resume")}
               </Typography>
               <div className='flex justify-center'>
                 <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-4'>
-                  ...más
+                  {t("budgetwise.more")}
                 </Button>
               </div>
             </ScrollAnimation>

@@ -1,0 +1,17 @@
+{
+    "navbar": {
+        "binnacle": "Bitácora",
+        "history": "Mi historia",
+        "language": "Idiomas"
+    },
+    "me": {
+        "aboutme": "Sobre mí",
+        "first": "Soy Angela, una persona organizada, perseverante, consigo solución a cualquier problema, creativa, me encanta aprender, trabajar en equipo, y mejorar siempre.",
+        "second": "Tengo una licenciatura en ADE, y llevo más de 10 años trabajando como administrativa. Este 2024 he decidido diversificar mi camino laboral, y estudié un Master en Full Stack Development. Y, ¿por qué desarrollo web? Desde siempre me ha gustado mucho la programación, pero nunca he tenido el tiempo, dinero o valor de empezar este camino. Ahora ya he decidido lanzarme al agua, y estoy forjando mi camino laboral como desarrolladora.",
+        "third": "Ha sido un acierto emprender esta carrera. Cuando me siento a programar, se me pasa el tiempo volando. ¡Me encanta!"
+    },
+    "budgetwise": {
+        "resume": "Una app web que realicé con mis compañeros para el TFM, que gestiona los gastos de viajes de empleados en las empresas.",
+        "more": "...más"
+    }
+}

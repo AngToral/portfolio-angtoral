@@ -1,0 +1,17 @@
+{
+    "navbar": {
+        "binnacle": "Binnacle",
+        "history": "My story",
+        "language": "Languages"
+    },
+    "me": {
+        "aboutme": "About me",
+        "first": "I'm Angela, an organized, persevering person, creative, I find solutions to any problem, I love learning, working in team, and to always improve.",
+        "second": "I have a degree in Business Administration, and I have been working as an administrator for more than 10 years. In 2024, I decided to diversify my career path, and I studied a Master's in Full Stack Development. And why web development? I have always loved programming, but I have never had the time, money or courage to start this path. Now I have decided to take the plunge, and I am forging my career path as a developer.",
+        "third": "It was a good decision to take up this career. When I sit down to program, time flies by. I love it!"
+    },
+    "budgetwise": {
+        "resume": "A web app that I created with my colleagues for the MT, which manages employee travel expenses in companies.",
+        "more": "...more"
+    }
+}
