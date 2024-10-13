@@ -1,4 +1,4 @@
-import { Button, IconButton, MobileNav, Navbar } from "@material-tailwind/react";
+import { Button, Collapse, IconButton, Navbar } from "@material-tailwind/react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -97,7 +97,7 @@ function NavBar() {
                             </div>
                         </div>
                     </div>
-                    <MobileNav open={openNav}>
+                    <Collapse open={openNav}>
                         <div className="flex justify-center gap-x-1">
                             <Button variant="gradient" size="sm" onClick={handleHome} className="font-shantell text-ang-300">
                                 <span>Home</span>
@@ -109,7 +109,7 @@ function NavBar() {
                                 <span>Mi Historia</span>
                             </Button>
                         </div>
-                    </MobileNav>
+                    </Collapse>
                 </Navbar>
             </div>
         </>
