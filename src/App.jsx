@@ -50,7 +50,7 @@ function App() {
               FULL STACK DEVELOPER
             </Typography>
             <Typography variant="h4" className="font-shantell text-ang-400 texto mb-2">
-              avtoral94@gmail.com
+              angtoral.dev@gmail.com
             </Typography>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
@@ -284,7 +284,7 @@ function App() {
             <Typography
               className="font-shantell text-ang-400"
             >
-              avtoral94@gmail.com
+              angtoral.dev@gmail.com
             </Typography>
           </li>
           <li>
