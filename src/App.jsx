@@ -69,10 +69,10 @@ function App() {
                   <Collapse open={open}>
                     <Card className="bg-black">
                       <CardBody className='flex flex-col'>
-                        <a className="font-spinnaker text-ang-400 mb-1" target='_blanck' href="../cv-en.pdf" download={true}>
+                        <a className="font-spinnaker text-ang-400 mb-1" target='_blanck' href="../cv-angela-toral-en.pdf" download={true} onClick={toggleOpen}>
                           English
                         </a>
-                        <a className="font-spinnaker text-ang-400" target='_blanck' href="../cv-es.pdf" download={true}>
+                        <a className="font-spinnaker text-ang-400" target='_blanck' href="../cv-angela-toral-es.pdf" download={true} onClick={toggleOpen}>
                           Español
                         </a>
                       </CardBody>
@@ -292,7 +292,7 @@ function App() {
               target='_blanck'
               as="a"
               download={true}
-              href="../cv.pdf"
+              href="../cv-angela-toral-en.pdf"
               className="font-shantell text-ang-400 link"
             >
               CV
