@@ -119,7 +119,7 @@ function App() {
             </video>
           </ScrollAnimation>
           <div className='flex justify-center mr-10 max-w-[500px]'>
-            <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+            <ScrollAnimation animateIn="animate__animated animate__backInLeft ">
               <Typography variant="h4" className="ml-10 font-spinnaker text-ang-300">
                 Una app web que realicé con mis compañeros para el TFM, que gestiona
                 los gastos de viajes de empleados en las empresas.
