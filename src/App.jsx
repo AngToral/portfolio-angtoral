@@ -112,14 +112,14 @@ function App() {
       </div>
       <div className='ml-6 items-center flex pt-6 pb-6 place-content-center'>
         <div className='proyecto flex items-center justify-center'>
-          <ScrollAnimation animateIn="animate__animated animate__backInRight">
+          <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
             <video className="rounded-lg" controls>
               <source src="../budgetwise.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </ScrollAnimation>
           <div className='flex justify-center mr-10 max-w-[500px]'>
-            <ScrollAnimation animateIn="animate__animated animate__backInLeft ">
+            <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
               <Typography variant="h4" className="ml-10 font-spinnaker text-ang-300">
                 Una app web que realicé con mis compañeros para el TFM, que gestiona
                 los gastos de viajes de empleados en las empresas.
@@ -146,7 +146,7 @@ function App() {
         </Marquee>
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0 bg-ang-500'>
-            <ScrollAnimation animateIn="animate__animated animate__backInRight">
+            <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
               <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>Educación</Typography>
               <Card className="m-4 bg-ang-50">
                 <div className='flex align-center'>
@@ -189,7 +189,7 @@ function App() {
             </ScrollAnimation>
             {/* Cambio de sección a Experiencia */}
             <div>
-              <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+              <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>Experiencia</Typography>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
@@ -224,7 +224,7 @@ function App() {
                   </div>
                 </Card>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+              <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
@@ -253,7 +253,7 @@ function App() {
                   </div>
                 </Card>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+              <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
