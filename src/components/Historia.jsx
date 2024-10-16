@@ -99,7 +99,7 @@ function Historia() {
                             <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Al 3er semestre, el poder adquisitivo en mi familia empezó
                                 a decaer, por lo que decidí trabajar en la universidad para pagarme la carrera.
-                                Y cuando me quedaba 1 año para graduarme, decidí estudiar a ADE.
+                                Y cuando me quedaba 1 año para graduarme, decidí estudiar ADE.
                                 Y con la carrera, cambié mi trabajo a Compras. Además, tuve la oportunidad de colarme a
                                 clases de Ingeniería Informática. Aquí empezó la espinita de la programación.
                             </Typography>
