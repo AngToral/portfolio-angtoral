@@ -203,11 +203,7 @@ function App() {
                       <div className='flex'>
                         <div>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 Desde Octubre 2024 estoy colaborando en un proyecto OpenSource de una aplicación móvil destinada a personas con perros
-                            donde puedan llevar toda la información de sus mascotas en el móvil, PetCare Manager (Frontend - React Native)
-                          </Typography>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 Desde Octubre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
+                            💻 Para Noviembre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
                           </Typography>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
                             💻 Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde mostrar su trabajo
