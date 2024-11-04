@@ -14,14 +14,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <ThemeProvider>
       <BrowserRouter>
         <Routes>
-          <Route
+          {/* <Route
             exact
             path="/"
             element={<Inicio />}
-          />
+          /> */}
           <Route
             exact
-            path="/home"
+            path="/"
             element={<App />}
           />
           <Route
