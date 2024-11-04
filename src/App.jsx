@@ -41,19 +41,19 @@ function App() {
             <img
               className="animate__animated animate__backInRight h-96 w-96 rounded-full object-cover object-center"
               src="../angela.webp"
-              alt="foto-perfil-angela"
+              alt="foto-perfil-angela-toral"
             />
           </div>
           <div className="info animate__animated animate__backInLeft flex flex-col">
-            <Typography variant="h1" className="font-shantell text-ang-400 texto mb-2">
+            <h1 className="font-shantell text-ang-400 texto mb-2 text-5xl">
               Angela Toral
-            </Typography>
-            <Typography variant="h3" className="font-shantell text-ang-400 texto mb-2">
+            </h1>
+            <h2 className="font-shantell text-ang-400 texto mb-2 text-3xl">
               FULL STACK DEVELOPER
-            </Typography>
-            <Typography variant="h4" className="font-shantell text-ang-400 texto mb-2">
-              avtoral94@gmail.com
-            </Typography>
+            </h2>
+            <h2 className="font-shantell text-ang-400 texto mb-2 text-2xl">
+              angtoral.dev@gmail.com
+            </h2>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
                 value={{ color: '#facaca' }}
@@ -71,10 +71,10 @@ function App() {
                   <Collapse open={open}>
                     <Card className="bg-black">
                       <CardBody className='flex flex-col'>
-                        <a className="font-spinnaker text-ang-400 mb-1" target='_blanck' href="../cv-en.pdf" download={true}>
+                        <a className="font-spinnaker text-ang-400 mb-1" target='_blanck' href="../cv-angela-toral-en.pdf" download={true} onClick={toggleOpen}>
                           English
                         </a>
-                        <a className="font-spinnaker text-ang-400" target='_blanck' href="../cv-es.pdf" download={true}>
+                        <a className="font-spinnaker text-ang-400" target='_blanck' href="../cv-angela-toral-es.pdf" download={true} onClick={toggleOpen}>
                           Español
                         </a>
                       </CardBody>
@@ -108,14 +108,14 @@ function App() {
       </div>
       <div className='ml-6 items-center flex pt-6 pb-6 place-content-center'>
         <div className='proyecto flex items-center justify-center'>
-          <ScrollAnimation animateIn="animate__animated animate__backInRight">
+          <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
             <video className="rounded-lg" controls>
               <source src="../budgetwise.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </ScrollAnimation>
           <div className='flex justify-center mr-10 max-w-[500px]'>
-            <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+            <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
               <Typography variant="h4" className="ml-10 font-spinnaker text-ang-300">
                 {t("budgetwise.resume")}
               </Typography>
@@ -141,7 +141,7 @@ function App() {
         </Marquee>
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0 bg-ang-500'>
-            <ScrollAnimation animateIn="animate__animated animate__backInRight">
+            <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
               <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>Educación</Typography>
               <Card className="m-4 bg-ang-50">
                 <div className='flex align-center'>
@@ -184,7 +184,7 @@ function App() {
             </ScrollAnimation>
             {/* Cambio de sección a Experiencia */}
             <div>
-              <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+              <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>Experiencia</Typography>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
@@ -198,18 +198,17 @@ function App() {
                       <div className='flex'>
                         <div>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 Desde Octubre 2024 estoy colaborando en un proyecto OpenSource de una aplicación móvil destinada a personas con perros
-                            donde puedan llevar toda la información de sus mascotas en el móvil, PetCare Manager (Frontend - React Native)
-                          </Typography>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 Desde Octubre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
+                            💻 Desde Noviembre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
                           </Typography>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
                             💻 Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde mostrar su trabajo
                             para captar clientes nuevos, mostrar sus reseñas, y con un apartado de blog donde subir fotos con texto escrito por ella,
-                            y otro apartado de galería donde sube sus fotos con tópicos (Full Stack - MERN)
+                            y otro apartado de galería donde sube sus fotos con temas (Full Stack - MERN)
                           </Typography>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                          <a className="text-white italic link font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.nanamendozago.com/" >
+                            Visitar web
+                          </a>
+                          <Typography className="font-spinnaker text-white mb-2 mt-2 md:text-xl font-semibold">
                             💻 Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar
                             los gastos de viajes de sus empleados, BudgetWise (Full Stack - MERN)
                           </Typography>
@@ -219,7 +218,7 @@ function App() {
                   </div>
                 </Card>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+              <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
@@ -248,7 +247,7 @@ function App() {
                   </div>
                 </Card>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="animate__animated animate__backInLeft">
+              <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
@@ -279,7 +278,7 @@ function App() {
             <Typography
               className="font-shantell text-ang-400"
             >
-              avtoral94@gmail.com
+              angtoral.dev@gmail.com
             </Typography>
           </li>
           <li>
@@ -287,7 +286,7 @@ function App() {
               target='_blanck'
               as="a"
               download={true}
-              href="../cv.pdf"
+              href="../cv-angela-toral-en.pdf"
               className="font-shantell text-ang-400 link"
             >
               CV

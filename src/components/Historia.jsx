@@ -60,10 +60,10 @@ function Historia() {
                                 Quiero empezar contando un poco lo que ocupa mi tiempo libre y mis aficiones.
                             </Typography>
                             <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
-                                Amo a los animales, y por eso tengo 4 perros y 3 gatos que son mi vida.
+                                Amo a los animales, y por eso tengo 4 perros y 4 gatos que son mi vida.
                             </Typography>
                             <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
-                                Me gusta leer. Todas las mañana leo un poco. De crecimiento personal, o alguna novela
+                                Me gusta leer. Todas las mañanas leo un poco. De crecimiento personal, o alguna novela
                                 policíaca o thriller.
                             </Typography>
                             <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
@@ -99,7 +99,7 @@ function Historia() {
                             <Typography className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">
                                 Al 3er semestre, el poder adquisitivo en mi familia empezó
                                 a decaer, por lo que decidí trabajar en la universidad para pagarme la carrera.
-                                Y cuando me quedaba 1 año para graduarme, decidí estudiar a ADE.
+                                Y cuando me quedaba 1 año para graduarme, decidí estudiar ADE.
                                 Y con la carrera, cambié mi trabajo a Compras. Además, tuve la oportunidad de colarme a
                                 clases de Ingeniería Informática. Aquí empezó la espinita de la programación.
                             </Typography>

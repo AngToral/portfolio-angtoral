@@ -7,8 +7,8 @@ function Proyecto() {
         document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../hojas.webp')"
     })
 
-    const [openFuncionality, setOpenFuncionality] = useState(false);
-    const [openDevelopment, setOpenDevelopment] = useState(false);
+    const [openFuncionality, setOpenFuncionality] = useState(true);
+    const [openDevelopment, setOpenDevelopment] = useState(true);
 
     const toggleOpenFuncionality = () => {
         setOpenFuncionality(!openFuncionality);

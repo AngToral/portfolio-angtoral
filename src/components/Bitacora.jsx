@@ -879,7 +879,7 @@ function Bitacora() {
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             19 de septiembre, 16:30. Empiezo haciendo la pantalla de la nueva opinión para poner el botón de eliminar, y que funcione.
-                                            Aprendí que usando "&nbsp;" puedes poner X espacios entre la misma línea de texto. 18:30.
+                                            Aprendí que usando "& n b s p ;" puedes poner X espacios entre la misma línea de texto. 18:30.
                                         </Typography>
                                     </CardBody>
                                 </Card> :
