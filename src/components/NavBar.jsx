@@ -6,7 +6,7 @@ function NavBar() {
     const navigate = useNavigate();
 
     function handleHome() {
-        navigate("/home")
+        navigate("/")
     }
     function handleBitacora() {
         navigate("/bitacora")

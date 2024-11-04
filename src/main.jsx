@@ -7,7 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Proyecto from './components/Proyecto.jsx'
 import Bitacora from './components/Bitacora.jsx'
 import Historia from './components/Historia.jsx'
-import Inicio from './components/inicio.jsx'
+// import Inicio from './components/inicio.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

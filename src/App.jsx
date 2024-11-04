@@ -43,15 +43,15 @@ function App() {
             />
           </div>
           <div className="info animate__animated animate__backInLeft flex flex-col">
-            <Typography variant="h1" className="font-shantell text-ang-400 texto mb-2">
+            <h1 className="font-shantell text-ang-400 texto mb-2 text-5xl">
               Angela Toral
-            </Typography>
-            <Typography variant="h3" className="font-shantell text-ang-400 texto mb-2">
+            </h1>
+            <h2 className="font-shantell text-ang-400 texto mb-2 text-3xl">
               FULL STACK DEVELOPER
-            </Typography>
-            <Typography variant="h4" className="font-shantell text-ang-400 texto mb-2">
+            </h2>
+            <h2 className="font-shantell text-ang-400 texto mb-2 text-2xl">
               angtoral.dev@gmail.com
-            </Typography>
+            </h2>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
                 value={{ color: '#facaca' }}
