@@ -39,7 +39,7 @@ function App() {
             <img
               className="animate__animated animate__backInRight h-96 w-96 rounded-full object-cover object-center"
               src="../angela.webp"
-              alt="foto-perfil-angela"
+              alt="foto-perfil-angela-toral"
             />
           </div>
           <div className="info animate__animated animate__backInLeft flex flex-col">
@@ -203,14 +203,17 @@ function App() {
                       <div className='flex'>
                         <div>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 Para Noviembre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
+                            💻 Desde Noviembre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
                           </Typography>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
                             💻 Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde mostrar su trabajo
                             para captar clientes nuevos, mostrar sus reseñas, y con un apartado de blog donde subir fotos con texto escrito por ella,
-                            y otro apartado de galería donde sube sus fotos con tópicos (Full Stack - MERN)
+                            y otro apartado de galería donde sube sus fotos con temas (Full Stack - MERN)
                           </Typography>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                          <a className="text-white italic link font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.nanamendozago.com/" >
+                            Visitar web
+                          </a>
+                          <Typography className="font-spinnaker text-white mb-2 mt-2 md:text-xl font-semibold">
                             💻 Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar
                             los gastos de viajes de sus empleados, BudgetWise (Full Stack - MERN)
                           </Typography>
