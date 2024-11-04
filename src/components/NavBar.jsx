@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { Button, Collapse, IconButton, Menu, MenuHandler, MenuItem, MenuList, MobileNav, Navbar } from "@material-tailwind/react";
-=======
-import { Button, Collapse, IconButton, Navbar } from "@material-tailwind/react";
->>>>>>> main
+import { Button, Collapse, IconButton, Menu, MenuHandler, MenuItem, MenuList, Navbar } from "@material-tailwind/react";
 import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
