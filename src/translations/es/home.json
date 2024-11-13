@@ -13,5 +13,25 @@
     "budgetwise": {
         "resume": "Una app web que realicé con mis compañeros para el TFM, que gestiona los gastos de viajes de empleados en las empresas.",
         "more": "...más"
+    },
+    "edusection": {
+        "education": "Educación",
+        "master": "Master en Full Stack Development",
+        "ade": "Administración de Empresas"
+    },
+    "expsection": {
+        "experience": "Experiencia",
+        "one": "Administrativa de Compras",
+        "one-one": "Sep. 2015 - Ene. 2019",
+        "one-two": "En este período ascendí desde becaria hasta especialista de Compras, pasando por unos meses donde tuve que asumir el liderazgo del departamento, desarrollando así mi responsabilidad, visión estratégica y capacidad analítica.",
+        "two": "Administrativa Financiera-RRHH",
+        "two-one": "Ene. 2020 - Jul. 2024",
+        "two-two": "En todo este tiempo he trabajo en el departamento de Finanzas-RRHH y el de Producción.",
+        "two-three": "He desarrollado tareas como Responsable de Proveedores manteniendo el control de toda la facturación de proveedores, pagos y vencimiento de facturas, cartera de proveedores, pedidos de compra, control de inventario, e ingreso y despacho de material. Y como Responsable de Jornada, gestioné los fichajes de los empleados, incidencias, vacaciones, ausencias, permisos retribuidos del personal, y pagos en especie.",
+        "three": "Abril 2024 - Actualidad",
+        "three-one": "Desde Noviembre 2024 estoy creando una web para un boxeador profesional de Países Bajos",
+        "three-two": "Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde mostrar su trabajo para captar clientes nuevos, mostrar sus reseñas, y con un apartado de blog donde subir fotos con texto escrito por ella, y otro apartado de galería donde sube sus fotos con temas",
+        "three-three": "Visitar web",
+        "three-four": "Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar los gastos de viajes de sus empleados,"
     }
 }

@@ -142,7 +142,7 @@ function App() {
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0 bg-ang-500'>
             <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
-              <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>Educación</Typography>
+              <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>{t("edusection.education")}</Typography>
               <Card className="m-4 bg-ang-50">
                 <div className='flex align-center'>
                   <div className='m-6 items-center flex place-content-center'>
@@ -154,7 +154,7 @@ function App() {
                   </div>
                   <div className='align-center place-content-center mr-4'>
                     <div className='flex '>
-                      <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Master en Full Stack Development</Typography>
+                      <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">{t("edusection.master")}</Typography>
                     </div>
                     <div className='flex'>
                       <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">Nuclio Digital School, Madrid (2024)</Typography>
@@ -173,7 +173,7 @@ function App() {
                   </div>
                   <div className='align-center place-content-center mr-4'>
                     <div className='flex'>
-                      <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Administración de Empresas</Typography>
+                      <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">{t("edusection.ade")}</Typography>
                     </div>
                     <div className='flex'>
                       <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">Universidad Católica Andrés Bello, Caracas (2019)</Typography>
@@ -185,7 +185,7 @@ function App() {
             {/* Cambio de sección a Experiencia */}
             <div>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-                <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>Experiencia</Typography>
+                <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>{t("expsection.experience")}</Typography>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
@@ -193,24 +193,21 @@ function App() {
                         <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Web Developer</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">(Abril 2024 - Actualidad)</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">({t("expsection.three")})</Typography>
                       </div>
                       <div className='flex'>
                         <div>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 Desde Noviembre 2024 estoy creando una web para un boxeador profesional de Países Bajos (Full Stack - MERN)
+                            💻 {t("expsection.three-one")} (Full Stack - MERN)
                           </Typography>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde mostrar su trabajo
-                            para captar clientes nuevos, mostrar sus reseñas, y con un apartado de blog donde subir fotos con texto escrito por ella,
-                            y otro apartado de galería donde sube sus fotos con temas (Full Stack - MERN)
+                            💻 {t("expsection.three-two")} (Full Stack - MERN)
                           </Typography>
                           <a className="text-white italic link font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.nanamendozago.com/" >
-                            Visitar web
+                            {t("expsection.three-three")}
                           </a>
                           <Typography className="font-spinnaker text-white mb-2 mt-2 md:text-xl font-semibold">
-                            💻 Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar
-                            los gastos de viajes de sus empleados, BudgetWise (Full Stack - MERN)
+                            💻 {t("expsection.three-four")} BudgetWise (Full Stack - MERN)
                           </Typography>
                         </div>
                       </div>
@@ -223,23 +220,18 @@ function App() {
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Administrativa Financiera-RHH</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">{t("expsection.two")}</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">NVLS, Madrid (ene. 2020 - jul. 2024)</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">NVLS, Madrid ({t("expsection.two-one")})</Typography>
                       </div>
                       <div className='flex'>
                         <div>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            En todo este tiempo he trabajo en el departamento de Finanzas-RRHH y el de Producción.
+                            {t("expsection.two-two")}
                           </Typography>
                           <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            He desarrollado tareas como Responsable de Proveedores manteniendo el
-                            control de toda la facturación de proveedores, pagos y vencimiento de
-                            facturas, cartera de proveedores, pedidos de compra, control de inventario, e
-                            ingreso y despacho de material.
-                            Y como Responsable de Jornada, gestioné los fichajes de los empleados, incidencias,
-                            vacaciones, ausencias, permisos retribuidos del personal, y pagos en especie.
+                            {t("expsection.two-three")}
                           </Typography>
                         </div>
                       </div>
@@ -252,17 +244,15 @@ function App() {
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Administrativa de Compras</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">{t("expsection.one")}</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">UCAB, Caracas (sep. 2015 - ene. 2019)</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">UCAB, Caracas ({t("expsection.one-one")})</Typography>
                       </div>
                       <div className='flex'>
                         <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                          En este período ascendí desde becaria hasta especialista de
-                          Compras, pasando por unos meses donde tuve que asumir el
-                          liderazgo del departamento, desarrollando así mi responsabilidad,
-                          visión estratégica y capacidad analítica.</Typography>
+                          {t("expsection.one-two")}
+                        </Typography>
                       </div>
                     </div>
                   </div>
