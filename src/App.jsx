@@ -304,7 +304,7 @@ function App() {
               href="https://www.linkedin.com/in/angela-toral/"
               className="font-shantell text-ang-400 link"
             >
-              Linked In
+              LinkedIn
             </Typography>
           </li>
           <li>
