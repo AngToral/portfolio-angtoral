@@ -42,11 +42,10 @@ function NavBar() {
                             <span>Home</span>
                         </Button>
                         <div className="flex items-center">
-                            <div className="flex items-center gap-4">
+                            <div className="flex items-center lg:flex-row flex-row-reverse">
                                 <div className="flex items-center gap-x-1 mr-6">
                                     <Button
                                         variant="text"
-                                        size="lg"
                                         className="font-shantell hidden lg:inline-block text-ang-300 text-lg"
                                         onClick={handleBitacora}
                                     >
@@ -54,7 +53,6 @@ function NavBar() {
                                     </Button>
                                     <Button
                                         variant="text"
-                                        size="lg"
                                         className="font-shantell hidden lg:inline-block text-ang-300 text-lg"
                                         onClick={handleHistoria}
                                     >
@@ -62,9 +60,9 @@ function NavBar() {
                                     </Button>
                                     <Menu>
                                         <MenuHandler>
-                                            <a variant="text" className="font-display flex text-ang-300 link">
+                                            <Button variant="text" className="font-display flex text-ang-300 link text-lg normal-case">
                                                 {t("navbar.language")}<FaAngleDown />
-                                            </a>
+                                            </Button>
                                         </MenuHandler>
                                         <MenuList className="bg-foto-700 border-foto-100">
                                             <MenuItem onClick={() => i18n.changeLanguage("es")} className="text-ang-300 font-display" data-lenguage="es">🇪🇸 Español</MenuItem>
