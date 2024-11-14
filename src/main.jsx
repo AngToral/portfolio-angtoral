@@ -13,6 +13,8 @@ import home_es from "./translations/es/home.json"
 import home_en from "./translations/en/home.json"
 import budget_es from "./translations/es/budget.json"
 import budget_en from "./translations/en/budget.json"
+import story_es from "./translations/es/story.json"
+import story_en from "./translations/en/story.json"
 // import Inicio from './components/inicio.jsx'
 
 i18next.init({
@@ -22,10 +24,12 @@ i18next.init({
     es: {
       home: home_es,
       budget: budget_es,
+      story: story_es,
     },
     en: {
       home: home_en,
       budget: budget_en,
+      story: story_en,
     }
   }
 })
