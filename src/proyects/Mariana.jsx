@@ -1,15 +1,17 @@
 import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, Carousel, Step, Stepper, Typography } from "@material-tailwind/react";
 import '../App.css'
+import { useTranslation } from "react-i18next";
 
 const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep, Icon }) => {
 
+    const [t, i18n] = useTranslation("binnacle")
 
     return (
         <div className="mx-6 animate__animated animate__fadeInDown">
             <Accordion open={openAccordion === 2} icon={<Icon id={2} open={openAccordion} />}>
                 <AccordionHeader onClick={() => handleOpenAccordion(2)} className="text-white md:text-2xl text-lg font-semibold font-shantell hover:text-white">
                     <div className="flex flex-col md:flex-row justify-start">
-                        <p>Web de una fotógrafa</p>
+                        <p>{t("mariana.tittle")}</p>
                         <p className="md:mx-2 italic">(Ago. 2024)</p>
                         <a className="italic" href="https://www.nanamendozago.com/" target='_blanck'> <u> nanamendozago.com </u> </a>
                     </div>
@@ -17,13 +19,10 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                 <AccordionBody>
                     <div>
                         <p className="font-spinnaker md:text-xl text-white mx-5 font-semibold md:font-light">
-                            Una web para una fotógrafa profesional de Países Bajos, con vista en inglés y español, donde podrá mostrar su
-                            portfolio de fotografía, sus redes, su trabajo, y se le podrá contactar para contratar sus servicios.
+                            {t("mariana.description1")}
                         </p>
                         <p className="font-spinnaker md:text-xl text-white mx-5 font-semibold md:font-light">
-                            Tiene su propio login, en el que podrá enviar solicitudes de reseñas a los clientes.
-                            Además, tiene dos apartados para su propio contenido: de galería, donde subirá las fotos que desee, con temas que
-                            las describen para fácil búsqueda; y un blog, donde podrá compartir historias detrás de cada fotografía.
+                            {t("mariana.description2")}
                         </p>
                     </div>
                     <div className="w-full">

@@ -4,11 +4,14 @@ import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, 
 import '../App.css'
 import Portfolio from "../proyects/Portfolio";
 import Mariana from "../proyects/Mariana";
+import { useTranslation } from "react-i18next";
 
 function Bitacora() {
     useEffect(() => {
         document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../bitacora.webp')"
     })
+
+    const [t, i18n] = useTranslation("binnacle")
 
     const [openAccordion, setOpenAccordion] = useState(0);
     const [activeStep, setActiveStep] = useState(0);
@@ -35,12 +38,10 @@ function Bitacora() {
             <NavBar />
             <div className="flex flex-col justify-center items-center animate__animated animate__fadeInDown">
                 <p className="md:text-2xl text-lg font-bold font-shantell text-white mt-6">
-                    Mi diario de coding:
+                    {t("notebook.tittle")}
                 </p>
                 <p className="md:text-lg font-spinnaker text-white max-w-[65rem] m-6">
-                    Cuento día a día el proceso de desarrollo de cada uno de mis proyectos.
-                    Podrás verlos clicando en el proyecto que más te llame la atención, y podrás navegar entre los días que me ha
-                    tomado crear dicha aplicación, conociendo mi proceso de creación, problemas, soluciones, y horas de trabajo.
+                    {t("notebook.description")}
                 </p>
             </div>
             <Portfolio

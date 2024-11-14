@@ -1,7 +1,10 @@
 import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, Step, Stepper, Typography } from "@material-tailwind/react";
 import '../App.css'
+import { useTranslation } from "react-i18next";
 
 const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep, Icon }) => {
+
+    const [t, i18n] = useTranslation("binnacle")
 
     return (
         <div>
@@ -9,19 +12,17 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                 <Accordion open={openAccordion === 1} icon={<Icon id={1} open={openAccordion} />}>
                     <AccordionHeader onClick={() => handleOpenAccordion(1)} className="md:text-2xl text-lg font-semibold font-shantell text-white hover:text-white">
                         <div className="flex flex-col md:flex-row justify-start">
-                            Mi portfolio, esta web
+                            {t("portfolio.tittle")}
                             <p className="italic md:ml-2">(Jul. 2024)</p>
                         </div>
                     </AccordionHeader>
                     <AccordionBody>
                         <div>
                             <p className="font-spinnaker md:text-xl text-white mx-5 font-semibold md:font-light">
-                                En esta web he querido no solo mostrar mi perfil laboral, con mis experiencias, proyectos, estudios,
-                                sino que quiero que me conozcan como persona a la que le gusta aprender y mejorar.
+                                {t("portfolio.description1")}
                             </p>
                             <p className="font-spinnaker md:text-xl text-white mx-5 font-semibold md:font-light">
-                                Por eso, está esta sección de "diario de programación", y la de "Mi Historia", donde cuento mi camino
-                                y por qué estoy donde estoy.
+                                {t("portfolio.description2")}
                             </p>
                         </div>
                         <div className="w-full">

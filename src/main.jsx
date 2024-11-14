@@ -15,6 +15,9 @@ import budget_es from "./translations/es/budget.json"
 import budget_en from "./translations/en/budget.json"
 import story_es from "./translations/es/story.json"
 import story_en from "./translations/en/story.json"
+import binnacle_es from "./translations/es/binnacle.json"
+import binnacle_en from "./translations/en/binnacle.json"
+
 // import Inicio from './components/inicio.jsx'
 
 i18next.init({
@@ -25,11 +28,13 @@ i18next.init({
       home: home_es,
       budget: budget_es,
       story: story_es,
+      binnacle: binnacle_es,
     },
     en: {
       home: home_en,
       budget: budget_en,
       story: story_en,
+      binnacle: binnacle_en,
     }
   }
 })
