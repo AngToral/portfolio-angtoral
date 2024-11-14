@@ -1,0 +1,20 @@
+{
+    "wise": {
+        "description": "The perfect web-based solution to simplify your employees’ travel expense management. Our platform allows employees to quickly and easily submit their expense claims directly to HR, eliminating tedious paperwork and reducing time spent on administration. Optimize efficiency, ensure transparency and facilitate the reimbursement process for all business trips.",
+        "time": "Development time",
+        "month": "3 months",
+        "team": "Team",
+        "people": "3 people",
+        "stack": "Stack",
+        "features": "Features",
+        "features-desc1": "This application has two types of users, employees and HR. Each of the data shown is filtered, and if you are an HR person you see the data for the entire company, and if you are an employee, you only see your data.",
+        "features-desc2": "We, as the app owners, register the company data, and then each HR profile registers its employees. In turn, both profiles can log in (required to interact with the app) with their email and password.",
+        "features-desc3": "You can see graphs of all the expenses generated, the list of all employees with the possibility of adding, editing and deleting (functionalities only for HR). See all the expenses of each employee, create (only employee), approve them (only HR), edit them and delete them. See each trip, create, edit and delete. See the objectives, create them and create tasks (only employee). View the calendar with the trips. Of the profile with the possibility of updating data, and those of the company (editing only possible for HR). And it also has a chat between HR and employees.",
+        "dev": "My development",
+        "dev-desc1": "From the beginning we understood each other's understanding of the development of the website. It flowed organically, and we always supported each other when someone needed help. We didn't divide things by time, but by functionality. My part of the development was Expenses and Travel.",
+        "dev-desc2": "On the back end I did everything related to login, some crud, and some templates, password encryption and user token verification.",
+        "dev-desc3": "On the front end, I started with Expenses, as it is the core of the website. Having administrative and HR knowledge, I knew exactly what I needed to capture, and how. So I didn't skimp on filters, and I wanted the information to be user-friendly.",
+        "dev-desc4": "Here my challenges were to make -populate- to a lot of functions , to show the expense and related trip information, use the context to filter employee or HR information, create the emails that are sent when approving expenses (two types of emails, depending on whether the expense is personal or with company credit cards), and the part of uploading the receipts in the end was developed by one of my colleagues, since due to time I could not dedicate more time to making it happen myself.",
+        "dev-desc5": "The Travel part was easier and shorter to develop, since he wasn't the main character."
+    }
+}

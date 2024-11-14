@@ -11,6 +11,8 @@ import i18next from 'i18next'
 import { I18nextProvider } from "react-i18next";
 import home_es from "./translations/es/home.json"
 import home_en from "./translations/en/home.json"
+import budget_es from "./translations/es/budget.json"
+import budget_en from "./translations/en/budget.json"
 // import Inicio from './components/inicio.jsx'
 
 i18next.init({
@@ -19,9 +21,11 @@ i18next.init({
   resources: {
     es: {
       home: home_es,
+      budget: budget_es,
     },
     en: {
       home: home_en,
+      budget: budget_en,
     }
   }
 })
