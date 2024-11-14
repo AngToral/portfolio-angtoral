@@ -84,7 +84,7 @@ function Proyecto() {
                 </div>
                 <div >
                     <div className="flex justify-around mt-6">
-                        <Button className="link font-shantell text-ang-700" size="lg" onClick={toggleOpenFuncionality}>Funcionalidades</Button>
+                        <Button className="link font-shantell text-ang-700" size="lg" onClick={toggleOpenFuncionality}>{t("wise.features")}</Button>
                     </div>
                     <Collapse open={openFuncionality}>
                         <Card className="m-4 max-w-7xl">

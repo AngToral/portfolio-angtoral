@@ -64,7 +64,7 @@ function NavBar() {
                                                 {t("navbar.language")}<FaAngleDown />
                                             </Button>
                                         </MenuHandler>
-                                        <MenuList className="bg-foto-700 border-foto-100">
+                                        <MenuList className="bg-black/70 border-foto-100">
                                             <MenuItem onClick={() => i18n.changeLanguage("es")} className="text-ang-300 font-display" data-lenguage="es">🇪🇸 Español</MenuItem>
                                             <MenuItem onClick={() => i18n.changeLanguage("en")} className="text-ang-300 font-display" data-lenguage="en">🇬🇧 English</MenuItem>
                                         </MenuList>
