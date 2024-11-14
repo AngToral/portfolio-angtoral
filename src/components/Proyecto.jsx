@@ -36,7 +36,7 @@ function Proyecto() {
                 </Typography>
             </div>
             <div className="flex budget justify-around animate__animated animate__fadeInDown">
-                <div className="lg:mx-16 mx-6 max-w-[30rem]" >
+                <div className="lg:mx-10 mx-6 max-w-[30rem]" >
                     <Timeline>
                         <TimelineItem>
                             <TimelineConnector />

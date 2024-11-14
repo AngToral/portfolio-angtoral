@@ -67,6 +67,7 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
+  /* pantalla mobile */
 
   .proyecto {
     flex-wrap: wrap;
