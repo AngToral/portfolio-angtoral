@@ -138,6 +138,7 @@ function App() {
           <img className='h-24 mr-4' src='../vite.svg' />
           <img className='h-24 mr-4' src='../github.png' />
           <img className='h-24 mr-4' src='../node.png' />
+          <img className='h-20 mr-4' src='../express.png' />
         </Marquee>
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0 bg-ang-500'>
