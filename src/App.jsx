@@ -198,17 +198,14 @@ function App() {
                       </div>
                       <div className='flex'>
                         <div>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-white mb-1 md:text-xl font-semibold">
                             💻 {t("expsection.three-one")} (Full Stack - MERN)
                           </Typography>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
-                            💻 {t("expsection.three-two")} (Full Stack - MERN)
-                          </Typography>
                           <a className="text-white italic link font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.nanamendozago.com/" >
-                            {t("expsection.three-three")}
+                            {t("expsection.three-two")}
                           </a>
-                          <Typography className="font-spinnaker text-white mb-2 mt-2 md:text-xl font-semibold">
-                            💻 {t("expsection.three-four")} BudgetWise (Full Stack - MERN)
+                          <Typography className="font-spinnaker text-white my-2 md:text-xl font-semibold">
+                            💻 {t("expsection.three-three")} BudgetWise (Full Stack - MERN)
                           </Typography>
                         </div>
                       </div>
