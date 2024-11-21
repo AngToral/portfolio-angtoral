@@ -94,12 +94,39 @@ function App() {
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   {t("me.first")}
-                </Typography>
+                </Typography>  <br />
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   {t("me.second")}
-                </Typography>
+                </Typography>  <br />
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   {t("me.third")}
+                </Typography>
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.four")}
+                </Typography>
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.five")}
+                </Typography>  <br />
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.six")}
+                </Typography>  <br />
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.seven")}
+                </Typography>
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.eight")}
+                </Typography>
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.nine")}
+                </Typography>
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.ten")}
+                </Typography>
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.eleven")}
+                </Typography>  <br />
+                <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
+                  {t("me.twelve")}
                 </Typography>
               </CardBody>
             </Card>

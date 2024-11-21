@@ -6,9 +6,18 @@
     },
     "me": {
         "aboutme": "Sobre mí",
-        "first": "Soy Angela, una persona organizada, perseverante, consigo solución a cualquier problema, creativa, me encanta aprender, trabajar en equipo, y mejorar siempre.",
-        "second": "Tengo una licenciatura en ADE, y llevo más de 10 años trabajando como administrativa. Este 2024 he decidido diversificar mi camino laboral, y estudié un Master en Full Stack Development. Y, ¿por qué desarrollo web? Desde siempre me ha gustado mucho la programación, pero nunca he tenido el tiempo, dinero o valor de empezar este camino. Ahora ya he decidido lanzarme al agua, y estoy forjando mi camino laboral como desarrolladora.",
-        "third": "Ha sido un acierto emprender esta carrera. Cuando me siento a programar, se me pasa el tiempo volando. ¡Me encanta!"
+        "first": "¡Hola! 😊 Soy Angela, y tengo más de una década resolviendo desafíos en el mundo empresarial: en Compras, Operaciones y Financiero. Además, sé programar aplicaciones web.",
+        "second": "Con mi experiencia en administración, combinada con mis nuevos conocimientos en el desarrollo web, tengo un perfil que abarca desde la gestión y optimización de procesos hasta el despliegue de una aplicación web.",
+        "third": "📊 Tengo una visión integral de procesos operativos, financieros, y administrativos,",
+        "four": "💡 Soy organizada, creativa, perseverante, resolutiva, me encanta aprender, trabajar en equipo, mejorar siempre, y además",
+        "five": "💻 Manejo Excel, ERP, React, Node.js, Express.js, MongoDB, JavaScript, HTML, CSS, control de versiones Git.",
+        "six": "Mi destreza administrativa se puede ver desde el 2014 que empecé a trabajar en esto, pasando por varios departamentos, y siempre con resultados óptimos de mi trabajo.",
+        "seven": "Mis proyectos personales (que los puedes ver en mi web: angelatoral.es) demuestran mi capacidad para:",
+        "eight": "⭐️ Desarrollar aplicaciones web desde cero, desde el diseño hasta el despliegue.",
+        "nine": "⭐️ Crear interfaces de usuario intuitivas y responsivas.",
+        "ten": "⭐️ Implementar soluciones backend.",
+        "eleven": "⭐️ Trabajar de forma autónoma y en equipo.",
+        "twelve": "Conecta conmigo si te ha interesado mi perfil, y crees que podemos crear algo único ✨"
     },
     "budgetwise": {
         "resume": "Una app web que realicé con mis compañeros para el TFM, que gestiona los gastos de viajes de empleados en las empresas.",

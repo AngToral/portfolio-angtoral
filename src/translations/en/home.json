@@ -6,9 +6,18 @@
     },
     "me": {
         "aboutme": "About me",
-        "first": "I'm Angela! I'm organized, persevering, and creative. I can find a solution to any problem. I love learning, working in a team, and always improving myself.",
-        "second": "I have a degree in Business Administration, and I've been an administrator for over 10 years. In 2024, I decided to diversify my career path, and I studied for a Master's in Full Stack Development. Why web development? I've always loved programming, but I have never had the time, money, or courage to start this path. Now I've decided to take the plunge, and I'm forging my career path as a developer.",
-        "third": "It was a good decision to take up this career. When I sit down to program, time flies by. I love it!"
+        "first": "Hi! 😊 I'm Angela, and I have over a decade of experience solving challenges in the business world, specializing in Purchasing, Operations, and Finance. Plus, I know how to program web applications.",
+        "second": "With my management expertise combined with my new skills in web development, I offer a profile that spans from process management and optimization to deploying a web application.",
+        "third": "📊 I bring a comprehensive understanding of operational, financial, and administrative processes.",
+        "four": "💡 I'm organized, creative, persistent, solution-oriented, a lifelong learner, a team player, and always striving to improve.",
+        "five": "💻 I’m proficient in Excel, ERP systems, React, Node.js, Express.js, MongoDB, JavaScript, HTML, CSS, and version control with Git.",
+        "six": "Since 2014, I’ve showcased my administrative skills across various departments, consistently achieving excellent results in my work.",
+        "seven": "My personal projects (which you can check out on my website: angelatoral.es) highlight my ability to:",
+        "eight": "⭐️ Develop web applications from scratch, from design to deployment.",
+        "nine": "⭐️ Create intuitive and responsive user interfaces.",
+        "ten": "⭐️ Implement backend solutions.",
+        "eleven": "⭐️ Work independently and collaboratively.",
+        "twelve": "Feel free to connect with me if my profile sparks your interest and you believe we can create something extraordinary together! ✨"
     },
     "budgetwise": {
         "resume": "A web app that I created with my colleagues for the MT, which manages employee travel expenses in companies.",
