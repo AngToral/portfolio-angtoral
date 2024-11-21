@@ -6,8 +6,8 @@
     },
     "me": {
         "aboutme": "About me",
-        "first": "I'm Angela! Organized, persevering, creative, I can find solution to any problem, I love learning, working in team, and to always improve myself.",
-        "second": "I have a degree in Business Administration, and I've been working as an administrator for more than 10 years. In 2024, I decided to diversify my career path, and I studied a Master in Full Stack Development. Why web development? I've always loved programming, but I have never had the time, money or courage to start this path. Now I've decided to take the plunge, and I'm forging my career path as a developer.",
+        "first": "I'm Angela! I'm organized, persevering, and creative. I can find a solution to any problem. I love learning, working in a team, and always improving myself.",
+        "second": "I have a degree in Business Administration, and I've been an administrator for over 10 years. In 2024, I decided to diversify my career path, and I studied for a Master's in Full Stack Development. Why web development? I've always loved programming, but I have never had the time, money, or courage to start this path. Now I've decided to take the plunge, and I'm forging my career path as a developer.",
         "third": "It was a good decision to take up this career. When I sit down to program, time flies by. I love it!"
     },
     "budgetwise": {
@@ -23,15 +23,14 @@
         "experience": "Experience",
         "one": "Purchasing Administrative",
         "one-one": "Sep. 2015 - Jan. 2019",
-        "one-two": "En During this period I rose from intern to Purchasing Specialist, spending a few months where I had to assume the leadership of the department, thus developing my responsibility, strategic vision and analytical capacity.",
+        "one-two": "During this period, I rose from intern to Purchasing Specialist, spending a few months where I had to assume the leadership of the department, thus developing my responsibility, strategic vision and analytical capacity.",
         "two": "Financial Administration-HR",
         "two-one": "Jan. 2020 - Jul. 2024",
         "two-two": "During all this time I have worked in the Finance-HR and Production departments.",
-        "two-three": "I have carried out tasks as Supplier Manager, maintaining control of all supplier billing, invoice payments and due dates, supplier portfolio, purchase orders, inventory control, and receipt and dispatch of materials. And as Head of Working Hours, I managed employee check-ins, incidents, vacations, absences, paid staff leave, and payments in kind.",
+        "two-three": "I have carried out tasks as Supplier Manager, maintaining control of all supplier billing, invoice payments and due dates, supplier portfolio, purchase orders, inventory control, and receipt and dispatch of materials. As Head of Working Hours, I managed employee check-ins, incidents, vacations, absences, paid staff leave, and payments in kind.",
         "three": "April 2024 - Present",
-        "three-one": "Since November 2024 I am creating a website for a professional boxer from the Netherlands",
-        "three-two": "From August to October 2024 I have created a website for a professional photographer from the Netherlands, where she can show her work to attract new clients, show her reviews, and with a blog section where she can upload photos with text written by her, and another gallery section where she uploads her photos with themes",
-        "three-three": "Visit website",
-        "three-four": "From April to July 2024 I have created with 3 colleagues a web application for companies that need to manage their employees' travel expenses,"
+        "three-one": "From August to October 2024 I created a website for a professional photographer from the Netherlands, where she can show her work to attract new clients, show her reviews, and with a blog section where she can upload photos with text written by her, and another gallery section where she uploads her photos with themes",
+        "three-two": "Visit website",
+        "three-three": "From April to July 2024 I created with 3 colleagues a web application for companies that need to manage their employees' travel expenses,"
     }
 }
