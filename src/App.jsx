@@ -99,13 +99,13 @@ function App() {
                   {t("me.second")}
                 </Typography>  <br />
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
-                  {t("me.third")}
+                  {t("me.five")}
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   {t("me.four")}
                 </Typography>
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
-                  {t("me.five")}
+                  {t("me.third")}
                 </Typography>  <br />
                 <Typography className="font-spinnaker text-ang-300 mb-2 md:text-2xl">
                   {t("me.six")}
@@ -164,7 +164,7 @@ function App() {
           <img className='h-24 mr-4' src='../react.png' />
           <img className='h-24 mr-4' src='../vite.svg' />
           <img className='h-24 mr-4' src='../github.png' />
-          <img className='h-24 mr-4' src='../node.png' />
+          <img className='h-16 mr-4' src='../nodejs.svg' />
           <img className='h-20 mr-4' src='../express.png' />
         </Marquee>
         <div>
@@ -218,22 +218,28 @@ function App() {
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">Web Developer</Typography>
+                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">💻 Web Developer</Typography>
                       </div>
                       <div className='flex'>
                         <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">({t("expsection.three")})</Typography>
                       </div>
                       <div className='flex'>
                         <div>
+                          <Typography className="font-spinnaker text-white my-2 md:text-xl font-semibold">
+                            🔥 {t("expsection.three-four")} (Full Stack - MERN)
+                          </Typography>
                           <Typography className="font-spinnaker text-white mb-1 md:text-xl font-semibold">
-                            💻 {t("expsection.three-one")} (Full Stack - MERN)
+                            🔥 {t("expsection.three-one")} (Full Stack - MERN)
                           </Typography>
                           <a className="text-white italic link font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.nanamendozago.com/" >
                             {t("expsection.three-two")}
                           </a>
                           <Typography className="font-spinnaker text-white my-2 md:text-xl font-semibold">
-                            💻 {t("expsection.three-three")} BudgetWise (Full Stack - MERN)
+                            🔥 {t("expsection.three-three")} BudgetWise (Full Stack - MERN)
                           </Typography>
+                          <a className="text-white italic link font-spinnaker m-4 md:text-xl" target='_blanck' href="https://main--tfm-amarillo-frontend.netlify.app/login" >
+                            {t("expsection.three-two")}
+                          </a>
                         </div>
                       </div>
                     </div>

@@ -23,7 +23,7 @@ function Proyecto() {
     return (
         <>
             <NavBar />
-            <div className="flex justify-center animate__animated animate__fadeInDown m-3">
+            <div className="flex justify-center animate__animated animate__fadeInDown mt-8">
                 <img
                     className="max-h-32 max-w-38 rounded-lg object-cover object-center"
                     src="../proyecto.png"
@@ -31,9 +31,16 @@ function Proyecto() {
                 />
             </div>
             <div className="flex justify-center animate__animated animate__fadeInDown">
-                <Typography className="lg:text-2xl font-spinnaker text-white mx-6 mb-6 max-w-[65rem]">
+                <Typography className="lg:text-2xl font-spinnaker text-white mx-6 mb-8 max-w-[65rem]">
                     {t("wise.description")}
                 </Typography>
+            </div>
+            <div className="flex justify-center animate__animated animate__fadeInDown">
+                <a target='_blanck' href="https://main--tfm-amarillo-frontend.netlify.app/login" >
+                    <Typography className="link font-spinnaker lg:text-2xl text-white mx-6 mb-8 max-w-[65rem] italic">
+                        {t("wise.goto")}
+                    </Typography>
+                </a>
             </div>
             <div className="flex budget justify-around animate__animated animate__fadeInDown">
                 <div className="lg:mx-10 mx-6 max-w-[30rem]" >
