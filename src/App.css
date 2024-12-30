@@ -8,11 +8,10 @@
   --negro: black;
   --negroTransparente: #000000bf;
   --verdeBosque: "#42490d";
-  background-color: var(--verdeBosque);
 }
 
 body {
-  background-color: var(--verdeBosque);
+  background-color: var(--negro);
 }
 
 .texto {
@@ -144,4 +143,8 @@ body {
   box-shadow: 0 0 0.6em .25em var(--glow-color),
     0 0 2.5em 2em var(--glow-spread-color),
     inset 0 0 .5em .25em var(--glow-color);
+}
+
+.fondosteper {
+  background-color: #d496a7;
 }

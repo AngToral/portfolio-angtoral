@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 function Bitacora() {
     useEffect(() => {
-        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../bitacora.webp')"
+        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url('../fondo1.png')"
     })
 
     const [t, i18n] = useTranslation("binnacle")

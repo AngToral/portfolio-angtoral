@@ -26,8 +26,8 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                         </p>
                     </div>
                     <div className="w-full">
-                        <Carousel className="rounded-xl md:pb-6 pb-10">
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                        <Carousel className="rounded-xl md:pb-5 pb-10">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
                                 <div className="w-full md:px-20 px-5 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}
@@ -109,7 +109,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                     </Stepper>
                                 </div>
                             </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
                                 <div className="w-full md:px-20 px-4 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}
@@ -191,7 +191,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                     </Stepper>
                                 </div>
                             </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
                                 <div className="w-full md:px-20 px-4 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}
@@ -273,7 +273,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                     </Stepper>
                                 </div>
                             </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
                                 <div className="w-full md:px-20 px-4 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}
@@ -355,7 +355,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                     </Stepper>
                                 </div>
                             </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
                                 <div className="w-full md:px-20 px-4 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}
@@ -437,7 +437,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                     </Stepper>
                                 </div>
                             </CardHeader>
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center md:mx-0 mx-9">
                                 <div className="md:w-[500px] w-[200px] md:px-20 px-4 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}

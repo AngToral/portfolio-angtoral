@@ -26,7 +26,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                             </p>
                         </div>
                         <div className="w-full">
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center">
                                 <div className="w-full lg:px-20 px-4 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}

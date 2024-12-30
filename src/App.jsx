@@ -18,7 +18,7 @@ import { useTranslation } from 'react-i18next';
 
 function App() {
   useEffect(() => {
-    document.body.style.background = "black"
+    document.body.style.background = "#42490d"
   })
 
   const [t, i18n] = useTranslation("home")
@@ -39,7 +39,7 @@ function App() {
         <div className='items-center flex flex-wrap pt-10 place-content-center'>
           <div >
             <img
-              className="animate__animated animate__backInRight h-96 w-96 rounded-full object-cover object-center"
+              className="animate__animated animate__backInRight h-96 w-96 object-cover object-center"
               src="../angela.png"
               alt="foto-perfil-angela-toral"
             />
@@ -177,10 +177,10 @@ function App() {
                   </div>
                   <div className='align-center place-content-center mr-4'>
                     <div className='flex '>
-                      <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">{t("edusection.master")}</Typography>
+                      <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-semibold">{t("edusection.master")}</Typography>
                     </div>
                     <div className='flex'>
-                      <Typography className="font-spinnaker text-black mb-2 md:text-xl font-semibold">Nuclio Digital School, Madrid (2024)</Typography>
+                      <Typography className="font-spinnaker text-black mb-2 md:text-xl">Nuclio Digital School, Madrid (2024)</Typography>
                     </div>
                   </div>
                 </div>
@@ -196,10 +196,10 @@ function App() {
                   </div>
                   <div className='align-center place-content-center mr-4'>
                     <div className='flex'>
-                      <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">{t("edusection.ade")}</Typography>
+                      <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-semibold">{t("edusection.ade")}</Typography>
                     </div>
                     <div className='flex'>
-                      <Typography className="font-spinnaker text-black mb-2 md:text-xl font-semibold">Universidad Católica Andrés Bello, Caracas (2019)</Typography>
+                      <Typography className="font-spinnaker text-black mb-2 md:text-xl">Universidad Católica Andrés Bello, Caracas (2019)</Typography>
                     </div>
                   </div>
                 </div>
@@ -216,20 +216,20 @@ function App() {
                         <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">💻 Web Developer</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-black mb-2 md:text-base font-semibold">({t("expsection.three")})</Typography>
+                        <Typography className="font-spinnaker text-black mb-2 md:text-base">({t("expsection.three")})</Typography>
                       </div>
                       <div className='flex'>
                         <div>
-                          <Typography className="font-spinnaker text-black my-2 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-black my-2 md:text-xl">
                             🔥 {t("expsection.three-four")} (Full Stack - MERN)
                           </Typography>
-                          <Typography className="font-spinnaker text-black mb-1 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-black mb-1 md:text-xl">
                             🔥 {t("expsection.three-one")} (Full Stack - MERN)
                           </Typography>
                           <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.nanamendozago.com/" >
                             {t("expsection.three-two")} &nbsp; <p className='text-red-600 text-2xl'>!!</p>
                           </a>
-                          <Typography className="font-spinnaker text-black my-2 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-black my-2 md:text-xl">
                             🔥 {t("expsection.three-three")} BudgetWise (Full Stack - MERN)
                           </Typography>
                           <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://main--tfm-amarillo-frontend.netlify.app/login" >
@@ -242,21 +242,21 @@ function App() {
                 </Card>
               </ScrollAnimation>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-                <Card className="p-4 m-4 bg-ang-500 max-w-[600px]">
+                <Card className="p-4 m-4 bg-ang-900 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-2xl font-bold">{t("expsection.two")}</Typography>
+                        <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">{t("expsection.two")}</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-white mb-2 md:text-base font-semibold">NVLS, Madrid ({t("expsection.two-one")})</Typography>
+                        <Typography className="font-spinnaker text-black mb-2 md:text-base">NVLS, Madrid ({t("expsection.two-one")})</Typography>
                       </div>
                       <div className='flex'>
                         <div>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                             {t("expsection.two-two")}
                           </Typography>
-                          <Typography className="font-spinnaker text-white mb-2 md:text-xl font-semibold">
+                          <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                             {t("expsection.two-three")}
                           </Typography>
                         </div>
@@ -273,10 +273,10 @@ function App() {
                         <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">{t("expsection.one")}</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-black mb-2 md:text-base font-semibold">UCAB, Caracas ({t("expsection.one-one")})</Typography>
+                        <Typography className="font-spinnaker text-black mb-2 md:text-base">UCAB, Caracas ({t("expsection.one-one")})</Typography>
                       </div>
                       <div className='flex'>
-                        <Typography className="font-spinnaker text-black mb-2 md:text-xl font-semibold">
+                        <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                           {t("expsection.one-two")}
                         </Typography>
                       </div>
