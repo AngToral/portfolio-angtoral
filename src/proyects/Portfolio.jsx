@@ -10,7 +10,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
         <div>
             <div className="mx-6 animate__animated animate__fadeInDown">
                 <Accordion open={openAccordion === 1} icon={<Icon id={1} open={openAccordion} />}>
-                    <AccordionHeader onClick={() => handleOpenAccordion(1)} className="md:text-2xl text-lg font-semibold font-shantell text-white hover:text-white">
+                    <AccordionHeader onClick={() => handleOpenAccordion(1)} className="md:text-2xl text-lg font-semibold font-spinnaker text-white hover:text-white">
                         <div className="flex flex-col md:flex-row justify-start">
                             {t("portfolio.tittle")}
                             <p className="italic md:ml-2">(Jul. 2024)</p>
@@ -40,7 +40,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(1)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     1
                                                 </Typography>
                                             </div>
@@ -52,7 +52,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(2)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     2
                                                 </Typography>
                                             </div>
@@ -64,7 +64,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(3)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     3
                                                 </Typography>
                                             </div>
@@ -76,7 +76,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(4)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     4
                                                 </Typography>
                                             </div>
@@ -88,7 +88,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(5)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     5
                                                 </Typography>
                                             </div>
@@ -100,7 +100,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(6)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     6
                                                 </Typography>
                                             </div>

@@ -36,7 +36,7 @@ function NavBar() {
                         <Button
                             variant="text"
                             size="lg"
-                            className="font-shantell hidden lg:inline-block text-ang-300 text-lg"
+                            className="normal-case font-spinnaker hidden lg:inline-block text-ang-300 text-lg"
                             onClick={handleHome}
                         >
                             <span>Home</span>
@@ -46,21 +46,21 @@ function NavBar() {
                                 <div className="flex items-center gap-x-1 mr-6">
                                     <Button
                                         variant="text"
-                                        className="font-shantell hidden lg:inline-block text-ang-300 text-lg"
+                                        className="normal-case font-spinnaker hidden lg:inline-block text-ang-300 text-lg"
                                         onClick={handleBitacora}
                                     >
                                         <span>{t("navbar.binnacle")}</span>
                                     </Button>
                                     <Button
                                         variant="text"
-                                        className="font-shantell hidden lg:inline-block text-ang-300 text-lg"
+                                        className="normal-case font-spinnaker hidden lg:inline-block text-ang-300 text-lg"
                                         onClick={handleHistoria}
                                     >
                                         <span>{t("navbar.history")}</span>
                                     </Button>
                                     <Menu>
                                         <MenuHandler>
-                                            <Button variant="text" className="font-display flex text-ang-300 link text-lg normal-case">
+                                            <Button variant="text" className="font-spinnaker flex text-ang-300 link text-lg normal-case">
                                                 {t("navbar.language")}<FaAngleDown />
                                             </Button>
                                         </MenuHandler>
@@ -112,13 +112,13 @@ function NavBar() {
                     </div>
                     <Collapse open={openNav}>
                         <div className="flex justify-center gap-x-1">
-                            <Button variant="gradient" size="sm" onClick={handleHome} className="font-shantell text-ang-300">
-                                <span>Home</span>
+                            <Button variant="gradient" size="sm" onClick={handleHome} className="normal-case font-spinnaker text-ang-300">
+                                <span >Home</span>
                             </Button>
-                            <Button variant="gradient" size="sm" onClick={handleBitacora} className="font-shantell text-ang-300">
+                            <Button variant="gradient" size="sm" onClick={handleBitacora} className="normal-case font-spinnaker text-ang-300">
                                 <span>{t("navbar.binnacle")}</span>
                             </Button>
-                            <Button variant="gradient" size="sm" onClick={handleHistoria} className="font-shantell text-ang-300">
+                            <Button variant="gradient" size="sm" onClick={handleHistoria} className="normal-case font-spinnaker text-ang-300">
                                 <span>{t("navbar.history")}</span>
                             </Button>
                         </div>

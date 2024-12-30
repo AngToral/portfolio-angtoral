@@ -17,16 +17,17 @@ module.exports = withMT({
   theme: {
     extend: {
       fontFamily: {
-        shantell: ['"Shantell Sans"'], //quitar
-        spinnaker: ['"Spinnaker"'] //creo que es la normal
+        eyesomeScript: "EyesomeScript",
+        eyesomeRegular: "EyesomeRegular",
+        spinnaker: ['"Spinnaker"']
       },
       colors: {
         ang: {
           50: "#transparent", //trasparente
-          100: "#d496a7", //rosa oscuro
-          200: "#156064", //verde
+          100: "#42490d", //verde bosque
+          200: "#5d6712", //verde
           300: "#cdcdcd", //gris
-          400: "#facaca", //rosa claro
+          400: "#eee0c9", //beige claro
           500: "#000000bf", //negro transparente
           600: "#FFFFFFbf", //blanco transparente
           700: "#33b990", //verde budget

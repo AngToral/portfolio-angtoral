@@ -37,7 +37,7 @@ function Bitacora() {
         <>
             <NavBar />
             <div className="flex flex-col justify-center items-center animate__animated animate__fadeInDown">
-                <p className="md:text-2xl text-lg font-bold font-shantell text-white mt-6">
+                <p className="md:text-2xl text-lg font-bold font-spinnaker text-white mt-6">
                     {t("notebook.tittle")}
                 </p>
                 <p className="md:text-lg font-spinnaker text-white max-w-[65rem] m-6">

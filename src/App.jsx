@@ -40,23 +40,23 @@ function App() {
           <div >
             <img
               className="animate__animated animate__backInRight h-96 w-96 rounded-full object-cover object-center"
-              src="../angela.webp"
+              src="../angela.png"
               alt="foto-perfil-angela-toral"
             />
           </div>
           <div className="info animate__animated animate__backInLeft flex flex-col">
-            <h1 className="font-shantell text-ang-400 texto mb-2 text-5xl">
+            <h1 className="font-eyesomeScript text-ang-200 texto mb-2 text-5xl">
               Angela Toral
             </h1>
-            <h2 className="font-shantell text-ang-400 texto mb-2 text-3xl">
-              FULL STACK DEVELOPER
+            <h2 className="font-spinnaker text-ang-200 texto mb-2 text-3xl">
+              Full Stack Developer
             </h2>
-            <h2 className="font-shantell text-ang-400 texto mb-2 text-2xl">
+            <h2 className="font-spinnaker text-ang-200 texto mb-2 text-2xl">
               angtoral.dev@gmail.com
             </h2>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
-                value={{ color: '#facaca' }}
+                value={{ color: '#5d6712' }}
               >
                 <a target='_blanck' href="https://www.linkedin.com/in/angela-toral/">
                   <FaLinkedin className='link ml-4 h-10 w-10' />
@@ -71,10 +71,10 @@ function App() {
                   <Collapse open={open}>
                     <Card className="bg-black">
                       <CardBody className='flex flex-col'>
-                        <a className="font-spinnaker text-ang-400 mb-1" target='_blanck' href="../cv-angela-toral-en.pdf" download={true} onClick={toggleOpen}>
+                        <a className="font-spinnaker text-ang-200 mb-1" target='_blanck' href="../cv-angela-toral-en.pdf" download={true} onClick={toggleOpen}>
                           English
                         </a>
-                        <a className="font-spinnaker text-ang-400" target='_blanck' href="../cv-angela-toral-es.pdf" download={true} onClick={toggleOpen}>
+                        <a className="font-spinnaker text-ang-200" target='_blanck' href="../cv-angela-toral-es.pdf" download={true} onClick={toggleOpen}>
                           Español
                         </a>
                       </CardBody>
@@ -143,7 +143,7 @@ function App() {
           </ScrollAnimation>
           <div className='flex justify-center mr-10 max-w-[500px]'>
             <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-              <Typography variant="h4" className="ml-10 font-spinnaker text-ang-300">
+              <Typography className="ml-10 font-spinnaker text-ang-300 md:text-xl">
                 {t("budgetwise.resume")}
               </Typography>
               <div className='flex justify-center'>
@@ -170,7 +170,7 @@ function App() {
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0 bg-ang-500'>
             <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
-              <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>{t("edusection.education")}</Typography>
+              <Typography className='flex justify-center font-spinnaker text-white md:text-3xl font-bold'>{t("edusection.education")}</Typography>
               <Card className="m-4 bg-ang-50">
                 <div className='flex align-center'>
                   <div className='m-6 items-center flex place-content-center'>
@@ -213,7 +213,7 @@ function App() {
             {/* Cambio de sección a Experiencia */}
             <div>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-                <Typography className='flex justify-center font-shantell text-white md:text-3xl font-bold'>{t("expsection.experience")}</Typography>
+                <Typography className='flex justify-center font-spinnaker text-white md:text-3xl font-bold'>{t("expsection.experience")}</Typography>
                 <Card className="p-4 m-4 bg-ang-50 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
@@ -297,7 +297,7 @@ function App() {
         <ul className="ml-6 flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
             <Typography
-              className="font-shantell text-ang-400"
+              className="font-spinnaker text-ang-200"
             >
               angtoral.dev@gmail.com
             </Typography>
@@ -308,7 +308,7 @@ function App() {
               as="a"
               download={true}
               href="../cv-angela-toral-en.pdf"
-              className="font-shantell text-ang-400 link"
+              className="font-spinnaker text-ang-200 link"
             >
               CV
             </Typography>
@@ -318,7 +318,7 @@ function App() {
               target='_blanck'
               as="a"
               href="https://www.linkedin.com/in/angela-toral/"
-              className="font-shantell text-ang-400 link"
+              className="font-spinnaker text-ang-200 link"
             >
               LinkedIn
             </Typography>
@@ -328,14 +328,14 @@ function App() {
               target='_blanck'
               as="a"
               href="https://github.com/AngToral"
-              className="mr-6 font-shantell text-ang-400 link"
+              className="mr-6 font-spinnaker text-ang-200 link"
             >
               GitHub
             </Typography>
           </li>
         </ul>
         <div>
-          <Typography className="mr-6 font-shantell text-ang-400">
+          <Typography className="mr-6 font-spinnaker text-ang-200">
             2024 - React, Vite, Javascript, Tailwind CSS, Material-Tailwind
           </Typography>
         </div>

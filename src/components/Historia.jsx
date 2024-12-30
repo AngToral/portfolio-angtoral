@@ -40,11 +40,11 @@ function Historia() {
                     <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
                         <div className="w-3/4 text-center md:w-2/4">
                             <Typography
-                                className="md:text-4xl font-bold font-shantell text-ang-300 mb-4 text-3xl md:text-4xl lg:text-5xl"
+                                className="md:text-4xl font-bold font-spinnaker text-ang-300 mb-4 text-3xl md:text-4xl lg:text-5xl"
                             >
                                 {t("story.hello")}
                             </Typography>
-                            <Typography className="md:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="md:text-3xl font-semibold font-spinnaker text-ang-300 texto mb-2">
                                 {t("story.intro")}
                             </Typography>
                         </div>
@@ -139,11 +139,11 @@ function Historia() {
                     <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
                         <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
                             <Typography
-                                className="md:text-4xl font-bold font-shantell text-ang-300 mb-4 text-3xl md:text-4xl lg:text-5xl"
+                                className="md:text-4xl font-bold font-spinnaker text-ang-300 mb-4 text-3xl md:text-4xl lg:text-5xl"
                             >
                                 {t("story.page6-1")}
                             </Typography>
-                            <Typography className="md:text-3xl font-semibold font-shantell text-ang-300 texto mb-2">
+                            <Typography className="md:text-3xl font-semibold font-spinnaker text-ang-300 texto mb-2">
                                 {t("story.page6-2")}
                             </Typography>
                         </div>

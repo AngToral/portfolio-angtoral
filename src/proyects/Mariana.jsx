@@ -9,7 +9,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
     return (
         <div className="mx-6 animate__animated animate__fadeInDown">
             <Accordion open={openAccordion === 2} icon={<Icon id={2} open={openAccordion} />}>
-                <AccordionHeader onClick={() => handleOpenAccordion(2)} className="text-white md:text-2xl text-lg font-semibold font-shantell hover:text-white">
+                <AccordionHeader onClick={() => handleOpenAccordion(2)} className="text-white md:text-2xl text-lg font-semibold font-spinnaker hover:text-white">
                     <div className="flex flex-col md:flex-row justify-start">
                         <p>{t("mariana.tittle")}</p>
                         <p className="md:mx-2 italic">(Ago. 2024)</p>
@@ -41,7 +41,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(7)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     1
                                                 </Typography>
                                             </div>
@@ -53,7 +53,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(8)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     2
                                                 </Typography>
                                             </div>
@@ -65,7 +65,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(9)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     3
                                                 </Typography>
                                             </div>
@@ -77,7 +77,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(10)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     4
                                                 </Typography>
                                             </div>
@@ -89,7 +89,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(11)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     5
                                                 </Typography>
                                             </div>
@@ -101,7 +101,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(12)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     6
                                                 </Typography>
                                             </div>
@@ -123,7 +123,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(13)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     7
                                                 </Typography>
                                             </div>
@@ -135,7 +135,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(14)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     8
                                                 </Typography>
                                             </div>
@@ -147,7 +147,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(15)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     9
                                                 </Typography>
                                             </div>
@@ -159,7 +159,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(16)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     10
                                                 </Typography>
                                             </div>
@@ -171,7 +171,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(17)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     11
                                                 </Typography>
                                             </div>
@@ -183,7 +183,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(18)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     12
                                                 </Typography>
                                             </div>
@@ -205,7 +205,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(19)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     13
                                                 </Typography>
                                             </div>
@@ -217,7 +217,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(20)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     14
                                                 </Typography>
                                             </div>
@@ -229,7 +229,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(21)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     15
                                                 </Typography>
                                             </div>
@@ -241,7 +241,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(22)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     16
                                                 </Typography>
                                             </div>
@@ -253,7 +253,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(23)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     17
                                                 </Typography>
                                             </div>
@@ -265,7 +265,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(24)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     18
                                                 </Typography>
                                             </div>
@@ -287,7 +287,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(25)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     19
                                                 </Typography>
                                             </div>
@@ -299,7 +299,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(26)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     20
                                                 </Typography>
                                             </div>
@@ -311,7 +311,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(27)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     21
                                                 </Typography>
                                             </div>
@@ -323,7 +323,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(28)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     22
                                                 </Typography>
                                             </div>
@@ -335,7 +335,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(29)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     23
                                                 </Typography>
                                             </div>
@@ -347,7 +347,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(30)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     24
                                                 </Typography>
                                             </div>
@@ -369,7 +369,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(31)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     25
                                                 </Typography>
                                             </div>
@@ -381,7 +381,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(32)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     26
                                                 </Typography>
                                             </div>
@@ -393,7 +393,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(33)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     27
                                                 </Typography>
                                             </div>
@@ -405,7 +405,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(34)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     28
                                                 </Typography>
                                             </div>
@@ -417,7 +417,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(35)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     29
                                                 </Typography>
                                             </div>
@@ -429,7 +429,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(36)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     30
                                                 </Typography>
                                             </div>
@@ -451,7 +451,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(37)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     31
                                                 </Typography>
                                             </div>
@@ -463,7 +463,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                                             onClick={() => setActiveStep(38)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     32
                                                 </Typography>
                                             </div>
