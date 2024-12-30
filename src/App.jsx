@@ -288,7 +288,7 @@ function App() {
           </div>
         </div>
       </div >
-      <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-black py-6 text-center md:justify-between">
+      <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-ang-400 py-6 text-center md:justify-between">
         <ul className="ml-6 flex flex-wrap items-center gap-y-2 gap-x-8">
           <li>
             <Typography

@@ -16,7 +16,7 @@ function Historia() {
             <NavBar />
             <Carousel
                 transition={{ duration: 1 }}
-                className="rounded-xl m-6 h-[56rem] animate__animated animate__fadeIn"
+                className="rounded-xl m-6 h-screen animate__animated animate__fadeIn"
                 loop={true}
                 navigation={({ setActiveIndex, activeIndex, length }) => (
                     <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
