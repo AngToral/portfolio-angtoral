@@ -17,8 +17,8 @@ module.exports = withMT({
   theme: {
     extend: {
       fontFamily: {
-        shantell: ['"Shantell Sans"'],
-        spinnaker: ['"Spinnaker"']
+        shantell: ['"Shantell Sans"'], //quitar
+        spinnaker: ['"Spinnaker"'] //creo que es la normal
       },
       colors: {
         ang: {
