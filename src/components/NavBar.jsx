@@ -31,12 +31,12 @@ function NavBar() {
     return (
         <>
             <div className="max-h-[768px] sticky top-0 z-50">
-                <Navbar className="fixed border-transparent bg-black sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+                <Navbar className="fixed border-transparent bg-ang-100 sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
                     <div className="flex justify-between items-center">
                         <Button
                             variant="text"
                             size="lg"
-                            className="normal-case font-spinnaker hidden lg:inline-block text-ang-300 text-lg"
+                            className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
                             onClick={handleHome}
                         >
                             <span>Home</span>
@@ -46,21 +46,21 @@ function NavBar() {
                                 <div className="flex items-center gap-x-1 mr-6">
                                     <Button
                                         variant="text"
-                                        className="normal-case font-spinnaker hidden lg:inline-block text-ang-300 text-lg"
+                                        className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
                                         onClick={handleBitacora}
                                     >
                                         <span>{t("navbar.binnacle")}</span>
                                     </Button>
                                     <Button
                                         variant="text"
-                                        className="normal-case font-spinnaker hidden lg:inline-block text-ang-300 text-lg"
+                                        className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
                                         onClick={handleHistoria}
                                     >
                                         <span>{t("navbar.history")}</span>
                                     </Button>
                                     <Menu>
                                         <MenuHandler>
-                                            <Button variant="text" className="font-spinnaker flex text-ang-300 link text-lg normal-case">
+                                            <Button variant="text" className="font-spinnaker flex text-ang-400 text-lg normal-case">
                                                 {t("navbar.language")}<FaAngleDown />
                                             </Button>
                                         </MenuHandler>

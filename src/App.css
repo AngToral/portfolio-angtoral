@@ -7,11 +7,12 @@
   --marron: #774936;
   --negro: black;
   --negroTransparente: #000000bf;
-  color: var(--rosaClaro);
+  --verdeBosque: "#42490d";
+  background-color: var(--verdeBosque);
 }
 
 body {
-  background-color: var(--negro);
+  background-color: var(--verdeBosque);
 }
 
 .texto {
@@ -19,9 +20,26 @@ body {
 }
 
 .link:hover {
+  animation-name: Getbigger;
+  animation-fill-mode: both;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+@keyframes Getbigger {
+  0% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 1.1;
+  }
+}
+
+.link2:hover {
   animation-name: Getbig;
   animation-fill-mode: both;
-  color: rgba(255, 255, 255);
+  color: rgb(44, 107, 77);
   cursor: pointer;
 }
 
@@ -35,17 +53,14 @@ body {
   }
 
   100% {
-    scale: 1.1;
+    scale: 1.03;
   }
 }
 
-.encabezado {
-  background-image: url("../laptop.webp");
-  opacity: 0.9;
-}
-
+.encabezado,
 .final {
-  background-image: url("../laptop2.webp");
+  background-image: url("../fondo.png");
+  /* opacity: 0.9; */
 }
 
 .video {
@@ -55,8 +70,7 @@ body {
 @media screen and (max-width: 700px) {
   .info {
     align-items: center;
-    background-color: var(--negroTransparente);
-    padding: 10px;
+    margin-top: 30px;
     border-radius: 15px;
   }
 

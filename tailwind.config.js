@@ -31,7 +31,8 @@ module.exports = withMT({
           500: "#000000bf", //negro transparente
           600: "#FFFFFFbf", //blanco transparente
           700: "#33b990", //verde budget
-          800: "#cdcdcdbf", //fris transparente
+          800: "#cdcdcdbf", //gris transparente
+          900: "#eee0c9bf", //beige transparente
         },
       },
     },
