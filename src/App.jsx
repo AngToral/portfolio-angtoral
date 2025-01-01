@@ -124,6 +124,9 @@ function App() {
               <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
                 {t("me.eleven")}
               </Typography>  <br />
+              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+                {t("me.twelve")}
+              </Typography>  <br />
             </div>
           </div>
         </div>

@@ -6,18 +6,18 @@
     },
     "me": {
         "aboutme": "Sobre mí",
-        "first": "¡Hola! 😊 Soy Angela, y tengo más de una década resolviendo desafíos en el mundo empresarial: en Compras, Operaciones y Financiero. Además, sé programar aplicaciones web.",
+        "first": "¡Hola! 😊 Soy Angela, y tengo más de una década resolviendo desafíos en el mundo empresarial: en Compras, Operaciones y Financiero. Y además, sé programar aplicaciones web.",
         "second": "Con mi experiencia en administración, combinada con mis nuevos conocimientos en el desarrollo web, tengo un perfil que abarca desde la gestión y optimización de procesos hasta el despliegue de una aplicación web.",
         "third": "📊 Tengo una visión integral de procesos operativos, financieros, y administrativos.",
         "four": "💡 Soy organizada, creativa, meticulosa, resolutiva, detallista, perseverante, perfeccionista, me encanta aprender, trabajar en equipo, mejorar siempre, y además",
         "five": "💻 Manejo Excel, ERP, React, Node.js, Express.js, MongoDB, JavaScript, HTML, CSS, control de versiones Git,",
         "six": "Mi destreza administrativa se puede ver desde el 2014 que empecé a trabajar en esto, pasando por varios departamentos, y siempre con resultados óptimos de mi trabajo.",
-        "seven": "Mis proyectos personales demuestran mi capacidad para:",
+        "seven": "Y mis proyectos personales demuestran mi capacidad para:",
         "eight": "⭐️ Desarrollar aplicaciones web desde cero, desde el diseño hasta el despliegue.",
         "nine": "⭐️ Crear interfaces de usuario intuitivas y responsivas.",
         "ten": "⭐️ Implementar soluciones backend.",
         "eleven": "⭐️ Trabajar de forma autónoma y en equipo.",
-        "twelve": "Conecta conmigo si te ha interesado mi perfil, y crees que podemos crear algo único ✨"
+        "twelve": "Abajo, algunos de mis proyectos ✨"
     },
     "budgetwise": {
         "resume": "Una app web que realicé con mis compañeros para el TFM, que gestiona los gastos de viajes de empleados en las empresas.",
