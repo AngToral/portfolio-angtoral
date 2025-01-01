@@ -39,19 +39,19 @@ function App() {
         <div className='items-center flex flex-wrap pt-10 place-content-center'>
           <div >
             <img
-              className="animate__animated animate__backInRight h-96 w-96 object-cover object-center"
+              className="animate__animated animate__backInRight md:h-96 md:w-96 h-80 w-80 object-cover object-center"
               src="../angela.png"
               alt="foto-perfil-angela-toral"
             />
           </div>
           <div className="info animate__animated animate__backInLeft flex flex-col">
-            <h1 className="font-eyesomeScript text-ang-200 texto mb-2 text-5xl">
+            <h1 className="font-eyesomeScript text-ang-100 texto mb-2 text-5xl">
               Angela Toral
             </h1>
-            <h2 className="font-spinnaker text-ang-200 texto mb-2 text-3xl">
+            <h2 className="font-spinnaker text-ang-100 texto mb-2 text-3xl">
               Full Stack Developer
             </h2>
-            <h2 className="font-spinnaker text-ang-200 texto mb-2 text-2xl">
+            <h2 className="font-spinnaker text-ang-100 texto mb-2 text-2xl">
               angtoral.dev@gmail.com
             </h2>
             <div className='mt-2 inline-flex'>
