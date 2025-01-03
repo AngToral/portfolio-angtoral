@@ -24,8 +24,8 @@
         "more": "...more"
     },
     "mariana": {
-        "summary": "Resumen",
-        "functions": "Funcionalidades"
+        "functions1": "A website dedicated to showcasing the work of a photographer, with her own gallery section where she uploads her photos with themes, which can be searched and filtered according to interest. It also has a blog-type section, where she uploads photos with text written by her, describing the story behind each photo. And you can also see reviews from clients who have already worked with her.",
+        "functions2": "With all this, the photographer's functionalities are: login and logout, password recovery, reset, as well as email, show/upload/edit/delete: photos to gallery with maximum 2 themes, photos with text to blog; receive contact requests through a form, and send requests for new reviews to clients."
     },
     "edusection": {
         "education": "Education",

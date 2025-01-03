@@ -13,7 +13,7 @@
 .link:hover {
   animation-name: Getbigger;
   animation-fill-mode: both;
-  color: var(--beigeClaro);
+  color: white;
   cursor: pointer;
 }
 

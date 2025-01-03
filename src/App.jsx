@@ -131,7 +131,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='proyecto lg:pl-6 items-center flex pt-6 pb-6 place-content-center bg-ang-100'>
+      <div className='proyecto lg:px-6 items-center flex pt-4 pb-6 place-content-center bg-ang-100'>
         <div className='flex flex-col items-center justify-center lg:w-1/2'>
           <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
             <video className="rounded-lg" controls>
@@ -152,21 +152,23 @@ function App() {
             </ScrollAnimation>
           </div>
         </div>
-        <div className='proyecto flex flex-col items-center justify-center lg:w-1/2'>
+        <div className='proyecto flex flex-col items-center justify-center lg:w-1/2 ml-6'>
           <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
-            <img className='max-h-96 w-auto mr-4' src='../mariana.avif' />
+            <img className='max-h-72 w-auto mr-4' src='../mariana.avif' />
           </ScrollAnimation>
           <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
             <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
-              {t("mariana.summary")}
+              {t("mariana.functions1")}
             </Typography>
             <Typography className="flex justify-center mt-6 font-spinnaker text-ang-300 md:text-xl">
-              {t("mariana.functions")}
+              {t("mariana.functions2")}
             </Typography>
             <div className='flex justify-center'>
-              <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-4'>
-                {t("expsection.three-two")}
-              </Button>
+              <a href="https://www.nanamendozago.com/" target="_blanck">
+                <Button className='font-spinnaker text-ang-300 mt-4'>
+                  {t("expsection.three-two")}
+                </Button>
+              </a>
             </div>
           </ScrollAnimation>
         </div>

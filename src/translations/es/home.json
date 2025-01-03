@@ -24,8 +24,8 @@
         "more": "...más"
     },
     "mariana": {
-        "summary": "Resumen",
-        "functions": "Funcionalidades"
+        "functions1": "Una web destinada a mostrar el trabajo de una fotógrafa, con su propia sección de galería donde sube sus fotos con temas, las cuales de pueden buscar y filtrar según interés. También cuenta con un apartado tipo blog, donde sube fotos con texto escrito por ella, que describen la historia detrás de cada foto. Y también, se pueden ver las reseñas de clientes que ya han trabajado con ella.",
+        "functions2": "Con todo esto, las funcionalidades de la fotógrafa son: login y logout, recuperar contraseña, reestablecerla, así como el email, mostrar/subir/editar/eliminar: fotos a galería con máximo 2 temas, fotos con texto a blog; recibir solicitudes de contacto por medio de un formulario, y enviar peticiones de nuevas reseñas a los clientes."
     },
     "edusection": {
         "education": "Educación",
@@ -42,7 +42,7 @@
         "two-two": "En todo este tiempo he trabajo en el departamento de Finanzas-RRHH y el de Producción. Mis herramientas diarias, además del Excel, era el A3ERP y una aplicación web de gestión de fichajes.",
         "two-three": "He desarrollado tareas como Responsable de Proveedores nacionales e internacionales manteniendo el control de toda la facturación de proveedores, pagos y vencimiento de facturas, cartera de proveedores, pedidos de compra, control de inventario, e ingreso y despacho de material. Y como Responsable de Jornada, gestioné los fichajes de los empleados, incidencias, vacaciones, ausencias, permisos retribuidos del personal, y pagos en especie.",
         "three": "Abril 2024 - Actualidad",
-        "three-one": "Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde muestra su trabajo para captar clientes nuevos, las reseñas de clientes que ya han trabajado con ella, y con un apartado tipo blog donde subir fotos con texto escrito por ella, y otro de galería donde sube sus fotos con temas, las cuales de pueden buscar y filtrar según interés.",
+        "three-one": "Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, para mostrar su trabajo y captar clientes nuevos.",
         "three-two": "Visitar web",
         "three-three": "Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar los gastos de viajes de sus empleados,",
         "three-four": "Desde finales de diciembre estoy desarrollando una web para un boxeador profesional de Países Bajos, quien no solo quiere mostrar su experiencia en el deporte, sino que quiere vender sus servicios como entrenador personal, tanto en persona como online. Esta web será su plataforma de ventas y un espacio donde cada cliente podrá disfrutar del contenido de Joshua según su suscripción."
