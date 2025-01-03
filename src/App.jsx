@@ -45,18 +45,18 @@ function App() {
             />
           </div>
           <div className="info animate__animated animate__backInLeft flex flex-col">
-            <h1 className="font-eyesomeScript text-ang-100 texto mb-2 text-5xl">
+            <h1 className="font-eyesomeScript text-brand-200 texto mb-2 text-5xl">
               Angela Toral
             </h1>
-            <h2 className="font-spinnaker text-ang-100 texto mb-2 text-3xl">
+            <h2 className="font-spinnaker text-brand-200 texto mb-2 text-3xl">
               Full Stack Developer
             </h2>
-            <h2 className="font-spinnaker text-ang-100 texto mb-2 text-2xl">
+            <h2 className="font-spinnaker text-brand-200 texto mb-2 text-2xl">
               angtoral.dev@gmail.com
             </h2>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
-                value={{ color: '#5d6712' }}
+                value={{ color: '#39350f' }}
               >
                 <a target='_blanck' href="https://www.linkedin.com/in/angela-toral/">
                   <FaLinkedin className='link ml-4 h-10 w-10' />

@@ -1,27 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=spinnaker+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-  --verde: #156064;
-  --rosaClaro: #f1dede;
-  --rosaOscuro: #d496a7;
-  --marron: #774936;
-  --negro: black;
+  --verdeBosque: #42490d;
+  --verdeClaro: #aaab80;
+  --verdeOscuro: #39350f;
+  --verdeBicho: #919236;
+  --beigeClaro: #f2e2bc;
+  --marron: #5a4130;
   --negroTransparente: #000000bf;
-  --verdeBosque: "#42490d";
-}
-
-body {
-  background-color: var(--negro);
-}
-
-.texto {
-  color: var(--rosaClaro);
 }
 
 .link:hover {
   animation-name: Getbigger;
   animation-fill-mode: both;
-  color: rgb(255, 255, 255);
+  color: var(--beigeClaro);
   cursor: pointer;
 }
 
@@ -43,7 +35,7 @@ body {
 }
 
 .link:active {
-  color: var(--rosaOscuro);
+  color: var(--verdeOscuro);
 }
 
 @keyframes Getbig {

@@ -27,13 +27,21 @@ module.exports = withMT({
           100: "#42490d", //verde bosque
           200: "#5d6712", //verde
           300: "#cdcdcd", //gris
-          400: "#eee0c9", //beige claro
+          400: "#eee0c9", //beige
           500: "#000000bf", //negro transparente
           600: "#FFFFFFbf", //blanco transparente
           700: "#33b990", //verde budget
           800: "#cdcdcdbf", //gris transparente
           900: "#eee0c9bf", //beige transparente
         },
+        brand: {
+          50: "#42490d", //verdeBosque
+          100: "#aaab80", //verdeClaro
+          200: "#39350f", //verdeOscuro
+          300: "#919236", //verdeBicho
+          400: "#f2e2bc", //beigeClaro
+          500: "#5a4130", //marron
+        }
       },
     },
   },
