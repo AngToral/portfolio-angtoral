@@ -5,6 +5,7 @@ import '../App.css'
 import Portfolio from "../proyects/Portfolio";
 import Mariana from "../proyects/Mariana";
 import { useTranslation } from "react-i18next";
+import Joshua from "../proyects/Joshua";
 
 function Bitacora() {
     useEffect(() => {
@@ -52,6 +53,13 @@ function Bitacora() {
                 Icon={Icon}
             />
             <Mariana
+                openAccordion={openAccordion}
+                activeStep={activeStep}
+                handleOpenAccordion={handleOpenAccordion}
+                setActiveStep={setActiveStep}
+                Icon={Icon}
+            />
+            <Joshua
                 openAccordion={openAccordion}
                 activeStep={activeStep}
                 handleOpenAccordion={handleOpenAccordion}

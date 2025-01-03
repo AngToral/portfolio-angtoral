@@ -12,7 +12,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                 <AccordionHeader onClick={() => handleOpenAccordion(2)} className="text-white md:text-2xl text-lg font-semibold font-spinnaker hover:text-white">
                     <div className="flex flex-col md:flex-row justify-start">
                         <p>{t("mariana.tittle")}</p>
-                        <p className="md:mx-2 italic">(Ago. 2024)</p>
+                        <p className="md:mx-2 italic">({t("mariana.beginning")}. 2024)</p>
                         <a className="italic" href="https://www.nanamendozago.com/" target='_blanck'> <u> nanamendozago.com </u> </a>
                     </div>
                 </AccordionHeader>
