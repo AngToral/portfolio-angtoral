@@ -76,7 +76,7 @@
   /* pantalla mobile */
 
   .proyecto {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .budget {

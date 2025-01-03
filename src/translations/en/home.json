@@ -23,6 +23,10 @@
         "resume": "A web app that I created with my colleagues for the MT, which manages employee travel expenses in companies.",
         "more": "...more"
     },
+    "mariana": {
+        "summary": "Resumen",
+        "functions": "Funcionalidades"
+    },
     "edusection": {
         "education": "Education",
         "master": "Master in Full Stack Development",

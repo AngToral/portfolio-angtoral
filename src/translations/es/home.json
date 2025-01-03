@@ -23,6 +23,10 @@
         "resume": "Una app web que realicé con mis compañeros para el TFM, que gestiona los gastos de viajes de empleados en las empresas.",
         "more": "...más"
     },
+    "mariana": {
+        "summary": "Resumen",
+        "functions": "Funcionalidades"
+    },
     "edusection": {
         "education": "Educación",
         "master": "Master en Full Stack Development",

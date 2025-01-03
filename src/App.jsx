@@ -131,9 +131,9 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='lg:pl-6 items-center flex pt-6 pb-6 place-content-center bg-ang-100'>
-        <div className='proyecto flex items-center justify-center'>
-          <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
+      <div className='proyecto lg:pl-6 items-center flex pt-6 pb-6 place-content-center bg-ang-100'>
+        <div className='flex flex-col items-center justify-center lg:w-1/2'>
+          <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
             <video className="rounded-lg" controls>
               <source src="../budgetwise.mp4" type="video/mp4" />
               Your browser does not support the video tag.
@@ -151,6 +151,24 @@ function App() {
               </div>
             </ScrollAnimation>
           </div>
+        </div>
+        <div className='proyecto flex flex-col items-center justify-center lg:w-1/2'>
+          <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
+            <img className='max-h-96 w-auto mr-4' src='../mariana.avif' />
+          </ScrollAnimation>
+          <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
+            <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
+              {t("mariana.summary")}
+            </Typography>
+            <Typography className="flex justify-center mt-6 font-spinnaker text-ang-300 md:text-xl">
+              {t("mariana.functions")}
+            </Typography>
+            <div className='flex justify-center'>
+              <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-4'>
+                {t("expsection.three-two")}
+              </Button>
+            </div>
+          </ScrollAnimation>
         </div>
       </div >
       <div className='final'>
