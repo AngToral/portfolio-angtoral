@@ -475,7 +475,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 7 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         05 de agosto, 13:30. Busco librerías que conecten con la idea que tengo. Escribo las
@@ -490,7 +490,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 8 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         06 de agosto, 16:00. Empiezo con el backend del login, instalo bcryptjs, jwt. Verifico que todo funciona
@@ -503,7 +503,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 9 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         07 de agosto, 14:00. Empiezo frontend del login. Instalo tailwindcss, react-router-dom,
@@ -517,7 +517,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 10 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         08 de agosto, 16:30. Sigo con la pantalla del login. Importo fuente desde local que
@@ -531,7 +531,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 11 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         09 de agosto, 12:30. Sigo con los loaders en el login, y hago el back de envío de
@@ -547,7 +547,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 12 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         12 de agosto, 16:00. Empiezo con el register. Tuve problemas con como pasaba los datos al
@@ -561,7 +561,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 13 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         13 de agosto, 15:00. Sigo con el home, ubicando el navbar como quiero. Al final uso Flex
@@ -575,7 +575,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 14 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         14 de agosto, 14:00. Termino con el home, con la foto y colores definitivos. Instalo i18next
@@ -590,7 +590,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 15 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         16 de agosto, 19:00. Busco dos fuentes de google-fonts. La instalo, estructuro la animación y
@@ -604,7 +604,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 16 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         19 de agosto, 16:00. Hago la parte front del “contáctame”, y el footer. Conecto el botón de
@@ -619,7 +619,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 17 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         20 de agosto, 20:00. Coloco un blanco transparente debajo del menú en el Home, para que se distinga
@@ -633,7 +633,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 18 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         21 de agosto, 20:00.Creo las apis en el front de la galeria, la creación de fotos funciona con
@@ -653,7 +653,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 19 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         22 de agosto, 14:00. Voy pintando las imágenes en la pantalla, hago un componente de cards para las mismas.
@@ -672,7 +672,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 20 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         23 de agosto, 16:00. Hoy toca algo que posiblemente me tome mucho tiempo, crear la entrada de la foto desde cero
@@ -691,7 +691,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 21 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         02 de septiembre, 17:00. Empiezo con el back del formulario de contacto. Creo función, email, y conecto con el
@@ -705,7 +705,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 22 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         08 de septiembre, 16:00. Creo el backend de los testimonios, pruebo con Postman, y empiezo a pintar en el front la BD.
@@ -718,7 +718,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 23 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         18 septiembre, 19:00. Empiezo cambiando el gmail de envío de correos a uno general mío. Hago backend de enviar correo
@@ -731,7 +731,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 24 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         19 de septiembre, 16:30. Empiezo haciendo la pantalla de la nueva opinión para poner el botón de eliminar, y que funcione.
@@ -744,7 +744,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 25 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         20 de septiembre, 14:00. Busco imagen gratuita para agradecer una nueva opinión una vez enviada. Arreglo post eliminar
@@ -759,7 +759,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 26 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         24 de septiembre, 15:00. Empiezo añadiendo los botones del navbar en el blog. Agrego imágenes a los correos que se envían.
@@ -772,7 +772,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 27 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         26 de septiembre, 15:00. Escribo que el email proporcionado para la opinión es privado. Cambio los fondos de about me,
@@ -786,7 +786,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 28 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         01 de octubre, 17:00. Empiezo con editar entrada de blog. Una vez hecho, me doy cuenta que al guardar una entrada con la
@@ -800,7 +800,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 29 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         02 de octubre del 2024, 15:00. Sigo buscando la solución a cómo guardar la fecha correcta en mongoDB. Luego de muchas
@@ -816,7 +816,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 30 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         03 de octubre del 2024, 13:00. Sigo creando el correo en inglés, y probando que se envía correctamente. Sigo con el
@@ -835,7 +835,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 31 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         Entre el 05 y 07 de octubre. Sigo sin saber qué pasa con el contexto. Buscaré videos de YouTube a ver si hay algo que no estoy
@@ -848,7 +848,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 32 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         08 de octubre, 19:00. He decidido seguir un video de YouTube, borrar lo que tenía, e intentarlo de cero, y por fin lo he
@@ -862,7 +862,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 33 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         10 de octubre, 16:00. Ya por último a nivel de lógica, creo el back y el front para enviar correo de cambio de contraseña e email
@@ -876,7 +876,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 34 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         25 de octubre, 16:00. Tenemos la información que faltaba, agrego la info., estilo Home, cambio ícono de Profile, creo una pantalla
@@ -890,7 +890,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 35 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         27 de octubre, 13:00. Le doy una vuelta a cómo quiero que se vean todas las reseñas, y sigo con la pantalla. Estilo todas las reseñas,
@@ -903,7 +903,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 36 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         29 de octubre, 16:30. Sigo estilando las fotos de Home para que se vean bien en pantalla grande y responsive. Agregamos reseñas recolectadas
@@ -916,7 +916,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 37 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         30 de octubre, 17:30. Sigo con las reseñas, ordeno para que se pinten en según fecha más recientes (aprendí que primero ordenar y luego mapeas),
@@ -931,7 +931,7 @@ const Mariana = ({ openAccordion, activeStep, handleOpenAccordion, setActiveStep
                     </div>
                     <div>
                         {activeStep === 38 ?
-                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                            <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                 <CardBody >
                                     <Typography className="lg:text-xl font-spinnaker text-white">
                                         Del 01 al 03 de noviembre: Estuve todo el fin de semana apagando fuegos, y decidiendo en dónde hacer los despliegues. Decidí hacerlo todo por

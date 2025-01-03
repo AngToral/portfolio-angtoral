@@ -35,12 +35,12 @@ module.exports = withMT({
           900: "#eee0c9bf", //beige transparente
         },
         brand: {
-          50: "#42490d", //verdeBosque
           100: "#aaab80", //verdeClaro
           200: "#39350f", //verdeOscuro
           300: "#919236", //verdeBicho
           400: "#f2e2bc", //beigeClaro
           500: "#5a4130", //marron
+          500: "#42490dbf", //verdeBosque transp
         }
       },
     },

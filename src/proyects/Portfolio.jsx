@@ -111,7 +111,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 1 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             Este proyecto lo empiezo el 23 de julio a las 13:30, pensando la paleta de colores, la información relevante,
@@ -130,7 +130,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 2 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             24 de julio: empecé a las 14:30, sigo en el inicio, con mi información de contacto, y sigo con el navbar que en
@@ -152,7 +152,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 3 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             25 de julio: empiecé a las 13:20. Cambio la imagen de la universidad primero. Sigo arreglando el CSS de la educación y la
@@ -170,7 +170,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 4 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             26 de julio: empecé a las 14:00. Empecé con el proyecto de FM directamente. Tardé en visualizar cómo plasmar la información.
@@ -187,7 +187,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 5 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             29 de julio: el fin de semana ha sido para descansar y estar con la familia. Hoy retomo a las 12:00, haciendo ajustes
@@ -204,7 +204,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 6 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             30 de julio: abro a las 13:30. Seguimos con el responsive de Bitácora.
