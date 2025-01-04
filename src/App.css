@@ -48,12 +48,20 @@
   }
 }
 
-.encabezado,
-.final {
-  background-image: url("../fondo.png");
-  background-color: rgba(255, 255, 255, 0.18);
-  background-blend-mode: lighten;
+.encabezado {
+  background-image: url("../fondo.jpeg");
+  /* background-color: rgba(255, 255, 255, 0.18);
+  background-blend-mode: lighten; */
 
+}
+
+.final {
+  background-image: url("../fondo4.png");
+
+}
+
+.proyecto {
+  background-image: url('fondoVerde.png');
 }
 
 .video {
