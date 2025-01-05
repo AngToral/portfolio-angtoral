@@ -36,7 +36,7 @@ function Proyecto() {
                 </Typography>
             </div>
             <div className="flex justify-center animate__animated animate__fadeInDown">
-                <a target='_blanck' href="https://main--tfm-amarillo-frontend.netlify.app/login" >
+                <a target='_blanck' href="https://bw-budgetwise.netlify.app/login" >
                     <Typography className="flex link font-spinnaker lg:text-2xl text-white mx-6 mb-8 max-w-[65rem] italic">
                         {t("wise.goto")}
                     </Typography>

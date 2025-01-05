@@ -255,7 +255,7 @@ function App() {
                           <Typography className="font-spinnaker text-black my-2 md:text-xl">
                             🔥 {t("expsection.three-three")} BudgetWise (Full Stack - MERN)
                           </Typography>
-                          <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://main--tfm-amarillo-frontend.netlify.app/login" >
+                          <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://bw-budgetwise.netlify.app/login" >
                             {t("expsection.three-two")} &nbsp; <p className='text-red-600 text-2xl'>!!</p>
                           </a>
                         </div>
