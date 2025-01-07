@@ -40,7 +40,7 @@ function App() {
           <div >
             <img
               className="animate__animated animate__backInRight md:h-96 md:w-96 h-80 w-80 object-cover object-center"
-              src="../angela.png"
+              src="../angela.avif"
               alt="foto-perfil-angela-toral"
             />
           </div>

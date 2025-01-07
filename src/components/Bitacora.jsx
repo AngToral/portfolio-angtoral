@@ -9,7 +9,7 @@ import Joshua from "../proyects/Joshua";
 
 function Bitacora() {
     useEffect(() => {
-        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url('../fondo1.png')"
+        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url('../fondo1.avif')"
     })
 
     const [t, i18n] = useTranslation("binnacle")
