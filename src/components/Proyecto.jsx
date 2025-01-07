@@ -36,8 +36,8 @@ function Proyecto() {
                 </Typography>
             </div>
             <div className="flex justify-center animate__animated animate__fadeInDown">
-                <a target='_blanck' href="https://main--tfm-amarillo-frontend.netlify.app/login" >
-                    <Typography className="link font-spinnaker lg:text-2xl text-white mx-6 mb-8 max-w-[65rem] italic">
+                <a target='_blanck' href="https://bw-budgetwise.netlify.app/login" >
+                    <Typography className="flex link font-spinnaker lg:text-2xl text-white mx-6 mb-8 max-w-[65rem] italic">
                         {t("wise.goto")}
                     </Typography>
                 </a>
@@ -49,12 +49,12 @@ function Proyecto() {
                             <TimelineConnector />
                             <TimelineHeader className="h-3">
                                 <TimelineIcon className="bg-white" />
-                                <Typography className="lg:text-2xl font-semibold font-shantell text-ang-700 leading-none">
+                                <Typography className="lg:text-2xl font-semibold font-spinnaker text-ang-700 leading-none">
                                     {t("wise.time")}
                                 </Typography>
                             </TimelineHeader>
                             <TimelineBody className="pb-8">
-                                <Typography className="lg:text-xl font-semibold font-shantell text-white ml-2">
+                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white ml-2">
                                     {t("wise.month")}
                                 </Typography>
                             </TimelineBody>
@@ -63,12 +63,12 @@ function Proyecto() {
                             <TimelineConnector />
                             <TimelineHeader className="h-3">
                                 <TimelineIcon className="bg-white" />
-                                <Typography className="lg:text-2xl font-semibold font-shantell text-ang-700 eading-none">
+                                <Typography className="lg:text-2xl font-semibold font-spinnaker text-ang-700 eading-none">
                                     {t("wise.team")}
                                 </Typography>
                             </TimelineHeader>
                             <TimelineBody className="pb-8">
-                                <Typography className="lg:text-xl font-semibold font-shantell text-white ml-2">
+                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white ml-2">
                                     {t("wise.people")}
                                 </Typography>
                             </TimelineBody>
@@ -76,12 +76,12 @@ function Proyecto() {
                         <TimelineItem>
                             <TimelineHeader className="h-3">
                                 <TimelineIcon className="bg-white" />
-                                <Typography className="lg:text-2xl font-semibold font-shantell text-ang-700 leading-none">
+                                <Typography className="lg:text-2xl font-semibold font-spinnaker text-ang-700 leading-none">
                                     {t("wise.stack")}
                                 </Typography>
                             </TimelineHeader>
                             <TimelineBody>
-                                <Typography className="lg:text-xl font-semibold font-shantell text-white ml-2">
+                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white ml-2">
                                     React, Javascript, MongoDB, AntD, Tailwind CSS, Nodemailer, Cloudinary, Netlify,
                                     Render.com, Socket.io
                                 </Typography>
@@ -91,7 +91,7 @@ function Proyecto() {
                 </div>
                 <div >
                     <div className="flex justify-around mt-6">
-                        <Button className="link font-shantell text-ang-700" size="lg" onClick={toggleOpenFuncionality}>{t("wise.features")}</Button>
+                        <Button className="link font-spinnaker text-ang-700" size="lg" onClick={toggleOpenFuncionality}>{t("wise.features")}</Button>
                     </div>
                     <Collapse open={openFuncionality}>
                         <Card className="m-4 max-w-7xl">
@@ -111,7 +111,7 @@ function Proyecto() {
                 </div>
                 <div>
                     <div className="flex justify-around my-6">
-                        <Button className="link font-shantell text-ang-700" size="lg" onClick={toggleOpenDevelopment}>{t("wise.dev")}</Button>
+                        <Button className="link font-spinnaker text-ang-700" size="lg" onClick={toggleOpenDevelopment}>{t("wise.dev")}</Button>
                     </div>
                     <Collapse open={openDevelopment}>
                         <Card className="m-4 max-w-7xl">

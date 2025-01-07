@@ -9,8 +9,16 @@
         "description2": "Por eso, está esta sección de -diario de programación-, y la de -Mi Historia-, donde cuento mi camino y por qué estoy donde estoy."
     },
     "mariana": {
+        "beginning": "Ago",
         "tittle": "Web de una fotógrafa",
         "description1": "Una web para una fotógrafa profesional de Países Bajos, con vista en inglés y español, donde podrá mostrar su portfolio de fotografía, sus redes, su trabajo, y se le podrá contactar para contratar sus servicios.",
         "description2": "Tiene su propio login, en el que podrá enviar solicitudes de reseñas a los clientes. Además, tiene dos apartados para su propio contenido: de galería, donde subirá las fotos que desee, con temas que las describen para fácil búsqueda; y un blog, donde podrá compartir historias detrás de cada fotografía."
+    },
+    "joshua": {
+        "beginning": "Dic",
+        "tittle": "Web de un entrenador personal",
+        "description1": "Una web para un boxeador profesional y entrenador personal de Países Bajos, con vista en holandés e inglés, donde podrá tener su plataforma de venta de sus servicios online como entrenador personal, mediante suscripción.",
+        "description2": "El boxeador una vez haga login, podrá ver todos sus cleintes, darlos de alta, y subir los videos de entrenamiento.",
+        "description3": "Los clientes podrán disfrutar de los servicios contratados una vez activa su cuenta."
     }
 }

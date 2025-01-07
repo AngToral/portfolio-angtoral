@@ -6,22 +6,26 @@
     },
     "me": {
         "aboutme": "Sobre mí",
-        "first": "¡Hola! 😊 Soy Angela, y tengo más de una década resolviendo desafíos en el mundo empresarial: en Compras, Operaciones y Financiero. Además, sé programar aplicaciones web.",
+        "first": "¡Hola! 😊 Soy Angela, y tengo más de una década resolviendo desafíos en el mundo empresarial: en Compras, Operaciones y Financiero. Y además, sé programar aplicaciones web.",
         "second": "Con mi experiencia en administración, combinada con mis nuevos conocimientos en el desarrollo web, tengo un perfil que abarca desde la gestión y optimización de procesos hasta el despliegue de una aplicación web.",
         "third": "📊 Tengo una visión integral de procesos operativos, financieros, y administrativos.",
         "four": "💡 Soy organizada, creativa, meticulosa, resolutiva, detallista, perseverante, perfeccionista, me encanta aprender, trabajar en equipo, mejorar siempre, y además",
         "five": "💻 Manejo Excel, ERP, React, Node.js, Express.js, MongoDB, JavaScript, HTML, CSS, control de versiones Git,",
         "six": "Mi destreza administrativa se puede ver desde el 2014 que empecé a trabajar en esto, pasando por varios departamentos, y siempre con resultados óptimos de mi trabajo.",
-        "seven": "Mis proyectos personales demuestran mi capacidad para:",
+        "seven": "Y mis proyectos personales demuestran mi capacidad para:",
         "eight": "⭐️ Desarrollar aplicaciones web desde cero, desde el diseño hasta el despliegue.",
         "nine": "⭐️ Crear interfaces de usuario intuitivas y responsivas.",
         "ten": "⭐️ Implementar soluciones backend.",
         "eleven": "⭐️ Trabajar de forma autónoma y en equipo.",
-        "twelve": "Conecta conmigo si te ha interesado mi perfil, y crees que podemos crear algo único ✨"
+        "twelve": "Abajo, algunos de mis proyectos ✨"
     },
     "budgetwise": {
         "resume": "Una app web que realicé con mis compañeros para el TFM, que gestiona los gastos de viajes de empleados en las empresas.",
         "more": "...más"
+    },
+    "mariana": {
+        "functions1": "Una web destinada a mostrar el trabajo de una fotógrafa, con su propia sección de galería donde sube sus fotos con temas, las cuales de pueden buscar y filtrar según interés. También cuenta con un apartado tipo blog, donde sube fotos con texto escrito por ella, que describen la historia detrás de cada foto. Y también, se pueden ver las reseñas de clientes que ya han trabajado con ella.",
+        "functions2": "Con todo esto, las funcionalidades de la fotógrafa son: login y logout, recuperar contraseña, reestablecerla, así como el email, mostrar/subir/editar/eliminar: fotos a galería con máximo 2 temas, fotos con texto a blog; recibir solicitudes de contacto por medio de un formulario, y enviar peticiones de nuevas reseñas a los clientes."
     },
     "edusection": {
         "education": "Educación",
@@ -38,7 +42,7 @@
         "two-two": "En todo este tiempo he trabajo en el departamento de Finanzas-RRHH y el de Producción. Mis herramientas diarias, además del Excel, era el A3ERP y una aplicación web de gestión de fichajes.",
         "two-three": "He desarrollado tareas como Responsable de Proveedores nacionales e internacionales manteniendo el control de toda la facturación de proveedores, pagos y vencimiento de facturas, cartera de proveedores, pedidos de compra, control de inventario, e ingreso y despacho de material. Y como Responsable de Jornada, gestioné los fichajes de los empleados, incidencias, vacaciones, ausencias, permisos retribuidos del personal, y pagos en especie.",
         "three": "Abril 2024 - Actualidad",
-        "three-one": "Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, donde muestra su trabajo para captar clientes nuevos, las reseñas de clientes que ya han trabajado con ella, y con un apartado tipo blog donde subir fotos con texto escrito por ella, y otro de galería donde sube sus fotos con temas, las cuales de pueden buscar y filtrar según interés.",
+        "three-one": "Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, para mostrar su trabajo y captar clientes nuevos.",
         "three-two": "Visitar web",
         "three-three": "Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar los gastos de viajes de sus empleados,",
         "three-four": "Desde finales de diciembre estoy desarrollando una web para un boxeador profesional de Países Bajos, quien no solo quiere mostrar su experiencia en el deporte, sino que quiere vender sus servicios como entrenador personal, tanto en persona como online. Esta web será su plataforma de ventas y un espacio donde cada cliente podrá disfrutar del contenido de Joshua según su suscripción."

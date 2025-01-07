@@ -1,36 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=spinnaker+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-  --verde: #156064;
-  --rosaClaro: #f1dede;
-  --rosaOscuro: #d496a7;
-  --marron: #774936;
-  --negro: black;
+  --verdeBosque: #42490d;
+  --verdeClaro: #aaab80;
+  --verdeOscuro: #39350f;
+  --verdeBicho: #919236;
+  --beigeClaro: #f2e2bc;
+  --marron: #5a4130;
   --negroTransparente: #000000bf;
-  font-family: "Shantell Sans", cursive, arial, sans-serif;
-  color: var(--rosaClaro);
-}
-
-body {
-  background-color: var(--negro);
-}
-
-.texto {
-  color: var(--rosaClaro);
 }
 
 .link:hover {
-  animation-name: Getbig;
+  animation-name: Getbigger;
   animation-fill-mode: both;
-  color: rgba(255, 255, 255);
+  color: white;
   cursor: pointer;
 }
 
-.link:active {
-  color: var(--rosaOscuro);
-}
-
-@keyframes Getbig {
+@keyframes Getbigger {
   0% {
     scale: 1;
   }
@@ -40,13 +27,41 @@ body {
   }
 }
 
+.link2:hover {
+  animation-name: Getbig;
+  animation-fill-mode: both;
+  color: rgb(44, 107, 77);
+  cursor: pointer;
+}
+
+.link:active {
+  color: var(--verdeOscuro);
+}
+
+@keyframes Getbig {
+  0% {
+    scale: 1;
+  }
+
+  100% {
+    scale: 1.03;
+  }
+}
+
 .encabezado {
-  background-image: url("../laptop.webp");
-  opacity: 0.9;
+  background-image: url("../fondo.jpeg");
+  /* background-color: rgba(255, 255, 255, 0.18);
+  background-blend-mode: lighten; */
+
 }
 
 .final {
-  background-image: url("../laptop2.webp");
+  background-image: url("../fondo4.png");
+
+}
+
+.proyecto {
+  background-image: url('fondoVerde.png');
 }
 
 .video {
@@ -56,8 +71,7 @@ body {
 @media screen and (max-width: 700px) {
   .info {
     align-items: center;
-    background-color: var(--negroTransparente);
-    padding: 10px;
+    margin-top: 30px;
     border-radius: 15px;
   }
 
@@ -70,7 +84,7 @@ body {
   /* pantalla mobile */
 
   .proyecto {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 
   .budget {
@@ -131,4 +145,8 @@ body {
   box-shadow: 0 0 0.6em .25em var(--glow-color),
     0 0 2.5em 2em var(--glow-spread-color),
     inset 0 0 .5em .25em var(--glow-color);
+}
+
+.fondosteper {
+  background-color: #d496a7;
 }

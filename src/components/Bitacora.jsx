@@ -5,10 +5,11 @@ import '../App.css'
 import Portfolio from "../proyects/Portfolio";
 import Mariana from "../proyects/Mariana";
 import { useTranslation } from "react-i18next";
+import Joshua from "../proyects/Joshua";
 
 function Bitacora() {
     useEffect(() => {
-        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('../bitacora.webp')"
+        document.body.style.backgroundImage = "linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url('../fondo1.png')"
     })
 
     const [t, i18n] = useTranslation("binnacle")
@@ -37,7 +38,7 @@ function Bitacora() {
         <>
             <NavBar />
             <div className="flex flex-col justify-center items-center animate__animated animate__fadeInDown">
-                <p className="md:text-2xl text-lg font-bold font-shantell text-white mt-6">
+                <p className="md:text-2xl text-lg font-bold font-spinnaker text-white mt-6">
                     {t("notebook.tittle")}
                 </p>
                 <p className="md:text-lg font-spinnaker text-white max-w-[65rem] m-6">
@@ -52,6 +53,13 @@ function Bitacora() {
                 Icon={Icon}
             />
             <Mariana
+                openAccordion={openAccordion}
+                activeStep={activeStep}
+                handleOpenAccordion={handleOpenAccordion}
+                setActiveStep={setActiveStep}
+                Icon={Icon}
+            />
+            <Joshua
                 openAccordion={openAccordion}
                 activeStep={activeStep}
                 handleOpenAccordion={handleOpenAccordion}

@@ -10,7 +10,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
         <div>
             <div className="mx-6 animate__animated animate__fadeInDown">
                 <Accordion open={openAccordion === 1} icon={<Icon id={1} open={openAccordion} />}>
-                    <AccordionHeader onClick={() => handleOpenAccordion(1)} className="md:text-2xl text-lg font-semibold font-shantell text-white hover:text-white">
+                    <AccordionHeader onClick={() => handleOpenAccordion(1)} className="md:text-2xl text-lg font-semibold font-spinnaker text-white hover:text-white">
                         <div className="flex flex-col md:flex-row justify-start">
                             {t("portfolio.tittle")}
                             <p className="italic md:ml-2">(Jul. 2024)</p>
@@ -26,7 +26,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                             </p>
                         </div>
                         <div className="w-full">
-                            <CardHeader floated={false} variant="gradient" color="gray" className="grid h-24 lg:p-4 place-items-center">
+                            <CardHeader floated={false} shadow={false} color="transparent" className="grid h-24 lg:p-4 place-items-center">
                                 <div className="w-full lg:px-20 px-4 pt-4 pb-8">
                                     <Stepper
                                         activeStep={activeStep}
@@ -40,7 +40,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(1)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white mx-12">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white mx-12">
                                                     1
                                                 </Typography>
                                             </div>
@@ -52,7 +52,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(2)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     2
                                                 </Typography>
                                             </div>
@@ -64,7 +64,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(3)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     3
                                                 </Typography>
                                             </div>
@@ -76,7 +76,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(4)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     4
                                                 </Typography>
                                             </div>
@@ -88,7 +88,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(5)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     5
                                                 </Typography>
                                             </div>
@@ -100,7 +100,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                                             onClick={() => setActiveStep(6)}
                                         >
                                             <div className="absolute -bottom-[2.3rem] w-max text-center text-xs">
-                                                <Typography className="lg:text-xl font-semibold font-shantell text-white">
+                                                <Typography className="lg:text-xl font-semibold font-spinnaker text-white">
                                                     6
                                                 </Typography>
                                             </div>
@@ -111,7 +111,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 1 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             Este proyecto lo empiezo el 23 de julio a las 13:30, pensando la paleta de colores, la información relevante,
@@ -130,7 +130,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 2 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             24 de julio: empecé a las 14:30, sigo en el inicio, con mi información de contacto, y sigo con el navbar que en
@@ -152,7 +152,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 3 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             25 de julio: empiecé a las 13:20. Cambio la imagen de la universidad primero. Sigo arreglando el CSS de la educación y la
@@ -170,7 +170,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 4 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             26 de julio: empecé a las 14:00. Empecé con el proyecto de FM directamente. Tardé en visualizar cómo plasmar la información.
@@ -187,7 +187,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 5 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             29 de julio: el fin de semana ha sido para descansar y estar con la familia. Hoy retomo a las 12:00, haciendo ajustes
@@ -204,7 +204,7 @@ const Portfolio = ({ openAccordion, activeStep, handleOpenAccordion, setActiveSt
                         </div>
                         <div>
                             {activeStep === 6 ?
-                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-500 mb-6">
+                                <Card className="animate__animated animate__fadeIn mt-6 bg-ang-100 mb-6">
                                     <CardBody >
                                         <Typography className="lg:text-xl font-spinnaker text-white">
                                             30 de julio: abro a las 13:30. Seguimos con el responsive de Bitácora.
