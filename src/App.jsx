@@ -193,6 +193,25 @@ function App() {
                 <div className='flex align-center'>
                   <div className='m-6 items-center flex place-content-center'>
                     <img
+                      className="p-2 bg-white max-w-[165px] rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
+                      src="../nett.png"
+                      alt="nuclio"
+                    />
+                  </div>
+                  <div className='align-center place-content-center mr-4'>
+                    <div className='flex '>
+                      <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-semibold">{t("edusection.dwa")}</Typography>
+                    </div>
+                    <div className='flex'>
+                      <Typography className="font-spinnaker text-black mb-2 md:text-xl">Nett Digital School, Madrid ({t("edusection.act")})</Typography>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="m-4 bg-ang-50">
+                <div className='flex align-center'>
+                  <div className='m-6 items-center flex place-content-center'>
+                    <img
                       className="p-2 bg-white md:h-28 md:w-38 w-full rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
                       src="../nuclio.png"
                       alt="nuclio"
@@ -236,7 +255,26 @@ function App() {
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
-                        <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">💻 Web Developer</Typography>
+                        <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">Web Developer</Typography>
+                      </div>
+                      <div className='flex'>
+                        <Typography className="font-spinnaker text-black mb-2 md:text-base">Esedigital, Madrid ({t("expsection.four")})</Typography>
+                      </div>
+                      <div className='flex'>
+                        <div>
+                          <Typography className="font-spinnaker text-black my-2 md:text-xl">
+                            {t("expsection.four-one")}
+                          </Typography>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+                <Card className="p-4 m-4 bg-ang-900 max-w-[600px]">
+                  <div className='flex align-center'>
+                    <div className='align-center place-content-center'>
+                      <div className='flex '>
+                        <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">💻 Web Development - {t("expsection.proyects")}</Typography>
                       </div>
                       <div className='flex'>
                         <Typography className="font-spinnaker text-black mb-2 md:text-base">({t("expsection.three")})</Typography>

@@ -30,7 +30,9 @@
     "edusection": {
         "education": "Educación",
         "master": "Master en Full Stack Development",
-        "ade": "Administración de Empresas"
+        "ade": "Administración de Empresas",
+        "dwa": "Master en Desarrollo Web Avanzado",
+        "act": "En progreso..."
     },
     "expsection": {
         "experience": "Experiencia",
@@ -41,10 +43,16 @@
         "two-one": "Ene. 2020 - Jul. 2024",
         "two-two": "En todo este tiempo he trabajo en el departamento de Finanzas-RRHH y el de Producción. Mis herramientas diarias, además del Excel, era el A3ERP y una aplicación web de gestión de fichajes.",
         "two-three": "He desarrollado tareas como Responsable de Proveedores nacionales e internacionales manteniendo el control de toda la facturación de proveedores, pagos y vencimiento de facturas, cartera de proveedores, pedidos de compra, control de inventario, e ingreso y despacho de material. Y como Responsable de Jornada, gestioné los fichajes de los empleados, incidencias, vacaciones, ausencias, permisos retribuidos del personal, y pagos en especie.",
-        "three": "Abril 2024 - Actualidad",
+        "three": "Abr. 2024 - Actualidad",
         "three-one": "Desde Agosto hasta Octubre de 2024 he creado una web para un fotógrafa profesional de Países Bajos, para mostrar su trabajo y captar clientes nuevos.",
         "three-two": "Visitar web",
         "three-three": "Desde Abril hasta Julio de 2024 he creado con 3 compañeros una aplicación web destinada a empresas que necesitan gestionar los gastos de viajes de sus empleados,",
-        "three-four": "Desde finales de diciembre estoy desarrollando una web para un boxeador profesional de Países Bajos, quien no solo quiere mostrar su experiencia en el deporte, sino que quiere vender sus servicios como entrenador personal, tanto en persona como online. Esta web será su plataforma de ventas y un espacio donde cada cliente podrá disfrutar del contenido de Joshua según su suscripción."
+        "three-four": "Desde finales de diciembre 2024 estoy desarrollando una web para un boxeador profesional de Países Bajos, quien no solo quiere mostrar su experiencia en el deporte, sino que quiere vender sus servicios como entrenador personal, tanto en persona como online. Esta web será su plataforma de ventas y un espacio donde cada cliente podrá disfrutar del contenido de Joshua según su suscripción.",
+        "four": "Ene. 2025 - Actualidad",
+        "four-one": "Creación de páginas web en WordPress según los requisitos del cliente, trabajo de SEO básico para WordPress, participación en reuniones con clientes, definición de prioridades y seguimiento de proyectos de desarrollo web.",
+        "four-two": "",
+        "four-three": "",
+        "four-four": "",
+        "proyects": "Proyectos"
     }
 }
