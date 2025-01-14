@@ -84,6 +84,7 @@ function NavBar() {
                                             viewBox="0 0 24 24"
                                             stroke="currentColor"
                                             strokeWidth={2}
+                                            color="#eee0c9"
                                         >
                                             <path
                                                 strokeLinecap="round"
@@ -98,6 +99,8 @@ function NavBar() {
                                             fill="none"
                                             stroke="currentColor"
                                             strokeWidth={2}
+                                            color="#eee0c9"
+
                                         >
                                             <path
                                                 strokeLinecap="round"
@@ -111,16 +114,16 @@ function NavBar() {
                         </div>
                     </div>
                     <Collapse open={openNav}>
-                        <div className="flex justify-center gap-x-1">
-                            <Button variant="gradient" size="sm" onClick={handleHome} className="normal-case font-spinnaker text-ang-300">
+                        <div className="flex justify-center gap-x-2">
+                            <button onClick={handleHome} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span >Home</span>
-                            </Button>
-                            <Button variant="gradient" size="sm" onClick={handleBitacora} className="normal-case font-spinnaker text-ang-300">
+                            </button>
+                            <button onClick={handleBitacora} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span>{t("navbar.binnacle")}</span>
-                            </Button>
-                            <Button variant="gradient" size="sm" onClick={handleHistoria} className="normal-case font-spinnaker text-ang-300">
+                            </button>
+                            <button onClick={handleHistoria} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span>{t("navbar.history")}</span>
-                            </Button>
+                            </button>
                         </div>
                     </Collapse>
                 </Navbar>
