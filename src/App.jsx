@@ -52,7 +52,7 @@ function App() {
               Full Stack Developer
             </h2>
             <h2 className="font-spinnaker text-brand-200 texto mb-2 text-2xl">
-              angtoral.dev@gmail.com
+              webdeveloper@angelatoral.es
             </h2>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
@@ -355,7 +355,7 @@ function App() {
             <Typography
               className="font-spinnaker text-ang-400"
             >
-              angtoral.dev@gmail.com
+              webdeveloper@angelatoral.es
             </Typography>
           </li>
           <li>
