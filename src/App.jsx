@@ -49,7 +49,7 @@ function App() {
               Angela Toral
             </h1>
             <h2 className="font-spinnaker text-brand-200 texto mb-2 text-3xl">
-              Full Stack Developer
+              Web Developer
             </h2>
             <h2 className="font-spinnaker text-brand-200 texto mb-2 text-2xl">
               webdeveloper@angelatoral.es
