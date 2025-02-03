@@ -349,8 +349,8 @@ function App() {
           </div>
         </div>
       </div >
-      <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 border-t border-ang-400 py-6 text-center md:justify-between">
-        <ul className="ml-6 flex flex-wrap items-center gap-y-2 gap-x-8">
+      <footer className="flex w-full flex-col lg:flex-row items-center justify-center gap-y-6 gap-x-12 border-t border-ang-400 py-6 text-center lg:justify-between">
+        <ul className="ml-6 flex flex-wrap justify-center items-center gap-y-2 gap-x-8">
           <li>
             <Typography
               className="font-spinnaker text-ang-400"
@@ -390,9 +390,10 @@ function App() {
             </Typography>
           </li>
         </ul>
+        <img src="./logoClaro.svg" alt="logo" className="h-60" />
         <div>
-          <Typography className="mr-6 font-spinnaker text-ang-400">
-            2024 - React, Vite, Javascript, Tailwind CSS, Material-Tailwind
+          <Typography className="md:mr-6 font-spinnaker text-ang-400">
+            Since 2024 - React, Vite, Javascript, Tailwind CSS, Material-Tailwind
           </Typography>
         </div>
       </footer>
