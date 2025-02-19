@@ -44,13 +44,13 @@ function NavBar() {
                         <div className="flex items-center">
                             <div className="flex items-center lg:flex-row flex-row-reverse">
                                 <div className="flex items-center gap-x-1 mr-6">
-                                    <Button
+                                    {/* <Button
                                         variant="text"
                                         className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
                                         onClick={handleBitacora}
                                     >
                                         <span>{t("navbar.binnacle")}</span>
-                                    </Button>
+                                    </Button> */}
                                     <Button
                                         variant="text"
                                         className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"

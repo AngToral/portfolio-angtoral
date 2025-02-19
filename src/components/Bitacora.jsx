@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import NavBar from "./NavBar";
-import { Accordion, AccordionBody, AccordionHeader, Card, CardBody, CardHeader, Carousel, Step, Stepper, Typography } from "@material-tailwind/react";
 import '../App.css'
 import Portfolio from "../proyects/Portfolio";
 import Mariana from "../proyects/Mariana";
