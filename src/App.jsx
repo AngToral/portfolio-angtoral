@@ -51,9 +51,9 @@ function App() {
             <h2 className="font-spinnaker text-brand-200 texto mb-2 text-3xl">
               Web Developer
             </h2>
-            <h2 className="font-spinnaker text-brand-200 texto mb-2 text-2xl">
+            <h3 className="font-spinnaker text-brand-200 texto mb-2 text-2xl">
               webdeveloper@angelatoral.es
-            </h2>
+            </h3>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
                 value={{ color: '#39350f' }}
@@ -88,9 +88,9 @@ function App() {
         <div>
           <div className='animate__animated animate__backInLeft flex justify-center'>
             <div className="animate__animated animate__fadeIn mt-6 w-3/4 bg-ang-50 mb-6">
-              <Typography className="font-spinnaker text-black mb-2 md:text-3xl font-bold">
+              <h2 className="font-spinnaker text-black mb-2 md:text-3xl font-bold">
                 {t("me.aboutme")}
-              </Typography>
+              </h2>
               <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
                 {t("me.first")}
               </Typography>  <br />
@@ -188,7 +188,7 @@ function App() {
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0'>
             <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
-              <Typography className='flex justify-center font-spinnaker text-black md:text-3xl text-xl font-bold'>{t("edusection.education")}</Typography>
+              <h2 className='flex justify-center font-spinnaker text-black md:text-3xl text-xl font-bold'>{t("edusection.education")}</h2>
               <div className="m-4 bg-ang-50">
                 <div className='flex align-center'>
                   <div className='m-6 items-center flex place-content-center'>
@@ -250,12 +250,12 @@ function App() {
             {/* Cambio de sección a Experiencia */}
             <div>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-                <Typography className='flex justify-center font-spinnaker text-black md:text-3xl text-xl font-bold'>{t("expsection.experience")}</Typography>
+                <h2 className='flex justify-center font-spinnaker text-black md:text-3xl text-xl font-bold'>{t("expsection.experience")}</h2>
                 <Card className="p-4 m-4 bg-ang-900 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
-                        <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">Web Developer</Typography>
+                        <h3 className="font-spinnaker text-black mb-2 md:text-2xl font-bold">Web Developer</h3>
                       </div>
                       <div className='flex'>
                         <Typography className="font-spinnaker text-black mb-2 md:text-base">Esedigital, Madrid ({t("expsection.four")})</Typography>
@@ -274,7 +274,7 @@ function App() {
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
-                        <Typography className="font-spinnaker text-black mb-2 md:text-2xl font-bold">💻 Web Development - {t("expsection.proyects")}</Typography>
+                        <h3 className="font-spinnaker text-black mb-2 md:text-2xl font-bold">💻 Web Development - {t("expsection.proyects")}</h3>
                       </div>
                       <div className='flex'>
                         <Typography className="font-spinnaker text-black mb-2 md:text-base">({t("expsection.three")})</Typography>
