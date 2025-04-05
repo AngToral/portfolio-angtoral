@@ -184,6 +184,7 @@ function App() {
           <img className='lg:h-24 h-16 mr-4' src='../github.png' />
           <img className='lg:h-16 h-10 mr-4' src='../nodejs.svg' />
           <img className='lg:h-20 h-12 mr-4' src='../express.png' />
+          <img className='lg:h-20 h-12 mr-4' src='../wordpress.png' />
         </Marquee>
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0'>
@@ -390,7 +391,7 @@ function App() {
             </Typography>
           </li>
         </ul>
-        <img src="./logoClaro.svg" alt="logo" className="h-60" />
+        <img src="./logo-angelatoral-claro.png" alt="logo" className="h-48" />
         <div>
           <Typography className="md:mr-6 font-spinnaker text-ang-400">
             Since 2024 - React, Vite, Javascript, Tailwind CSS, Material-Tailwind

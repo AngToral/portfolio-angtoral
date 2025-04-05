@@ -31,7 +31,7 @@ function NavBar() {
     return (
         <>
             <div className="max-h-[768px] sticky top-0 z-50">
-                <Navbar className="fixed border-transparent bg-ang-100 sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
+                <Navbar className="fixed border-transparent bg-ang-100 sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8">
                     <div className="flex justify-between items-center">
                         <Button
                             variant="text"
@@ -39,7 +39,7 @@ function NavBar() {
                             className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
                             onClick={handleHome}
                         >
-                            <span>Home</span>
+                            <img src="logo-angelatoral-menu.png" alt="logo-angela-toral" className="h-20" />
                         </Button>
                         <div className="flex items-center">
                             <div className="flex items-center lg:flex-row flex-row-reverse">
