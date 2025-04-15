@@ -38,7 +38,7 @@ function Joshua() {
                     </Typography>
                 </a>
             </div>
-            <div className="flex md:flex-row flex-col justify-center animate__animated animate__fadeInDown p-6 pt-0">
+            <div className="flex md:flex-row flex-col justify-center animate__animated animate__fadeInDown p-6 pt-0 gap-10">
 
                 <Typography className="lg:text-lg font-spinnaker text-white mx-6 md:w-1/2 items-center flex">
                     {t("wise.description")}

@@ -138,7 +138,7 @@ function App() {
         </div>
       </div>
       {/* Proyectos */}
-      <div className='proyecto lg:px-6 items-start flex py-16 place-content-center'>
+      <div className='proyecto lg:px-6 items-start flex py-16 place-content-center gap-10'>
 
         <div className='flex flex-col items-center justify-center lg:w-1/3 ml-6'>
           <div className='h-[200px] flex items-center'>
@@ -166,7 +166,7 @@ function App() {
 
         <div className='flex flex-col justify-center items-center lg:w-1/3'>
           <div className='h-[200px] flex items-center'>
-            <img className='max-w-[400px] mr-4' src='../proyecto.png' />
+            <img className='md:max-w-[400px] max-w-[320px] m-5' src='../proyecto.png' />
           </div>
           <div className='flex justify-center mr-10 max-w-[500px] flex-col items-center'>
             <Typography className="ml-10 font-spinnaker text-ang-300 md:text-xl">
@@ -200,9 +200,9 @@ function App() {
                 <div className='flex align-center'>
                   <div className='m-6 items-center flex place-content-center'>
                     <img
-                      className="p-2 bg-white max-w-[165px] rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
+                      className="p-2 bg-white w-[165px] rounded-lg object-cover object-center shadow-xl shadow-blue-gray-900/50"
                       src="../nett.png"
-                      alt="nuclio"
+                      alt="nett"
                     />
                   </div>
                   <div className='align-center place-content-center mr-4'>
