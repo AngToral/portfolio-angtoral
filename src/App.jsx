@@ -131,7 +131,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='proyecto lg:px-6 items-center flex pt-4 pb-6 place-content-center'>
+      <div className='proyecto lg:px-6 items-center flex py-6 place-content-center'>
         <div className='flex flex-col items-center justify-center lg:w-1/2'>
           <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
             <video className="rounded-lg" controls>
