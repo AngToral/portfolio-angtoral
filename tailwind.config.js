@@ -44,6 +44,7 @@ module.exports = withMT({
         },
         projects: {
           100: "#EBB2A3", //rosadoMariana
+          200: "#969CA3", //grisJoshua
         }
       },
     },

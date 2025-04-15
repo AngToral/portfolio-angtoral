@@ -1,0 +1,15 @@
+{
+    "wise": {
+        "description": "Experimenta el entrenamiento de un boxeador profesional desde donde estés. Esta plataforma exclusiva ofrece contenido deportivo, planes personalizados (presenciales y online) y un espacio para que sus clientes accedan a videos de entrenamiento según su suscripción, todo gestionado directamente por el campeón.",
+        "goto": "Ir a la web de Joshua",
+        "time": "Tiempo de desarrollo",
+        "month": "3 meses",
+        "team": "Equipo",
+        "people": "Yo sola",
+        "stack": "Tecnologías",
+        "features": "Funcionalidades",
+        "features-desc1": "Una aplicación web destinada a centralizar el contenido deportivo de un boxeador vía online para sus clientes, sin necesidad de estar presente.",
+        "features-desc2": "Existen dos tipos de usuarios, el admin que es el boxeador, y los usuarios, que serán los clientes. Las personas podrán contactar con Joshua vía formulario, para hacer preguntas, o contratar un plan de suscripción. Joshua, una vez cobre su servicio, creará un usuario nuevo, con los datos del mismo. Tiene una pantalla donde puede ver a todos sus clientes, y buscarlos. Una vez dentro de la plataforma, podrán ver el dashboard, donde estarán los videos que Joshua suba, con url de YouTube. Se puede filtrar los videos por categoría disponible dentro de la suscripción. Cada usuario puede modificar los datos y foto del perfil.",
+        "features-desc3": "Con todo esto, las funcionalidades en total son: login y logout, recuperar contraseña desde el login, reestablecerla dentro de la sesión, así como cambiar el nombre, apellidos, foto e email, mostrar/subir/editar/eliminar videos al dashboard con su categoría y descripción; mostrar/subir/editar/eliminar clientes; y recibir solicitudes de contacto por medio de un formulario."
+    }
+}

@@ -30,6 +30,9 @@ function App() {
   function handleMariana() {
     navigate("/mariana-mendoza")
   }
+  function handleJoshua() {
+    navigate("/joshuas-training")
+  }
 
   const [open, setOpen] = useState(false);
 
@@ -144,7 +147,7 @@ function App() {
           <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
             Una aplicación web para un boxeador de Países Bajos, donde cada cliente podrá disfrutar del contenido deportivo de Joshua según su suscripción.
           </Typography>
-          <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+          <Button onClick={handleJoshua} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
             {t("budgetwise.more")}
           </Button>
         </div>
