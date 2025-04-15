@@ -285,6 +285,9 @@ function App() {
                           <Typography className="font-spinnaker text-black my-2 md:text-xl">
                             🔥 {t("expsection.three-four")} (Full Stack - MERN)
                           </Typography>
+                          <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.joshuastraining.com/" >
+                            {t("expsection.three-two")} &nbsp; <p className='text-red-600 text-2xl'>!!</p>
+                          </a>
                           <Typography className="font-spinnaker text-black mb-1 md:text-xl">
                             🔥 {t("expsection.three-one")} (Full Stack - MERN)
                           </Typography>
