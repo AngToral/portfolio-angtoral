@@ -25,7 +25,7 @@ function App() {
   const navigate = useNavigate();
 
   function handleProyecto() {
-    navigate("/proyecto")
+    navigate("/budget-wise")
   }
 
   const [open, setOpen] = useState(false);
@@ -131,50 +131,50 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='proyecto lg:px-6 items-center flex py-6 place-content-center'>
-        <div className='flex flex-col items-center justify-center lg:w-1/2'>
-          <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-            <video className="rounded-lg" controls>
-              <source src="../budgetwise.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </ScrollAnimation>
-          <div className='flex justify-center mr-10 max-w-[500px]'>
-            <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-              <Typography className="ml-10 mt-6 font-spinnaker text-ang-300 md:text-xl">
-                {t("budgetwise.resume")}
-              </Typography>
-              <div className='flex justify-center'>
-                <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-4'>
-                  {t("budgetwise.more")}
-                </Button>
-              </div>
-            </ScrollAnimation>
+      {/* Proyectos */}
+      <div className='proyecto lg:px-6 items-start flex py-16 place-content-center'>
+
+        <div className='flex flex-col items-center justify-center lg:w-1/3 ml-6'>
+          <div className='h-[200px] flex items-center'>
+            <img className='max-h-[180px] mr-4' src='../logo-joshua.png' />
+          </div>
+          <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
+            Una aplicación web para un boxeador de Países Bajos, donde cada cliente podrá disfrutar del contenido deportivo de Joshua según su suscripción.
+          </Typography>
+          <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+            {t("budgetwise.more")}
+          </Button>
+        </div>
+
+        <div className='flex flex-col items-center justify-center lg:w-1/3 ml-6'>
+          <div className='h-[200px] flex items-center'>
+            <img className='max-h-[200px] mr-4' src='../mariana.avif' />
+          </div>
+          <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
+            Una web para un fotógrafa profesional de Países Bajos, para mostrar su trabajo y captar clientes nuevos.
+          </Typography>
+          <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+            {t("budgetwise.more")}
+          </Button>
+        </div>
+
+        <div className='flex flex-col justify-center items-center lg:w-1/3'>
+          <div className='h-[200px] flex items-center'>
+            <img className='max-w-[400px] mr-4' src='../proyecto.png' />
+          </div>
+          <div className='flex justify-center mr-10 max-w-[500px] flex-col items-center'>
+            <Typography className="ml-10 font-spinnaker text-ang-300 md:text-xl">
+              {t("budgetwise.resume")}
+            </Typography>
+            <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+              {t("budgetwise.more")}
+            </Button>
           </div>
         </div>
-        <div className='flex flex-col items-center justify-center lg:w-1/2 ml-6'>
-          <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
-            <img className='max-h-72 w-auto mr-4' src='../mariana.avif' />
-          </ScrollAnimation>
-          <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
-            <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
-              {t("mariana.functions1")}
-            </Typography>
-            <Typography className="flex justify-center mt-6 font-spinnaker text-ang-300 md:text-xl">
-              {t("mariana.functions2")}
-            </Typography>
-            <div className='flex justify-center'>
-              <a href="https://www.nanamendozago.com/" target="_blanck">
-                <Button className='font-spinnaker text-ang-300 mt-4'>
-                  {t("expsection.three-two")}
-                </Button>
-              </a>
-            </div>
-          </ScrollAnimation>
-        </div>
+
       </div >
       <div className='final'>
-        <Marquee className='mb-6 p-4' pauseOnHover="true" autoFill="true">
+        <Marquee className='py-8' pauseOnHover="true" autoFill="true">
           <img className='lg:h-24 h-16 mr-4' src='../mongo.png' />
           <img className='lg:h-24 h-16 mr-4' src='../css.png' />
           <img className='lg:h-24 h-16 mr-4' src='../html.png' />

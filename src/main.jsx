@@ -57,7 +57,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             />
             <Route
               exact
-              path="/proyecto"
+              path="/budget-wise"
               element={<Proyecto />}
             />
             <Route
