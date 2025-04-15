@@ -145,7 +145,7 @@ function App() {
             <img className='max-h-[180px] mr-4' src='../logo-joshua.png' />
           </div>
           <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
-            Una aplicación web para un boxeador de Países Bajos, donde cada cliente podrá disfrutar del contenido deportivo de Joshua según su suscripción.
+            {t("projects.resume1")}
           </Typography>
           <Button onClick={handleJoshua} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
             {t("budgetwise.more")}
@@ -157,7 +157,7 @@ function App() {
             <img className='max-h-[200px] mr-4' src='../mariana.avif' />
           </div>
           <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
-            Una web para un fotógrafa profesional de Países Bajos, para mostrar su trabajo y captar clientes nuevos.
+            {t("projects.resume2")}
           </Typography>
           <Button onClick={handleMariana} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
             {t("budgetwise.more")}

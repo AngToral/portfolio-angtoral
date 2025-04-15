@@ -23,6 +23,10 @@
         "resume": "Una app web que realicé con mis compañeros para el TFM, que gestiona los gastos de viajes de empleados en las empresas.",
         "more": "Saber más"
     },
+    "projects": {
+        "resume1": "Una aplicación web para un boxeador de Países Bajos, donde cada cliente podrá disfrutar del contenido deportivo de Joshua según su suscripción.",
+        "resume2": "Una web para un fotógrafa profesional de Países Bajos, para mostrar su trabajo y captar clientes nuevos."
+    },
     "mariana": {
         "functions1": "Una web destinada a mostrar el trabajo de una fotógrafa, con su propia sección de galería donde sube sus fotos con temas, las cuales de pueden buscar y filtrar según interés. También cuenta con un apartado tipo blog, donde sube fotos con texto escrito por ella, que describen la historia detrás de cada foto. Y también, se pueden ver las reseñas de clientes que ya han trabajado con ella.",
         "functions2": "Con todo esto, las funcionalidades de la fotógrafa son: login y logout, recuperar contraseña, reestablecerla, así como el email, mostrar/subir/editar/eliminar: fotos a galería con máximo 2 temas, fotos con texto a blog; recibir solicitudes de contacto por medio de un formulario, y enviar peticiones de nuevas reseñas a los clientes."
