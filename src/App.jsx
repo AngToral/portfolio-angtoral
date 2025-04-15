@@ -27,6 +27,9 @@ function App() {
   function handleProyecto() {
     navigate("/budget-wise")
   }
+  function handleMariana() {
+    navigate("/mariana-mendoza")
+  }
 
   const [open, setOpen] = useState(false);
 
@@ -153,7 +156,7 @@ function App() {
           <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
             Una web para un fotógrafa profesional de Países Bajos, para mostrar su trabajo y captar clientes nuevos.
           </Typography>
-          <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+          <Button onClick={handleMariana} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
             {t("budgetwise.more")}
           </Button>
         </div>

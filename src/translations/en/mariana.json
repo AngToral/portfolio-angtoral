@@ -1,0 +1,13 @@
+{
+    "wise": {
+        "description": "Discover a photographer's visual universe: explore themed galleries, delve into her stories, and connect with clients. This comprehensive website offers an intuitive portfolio with search, a personal blog with stories, and a reviews section to build trust. The photographer easily manages her work, interacts with contacts, and requests testimonials, all with secure access.",
+        "goto": "Go to the Mariana Mendoza's website",
+        "time": "Development time",
+        "month": "3 months",
+        "team": "Team",
+        "people": "Only me",
+        "stack": "Stack",
+        "features": "Features",
+        "features-desc1": "A website dedicated to showcasing a photographer's work, with its own gallery section where she uploads photos with themes, which can be searched and filtered by interest. It also has a blog-style section where she uploads photos with text written by her, describing the story behind each photo. You can also view reviews from clients who have previously worked with her. The photographer's features include login and logout, password recovery, password reset, and email; display/upload/edit/delete: photos to a gallery with a maximum of two themes; photos with text to a blog; receive contact requests via a form; and send requests for new reviews to clients."
+    }
+}

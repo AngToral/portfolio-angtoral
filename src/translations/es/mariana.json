@@ -1,0 +1,13 @@
+{
+    "wise": {
+        "description": "Descubre el universo visual de una fotógrafa: explora galerías temáticas, sumérgete en sus historias y conecta con clientes. Esta completa web ofrece un portfolio intuitivo con buscador, un blog personal con relatos y una sección de reseñas para generar confianza. La fotógrafa gestiona fácilmente su obra, interactúa con contactos y solicita testimonios, todo con acceso seguro.",
+        "goto": "Ir a la web de Mariana Mendoza",
+        "time": "Tiempo de desarrollo",
+        "month": "3 meses",
+        "team": "Equipo",
+        "people": "Yo sola",
+        "stack": "Tecnologías",
+        "features": "Funcionalidades",
+        "features-desc1": "Una web destinada a mostrar el trabajo de una fotógrafa, con su propia sección de galería donde sube sus fotos con temas, las cuales de pueden buscar y filtrar según interés. También cuenta con un apartado tipo blog, donde sube fotos con texto escrito por ella, que describen la historia detrás de cada foto. Y también, se pueden ver las reseñas de clientes que ya han trabajado con ella.Con todo esto, las funcionalidades de la fotógrafa son: login y logout, recuperar contraseña, reestablecerla, así como el email, mostrar/subir/editar/eliminar: fotos a galería con máximo 2 temas, fotos con texto a blog; recibir solicitudes de contacto por medio de un formulario, y enviar peticiones de nuevas reseñas a los clientes."
+    }
+}

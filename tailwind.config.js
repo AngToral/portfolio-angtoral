@@ -41,6 +41,9 @@ module.exports = withMT({
           400: "#f2e2bc", //beigeClaro
           500: "#5a4130", //marron
           500: "#42490dbf", //verdeBosque transp
+        },
+        projects: {
+          100: "#EBB2A3", //rosadoMariana
         }
       },
     },

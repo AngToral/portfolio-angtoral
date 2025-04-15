@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Proyecto from './components/Proyecto.jsx'
 import Bitacora from './components/Bitacora.jsx'
 import Historia from './components/Historia.jsx'
+import Mariana from './components/Mariana.jsx'
 import i18next from 'i18next'
 import { I18nextProvider } from "react-i18next";
 import home_es from "./translations/es/home.json"
@@ -17,6 +18,8 @@ import story_es from "./translations/es/story.json"
 import story_en from "./translations/en/story.json"
 import binnacle_es from "./translations/es/binnacle.json"
 import binnacle_en from "./translations/en/binnacle.json"
+import mariana_es from "./translations/es/mariana.json"
+import mariana_en from "./translations/en/mariana.json"
 
 // import Inicio from './components/inicio.jsx'
 
@@ -29,12 +32,14 @@ i18next.init({
       budget: budget_es,
       story: story_es,
       binnacle: binnacle_es,
+      mariana: mariana_es,
     },
     en: {
       home: home_en,
       budget: budget_en,
       story: story_en,
       binnacle: binnacle_en,
+      mariana: mariana_en,
     }
   }
 })
@@ -69,6 +74,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               exact
               path="/historia"
               element={<Historia />}
+            />
+            <Route
+              exact
+              path="/mariana-mendoza"
+              element={<Mariana />}
             />
           </Routes>
         </I18nextProvider>
