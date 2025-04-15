@@ -39,7 +39,7 @@ function NavBar() {
                             className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
                             onClick={handleHome}
                         >
-                            <img src="logo-angelatoral-menu.png" alt="logo-angela-toral" className="h-20" />
+                            <img src="logo-angelatoral-menu.png" alt="logo-angela-toral" className="h-16" />
                         </Button>
                         <div className="flex items-center">
                             <div className="flex items-center lg:flex-row flex-row-reverse">
