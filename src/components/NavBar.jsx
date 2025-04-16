@@ -118,9 +118,9 @@ function NavBar() {
                             <button onClick={handleHome} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span >Home</span>
                             </button>
-                            <button onClick={handleBitacora} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
+                            {/* <button onClick={handleBitacora} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span>{t("navbar.binnacle")}</span>
-                            </button>
+                            </button> */}
                             <button onClick={handleHistoria} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span>{t("navbar.history")}</span>
                             </button>
