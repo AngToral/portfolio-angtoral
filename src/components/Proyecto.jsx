@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, Collapse, Timeline, TimelineBody, TimelineConnector, TimelineHeader, TimelineIcon, TimelineItem, Typography } from "@material-tailwind/react";
+import { Button, Card, CardBody, Carousel, Collapse, Timeline, TimelineBody, TimelineConnector, TimelineHeader, TimelineIcon, TimelineItem, Typography } from "@material-tailwind/react";
 import NavBar from "./NavBar";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -20,6 +20,41 @@ function Proyecto() {
     const toggleOpenDevelopment = () => {
         setOpenDevelopment(!openDevelopment);
     }
+
+    const data = [
+        {
+            imageLink:
+                "./bw-dashboard.webp",
+        },
+        {
+            imageLink:
+                "./bw-gastos.webp",
+        },
+        {
+            imageLink:
+                "./bw-viajes.webp",
+        },
+        {
+            imageLink:
+                "./bw-nuevo-viaje.webp",
+        }
+    ]
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedImage, setSelectedImage] = useState("");
+
+    const openModal = (imageSrc) => {
+        setSelectedImage(imageSrc);
+        setIsModalOpen(true);
+        // Opcional: Prevenir desplazamiento de la página cuando el modal está abierto
+        document.body.style.overflow = "hidden";
+    };
+
+    const closeModal = () => {
+        setIsModalOpen(false);
+        // Restaurar el desplazamiento normal
+        document.body.style.overflow = "auto";
+    };
 
     return (
         <>
@@ -140,6 +175,40 @@ function Proyecto() {
                     </Collapse>
                 </div>
             </div>
+            {/* galeria  */}
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-2 m-5">
+                {data.map(({ imageLink }, index) => (
+                    <div
+                        key={index}
+                        onClick={() => openModal(imageLink)}>
+                        <img
+                            className="h-[500px] w-full max-w-full rounded-lg object-cover object-center"
+                            src={imageLink}
+                            alt="gallery-photo"
+                        />
+                    </div>
+                ))}
+            </div>
+
+            {/* Modal para imagen ampliada */}
+            {isModalOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+                    <div className="relative h-screen p-4">
+                        <button
+                            onClick={closeModal}
+                            className="absolute top-2 right-2 p-2 bg-white rounded-full shadow-lg z-10 px-3"
+                        >
+                            X
+                        </button>
+                        <img
+                            src={selectedImage}
+                            alt="Imagen ampliada"
+                            className="h-full"
+                        />
+                    </div>
+                </div>
+            )}
+
         </>
     )
 }
