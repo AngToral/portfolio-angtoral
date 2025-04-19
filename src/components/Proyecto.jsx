@@ -1,4 +1,4 @@
-import { Button, Card, CardBody, Carousel, Collapse, Timeline, TimelineBody, TimelineConnector, TimelineHeader, TimelineIcon, TimelineItem, Typography } from "@material-tailwind/react";
+import { Button, Card, CardBody, Collapse, Timeline, TimelineBody, TimelineConnector, TimelineHeader, TimelineIcon, TimelineItem, Typography } from "@material-tailwind/react";
 import NavBar from "./NavBar";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -11,11 +11,11 @@ function Proyecto() {
 
     const [t, i18n] = useTranslation("budget")
 
-    const [openFuncionality, setOpenFuncionality] = useState(true);
+    const [openFuncionalityBw, setOpenFuncionalityBw] = useState(true);
     const [openDevelopment, setOpenDevelopment] = useState(true);
 
     const toggleOpenFuncionality = () => {
-        setOpenFuncionality(!openFuncionality);
+        setOpenFuncionalityBw(!openFuncionalityBw);
     }
     const toggleOpenDevelopment = () => {
         setOpenDevelopment(!openDevelopment);
@@ -132,7 +132,7 @@ function Proyecto() {
                     <div className="flex justify-around my-6">
                         <Button className="link font-spinnaker text-ang-700" size="lg" onClick={toggleOpenFuncionality}>{t("wise.features")}</Button>
                     </div>
-                    <Collapse open={openFuncionality}>
+                    <Collapse open={openFuncionalityBw}>
                         <Card className="">
                             <CardBody>
                                 <Typography className="font-spinnaker">
