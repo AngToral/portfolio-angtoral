@@ -51,18 +51,18 @@ function App() {
             />
           </div>
           <div className="info animate__animated animate__backInLeft flex flex-col">
-            <h1 className="font-eyesomeScript text-brand-200 texto mb-2 text-5xl">
+            <h1 className="font-eyesomeScript text-ang-100 texto mb-2 text-5xl">
               Angela Toral
             </h1>
-            <h2 className="font-spinnaker text-brand-200 texto mb-2 text-3xl">
+            <h2 className="font-spinnaker text-ang-100 texto mb-2 text-2xl">
               Web Developer
             </h2>
-            <h3 className="font-spinnaker text-brand-200 texto mb-2 text-2xl">
+            <h3 className="font-spinnaker text-ang-100 texto mb-2 text-2xl">
               webdeveloper@angelatoral.es
             </h3>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
-                value={{ color: '#39350f' }}
+                value={{ color: '#42490d' }}
               >
                 <a target='_blanck' href="https://www.linkedin.com/in/angela-toral/">
                   <FaLinkedin className='link ml-4 h-10 w-10' />
@@ -77,10 +77,10 @@ function App() {
                   <Collapse open={open}>
                     <Card className="bg-black">
                       <CardBody className='flex flex-col'>
-                        <a className="font-spinnaker text-ang-200 mb-1" target='_blanck' href="../cv-angela-toral-en.pdf" download={true} onClick={toggleOpen}>
+                        <a className="font-spinnaker mb-1" target='_blanck' href="../cv-angela-toral-en.pdf" download={true} onClick={toggleOpen}>
                           English
                         </a>
-                        <a className="font-spinnaker text-ang-200" target='_blanck' href="../cv-angela-toral-es.pdf" download={true} onClick={toggleOpen}>
+                        <a className="font-spinnaker" target='_blanck' href="../cv-angela-toral-es.pdf" download={true} onClick={toggleOpen}>
                           Español
                         </a>
                       </CardBody>
@@ -94,43 +94,43 @@ function App() {
         <div>
           <div className='animate__animated animate__backInLeft flex justify-center'>
             <div className="animate__animated animate__fadeIn mt-6 w-3/4 bg-ang-50 mb-6">
-              <h2 className="font-spinnaker text-black mb-2 md:text-3xl font-bold">
+              <h2 className="font-spinnaker text-ang-100 mb-2 md:text-2xl font-bold">
                 {t("me.aboutme")}
               </h2>
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.first")}
               </Typography>  <br />
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.second")}
               </Typography>  <br />
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.five")}
               </Typography>
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.four")}
               </Typography>
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.third")}
               </Typography>  <br />
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.six")}
               </Typography>  <br />
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.seven")}
               </Typography>
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.eight")}
               </Typography>
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.nine")}
               </Typography>
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.ten")}
               </Typography>
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.eleven")}
               </Typography>  <br />
-              <Typography className="font-spinnaker text-black mb-2 md:text-2xl">
+              <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                 {t("me.twelve")}
               </Typography>  <br />
             </div>
@@ -138,7 +138,7 @@ function App() {
         </div>
       </div>
       {/* Proyectos */}
-      <div className='proyecto lg:px-6 items-start flex py-16 place-content-center gap-10'>
+      <div className='proyecto lg:px-6 items-start flex pb-16 place-content-center gap-10'>
 
         <div className='flex flex-col items-center justify-center lg:w-1/3 ml-6'>
           <div className='h-[200px] flex items-center'>
