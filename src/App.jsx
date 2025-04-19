@@ -147,9 +147,9 @@ function App() {
           <Typography className="flex justify-center font-spinnaker text-black md:text-xl">
             {t("projects.resume1")}
           </Typography>
-          <Button onClick={handleJoshua} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+          <button onClick={handleJoshua} className='bg-ang-100 p-3 rounded-lg font-spinnaker text-ang-400 mt-8 w-1/2'>
             {t("budgetwise.more")}
-          </Button>
+          </button>
         </div>
 
         <div className='flex flex-col items-center justify-center lg:w-1/3 ml-6'>
@@ -159,9 +159,9 @@ function App() {
           <Typography className="flex justify-center font-spinnaker text-black md:text-xl">
             {t("projects.resume2")}
           </Typography>
-          <Button onClick={handleMariana} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+          <button onClick={handleMariana} className='bg-ang-100 p-3 rounded-lg font-spinnaker text-ang-400 mt-8 w-1/2'>
             {t("budgetwise.more")}
-          </Button>
+          </button>
         </div>
 
         <div className='flex flex-col justify-center items-center lg:w-1/3'>
@@ -172,9 +172,9 @@ function App() {
             <Typography className="ml-10 font-spinnaker text-black md:text-xl">
               {t("budgetwise.resume")}
             </Typography>
-            <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
+            <button onClick={handleProyecto} className='bg-ang-100 p-3 rounded-lg font-spinnaker text-ang-400 mt-8 w-1/2'>
               {t("budgetwise.more")}
-            </Button>
+            </button>
           </div>
         </div>
 
