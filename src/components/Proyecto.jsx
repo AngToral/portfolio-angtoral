@@ -67,7 +67,7 @@ function Proyecto() {
             {/* primera sección */}
             <div className="flex flex-col m-8 w-full justify-center gap-5 items-center">
                 <img
-                    className="max-h-48 rounded-lg object-cover object-center mb-4"
+                    className="h-24 rounded-lg object-cover object-center"
                     src="../proyecto.png"
                     alt="budgetwise"
                 />
@@ -82,9 +82,9 @@ function Proyecto() {
             <div className="flex justify-center">
                 <div className="flex md:flex-row flex-col w-2/3 m-8 mt-0 gap-5 items-start">
                     <IconContext.Provider
-                        value={{ color: '#969CA3' }}
+                        value={{ color: '#fff' }}
                     >
-                        <div className="md:w-1/3 flex flex-col items-center gap-2 h-[260px] bg-projects-200 p-5 rounded-lg" >
+                        <div className="md:w-1/3 flex flex-col items-center gap-2 h-[260px] bg-ang-100 p-5 rounded-lg" >
                             <FaRegClock className='h-10 w-10' />
                             <Typography className="lg:text-lg font-spinnaker text-white">
                                 {t("wise.time")}
@@ -93,7 +93,7 @@ function Proyecto() {
                                 {t("wise.month")}
                             </Typography>
                         </div>
-                        <div className="md:w-1/3 flex flex-col items-center h-[260px] bg-projects-200 p-5 rounded-lg" >
+                        <div className="md:w-1/3 flex flex-col items-center h-[260px] bg-ang-100 p-5 rounded-lg" >
                             <IoPeople className='h-10 w-10' />
                             <Typography className="lg:text-lg font-spinnaker text-white">
                                 {t("wise.team")}
@@ -102,7 +102,7 @@ function Proyecto() {
                                 {t("wise.people")}
                             </Typography>
                         </div>
-                        <div className="md:w-1/3 flex flex-col items-center h-[260px] bg-projects-200 p-5 rounded-lg" >
+                        <div className="md:w-1/3 flex flex-col items-center h-[260px] bg-ang-100 p-5 rounded-lg" >
                             <FaCode className='h-10 w-10' />
                             <Typography className="lg:text-lg font-spinnaker text-white">
                                 {t("wise.stack")}
@@ -127,7 +127,7 @@ function Proyecto() {
             <div className="budget flex flex-col m-8 mt-4 w-full gap-5 items-center">
                 <div className="md:w-1/2 flex flex-col gap-5">
                     <div className="flex justify-around">
-                        <p className="font-spinnaker text-projects-200 text-xl">{t("wise.features")}</p>
+                        <p className="font-spinnaker text-ang-100 text-xl">{t("wise.features")}</p>
                     </div>
                     <Typography className="font-spinnaker text-black">
                         {t("wise.features-desc1")}
@@ -145,7 +145,7 @@ function Proyecto() {
             <div className="budget flex flex-col m-8 mt-4 w-full gap-5 items-center">
                 <div className="md:w-1/2 flex flex-col gap-5">
                     <div className="flex justify-around">
-                        <p className="font-spinnaker text-projects-200 text-xl">{t("wise.dev")}</p>
+                        <p className="font-spinnaker text-ang-100 text-xl">{t("wise.dev")}</p>
                     </div>
                     <Typography className="font-spinnaker text-black">
                         {t("wise.dev-desc1")}
