@@ -15,16 +15,6 @@ function Proyecto() {
 
     const [t, i18n] = useTranslation("budget")
 
-    const [openFuncionalityBw, setOpenFuncionalityBw] = useState(true);
-    const [openDevelopment, setOpenDevelopment] = useState(true);
-
-    const toggleOpenFuncionality = () => {
-        setOpenFuncionalityBw(!openFuncionalityBw);
-    }
-    const toggleOpenDevelopment = () => {
-        setOpenDevelopment(!openDevelopment);
-    }
-
     const data = [
         {
             imageLink:

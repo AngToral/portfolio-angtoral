@@ -54,7 +54,6 @@ function Joshua() {
         <>
             <NavBar />
             {/* primera sección */}
-
             <div className="flex flex-col m-8 w-full justify-center gap-5 items-center">
                 <img
                     className="max-h-48 rounded-lg object-cover object-center mb-4"

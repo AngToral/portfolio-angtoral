@@ -43,7 +43,7 @@ module.exports = withMT({
           500: "#42490dbf", //verdeBosque transp
         },
         projects: {
-          100: "#EBB2A3", //rosadoMariana
+          100: "#626F65", //verdeMariana
           200: "#103862", //azulJoshua
         }
       },
