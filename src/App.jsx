@@ -144,7 +144,7 @@ function App() {
           <div className='h-[200px] flex items-center'>
             <img className='max-h-[180px] mr-4' src='../logo-joshua.png' />
           </div>
-          <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
+          <Typography className="flex justify-center font-spinnaker text-black md:text-xl">
             {t("projects.resume1")}
           </Typography>
           <Button onClick={handleJoshua} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
@@ -154,9 +154,9 @@ function App() {
 
         <div className='flex flex-col items-center justify-center lg:w-1/3 ml-6'>
           <div className='h-[200px] flex items-center'>
-            <img className='max-h-[200px] mr-4' src='../mariana.avif' />
+            <img className='max-h-[200px] mr-4' src='../logo-mariana.avif' />
           </div>
-          <Typography className="flex justify-center font-spinnaker text-ang-300 md:text-xl">
+          <Typography className="flex justify-center font-spinnaker text-black md:text-xl">
             {t("projects.resume2")}
           </Typography>
           <Button onClick={handleMariana} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
@@ -169,7 +169,7 @@ function App() {
             <img className='md:max-w-[400px] max-w-[320px] m-5' src='../proyecto.png' />
           </div>
           <div className='flex justify-center mr-10 max-w-[500px] flex-col items-center'>
-            <Typography className="ml-10 font-spinnaker text-ang-300 md:text-xl">
+            <Typography className="ml-10 font-spinnaker text-black md:text-xl">
               {t("budgetwise.resume")}
             </Typography>
             <Button onClick={handleProyecto} className='font-spinnaker text-ang-300 mt-8 w-1/2'>
