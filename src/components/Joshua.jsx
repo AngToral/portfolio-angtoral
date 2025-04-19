@@ -106,17 +106,14 @@ function Joshua() {
                 </div>
             </div>
 
-
-            {/* cuarta sección */}
-
+            {/* tercera sección */}
             <div className="flex flex-col m-8 w-full gap-5 items-center">
                 <Typography className="lg:text-lg font-spinnaker text-black w-1/2">
                     {t("wise.description")}
                 </Typography>
             </div>
 
-            {/* tercera sección */}
-
+            {/* cuarta sección */}
             <div className="budget flex flex-col m-8 mt-4 w-full gap-5 items-center">
                 <div className="md:w-1/2 flex flex-col gap-5">
                     <div className="flex justify-around">
