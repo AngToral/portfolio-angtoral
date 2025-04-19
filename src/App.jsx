@@ -270,7 +270,7 @@ function App() {
                       </div>
                       <div className='flex'>
                         <div>
-                          <Typography className="font-spinnaker text-black my-2 md:text-xl">
+                          <Typography className="font-spinnaker text-black mb-2 md:text-xl">
                             {t("expsection.four-one")}
                           </Typography>
                         </div>
@@ -278,40 +278,6 @@ function App() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="p-4 m-4 max-w-[600px]">
-                  <div className='flex align-center'>
-                    <div className='align-center place-content-center'>
-                      <div className='flex '>
-                        <h3 className="font-spinnaker text-black mb-2 md:text-2xl font-bold">💻 Web Development - {t("expsection.proyects")}</h3>
-                      </div>
-                      <div className='flex'>
-                        <Typography className="font-spinnaker text-black mb-2 md:text-base">({t("expsection.three")})</Typography>
-                      </div>
-                      <div className='flex'>
-                        <div>
-                          <Typography className="font-spinnaker text-black my-2 md:text-xl">
-                            🔥 {t("expsection.three-four")} (Full Stack - MERN)
-                          </Typography>
-                          <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.joshuastraining.com/" >
-                            {t("expsection.three-two")} &nbsp; <p className='text-red-600 text-2xl'>!!</p>
-                          </a>
-                          <Typography className="font-spinnaker text-black mb-1 md:text-xl">
-                            🔥 {t("expsection.three-one")} (Full Stack - MERN)
-                          </Typography>
-                          <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://www.nanamendozago.com/" >
-                            {t("expsection.three-two")} &nbsp; <p className='text-red-600 text-2xl'>!!</p>
-                          </a>
-                          <Typography className="font-spinnaker text-black my-2 md:text-xl">
-                            🔥 {t("expsection.three-three")} BudgetWise (Full Stack - MERN)
-                          </Typography>
-                          <a className="flex items-center text-black italic link2 font-spinnaker m-4 md:text-xl" target='_blanck' href="https://bw-budgetwise.netlify.app/login" >
-                            {t("expsection.three-two")} &nbsp; <p className='text-red-600 text-2xl'>!!</p>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
               </ScrollAnimation>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <div className="p-4 m-4 max-w-[600px]">
