@@ -193,7 +193,7 @@ function App() {
           <img className='lg:h-20 h-12 mr-4' src='../wordpress.png' />
         </Marquee>
         {/* educación  */}
-        <div>
+        <div className='pt-4'>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0'>
             <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
               <h2 className='flex justify-center font-spinnaker text-black md:text-3xl text-xl font-bold'>{t("edusection.education")}</h2>
