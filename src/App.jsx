@@ -94,7 +94,7 @@ function App() {
         <div>
           <div className='animate__animated animate__backInLeft flex justify-center'>
             <div className="animate__animated animate__fadeIn mt-6 w-3/4 bg-ang-50 mb-6">
-              <h2 className="font-spinnaker text-ang-100 mb-2 md:text-2xl font-bold">
+              <h2 className="font-spinnaker text-black mb-2 md:text-2xl font-bold">
                 {t("me.aboutme")}
               </h2>
               <Typography className="font-spinnaker text-black mb-2 md:text-xl">
@@ -179,7 +179,7 @@ function App() {
         </div>
 
       </div >
-      <div className='final'>
+      <div className='encabezado'>
         <Marquee className='py-8' pauseOnHover="true" autoFill="true">
           <img className='lg:h-24 h-16 mr-4' src='../mongo.png' />
           <img className='lg:h-24 h-16 mr-4' src='../css.png' />
@@ -192,6 +192,7 @@ function App() {
           <img className='lg:h-20 h-12 mr-4' src='../express.png' />
           <img className='lg:h-20 h-12 mr-4' src='../wordpress.png' />
         </Marquee>
+        {/* educación  */}
         <div>
           <div className='flex flex-wrap pt-6 pb-6 justify-around gap-0'>
             <ScrollAnimation animateIn="animate__animated animate__backInRight" animateOnce={true}>
@@ -258,7 +259,7 @@ function App() {
             <div>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
                 <h2 className='flex justify-center font-spinnaker text-black md:text-3xl text-xl font-bold'>{t("expsection.experience")}</h2>
-                <Card className="p-4 m-4 bg-ang-900 max-w-[600px]">
+                <div className="p-4 m-4 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
@@ -276,8 +277,8 @@ function App() {
                       </div>
                     </div>
                   </div>
-                </Card>
-                <Card className="p-4 m-4 bg-ang-900 max-w-[600px]">
+                </div>
+                {/* <div className="p-4 m-4 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
@@ -310,10 +311,10 @@ function App() {
                       </div>
                     </div>
                   </div>
-                </Card>
+                </div> */}
               </ScrollAnimation>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-                <Card className="p-4 m-4 bg-ang-900 max-w-[600px]">
+                <div className="p-4 m-4 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex '>
@@ -334,10 +335,10 @@ function App() {
                       </div>
                     </div>
                   </div>
-                </Card>
+                </div>
               </ScrollAnimation>
               <ScrollAnimation animateIn="animate__animated animate__backInLeft" animateOnce={true}>
-                <Card className="p-4 m-4 bg-ang-900 max-w-[600px]">
+                <div className="p-4 m-4 max-w-[600px]">
                   <div className='flex align-center'>
                     <div className='align-center place-content-center'>
                       <div className='flex'>
@@ -353,7 +354,7 @@ function App() {
                       </div>
                     </div>
                   </div>
-                </Card>
+                </div>
               </ScrollAnimation>
             </div>
           </div>
