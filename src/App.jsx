@@ -57,9 +57,9 @@ function App() {
             <h2 className="font-spinnaker text-ang-100 texto mb-2 text-2xl">
               Web Developer
             </h2>
-            <h3 className="font-spinnaker text-ang-100 texto mb-2 text-2xl">
+            <p className="font-spinnaker text-ang-100 texto mb-2 text-2xl">
               webdeveloper@angelatoral.es
-            </h3>
+            </p>
             <div className='mt-2 inline-flex'>
               <IconContext.Provider
                 value={{ color: '#42490d' }}
