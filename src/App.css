@@ -48,13 +48,6 @@
   }
 }
 
-.encabezado {
-  background-image: url("../fondo-home.avif");
-  /* background-color: rgba(255, 255, 255, 0.18);
-  background-blend-mode: lighten; */
-
-}
-
 .final {
   background-image: url("../fondo4.avif");
 

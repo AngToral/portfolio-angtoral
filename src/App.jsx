@@ -18,7 +18,7 @@ import { useTranslation } from 'react-i18next';
 
 function App() {
   useEffect(() => {
-    document.body.style.background = "#42490d"
+    document.body.style.backgroundImage = "url('../fondo-home.avif')"
   })
 
   const [t, i18n] = useTranslation("home")
@@ -41,7 +41,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className='encabezado'>
+      <div className=''>
         <div className='items-center flex flex-wrap pt-10 place-content-center'>
           <div >
             <img
@@ -92,8 +92,8 @@ function App() {
           </div>
         </div>
         <div>
-          <div className='animate__animated animate__backInLeft flex justify-center'>
-            <div className="animate__animated animate__fadeIn mt-6 w-3/4 bg-ang-50 mb-6">
+          <div className='flex justify-center'>
+            <div className="mt-6 w-3/4 bg-ang-50 mb-6">
               <h2 className="font-spinnaker text-black mb-2 md:text-2xl font-bold">
                 {t("me.aboutme")}
               </h2>
@@ -179,7 +179,7 @@ function App() {
         </div>
 
       </div >
-      <div className='encabezado'>
+      <div className=''>
         <Marquee className='py-8' pauseOnHover="true" autoFill="true">
           <img className='lg:h-24 h-16 mr-4' src='../mongo.png' />
           <img className='lg:h-24 h-16 mr-4' src='../css.png' />
@@ -326,7 +326,7 @@ function App() {
           </div>
         </div>
       </div >
-      <footer className="flex w-full flex-col lg:flex-row items-center justify-center gap-y-6 gap-x-12 border-t border-ang-400 py-6 text-center lg:justify-between">
+      <footer className="flex w-full flex-col lg:flex-row items-center justify-center bg-ang-100 gap-y-6 gap-x-12 border-t border-ang-400 py-6 text-center lg:justify-between">
         <ul className="ml-6 flex flex-wrap justify-center items-center gap-y-2 gap-x-8">
           <li>
             <Typography
