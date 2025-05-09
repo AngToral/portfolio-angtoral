@@ -5,7 +5,6 @@ import './index.css'
 import { ThemeProvider } from '@material-tailwind/react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Proyecto from './components/Proyecto.jsx'
-import Bitacora from './components/Bitacora.jsx'
 import Historia from './components/Historia.jsx'
 import Mariana from './components/Mariana.jsx'
 import Joshua from './components/Joshua.jsx'
@@ -17,14 +16,11 @@ import budget_es from "./translations/es/budget.json"
 import budget_en from "./translations/en/budget.json"
 import story_es from "./translations/es/story.json"
 import story_en from "./translations/en/story.json"
-import binnacle_es from "./translations/es/binnacle.json"
-import binnacle_en from "./translations/en/binnacle.json"
 import mariana_es from "./translations/es/mariana.json"
 import mariana_en from "./translations/en/mariana.json"
 import joshua_es from "./translations/es/joshua.json"
 import joshua_en from "./translations/en/joshua.json"
 
-// import Inicio from './components/inicio.jsx'
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -34,7 +30,6 @@ i18next.init({
       home: home_es,
       budget: budget_es,
       story: story_es,
-      binnacle: binnacle_es,
       mariana: mariana_es,
       joshua: joshua_es,
     },
@@ -42,7 +37,6 @@ i18next.init({
       home: home_en,
       budget: budget_en,
       story: story_en,
-      binnacle: binnacle_en,
       mariana: mariana_en,
       joshua: joshua_en,
     }
