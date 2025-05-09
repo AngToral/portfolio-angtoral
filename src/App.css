@@ -8,6 +8,8 @@
   --beigeClaro: #f2e2bc;
   --marron: #5a4130;
   --negroTransparente: #000000bf;
+  background-color: #DBCEBD;
+  background-image: url("../fondo-home.avif");
 }
 
 .link:hover {
@@ -46,15 +48,6 @@
   100% {
     scale: 1.03;
   }
-}
-
-.final {
-  background-image: url("../fondo4.avif");
-
-}
-
-.proyecto {
-  background-image: url('../fondo-home.avif');
 }
 
 .video {

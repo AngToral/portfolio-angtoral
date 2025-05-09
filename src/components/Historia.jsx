@@ -107,7 +107,7 @@ function Historia() {
                         />
                         <div className="absolute inset-0 flex flex-col justify-center bg-black/75">
                             <div className="flex flex-col md:p-20 p-10">
-                                <span className="md:text-4xl font-bold font-spinnaker text-ang-300 mb-4 text-3xl md:text-4xl lg:text-5xl">{t("story.page6-1")}</span>
+                                <span className="md:text-4xl font-bold font-spinnaker text-ang-300 mb-4 text-3xl lg:text-5xl">{t("story.page6-1")}</span>
                                 <span className="md:text-3xl font-semibold font-spinnaker text-ang-300 texto mb-2">{t("story.page6-2")}</span>
                             </div>
                         </div>

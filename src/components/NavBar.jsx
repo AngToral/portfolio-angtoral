@@ -31,7 +31,7 @@ function NavBar() {
     return (
         <>
             <div className="max-h-[768px] sticky top-0 z-50">
-                <Navbar className="fixed border-transparent bg-ang-100 sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8">
+                <Navbar className="border-transparent bg-ang-100 sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8">
                     <div className="flex justify-between items-center">
                         <Button
                             variant="text"
@@ -44,13 +44,6 @@ function NavBar() {
                         <div className="flex items-center">
                             <div className="flex items-center lg:flex-row flex-row-reverse">
                                 <div className="flex items-center gap-x-1 mr-6">
-                                    {/* <Button
-                                        variant="text"
-                                        className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
-                                        onClick={handleBitacora}
-                                    >
-                                        <span>{t("navbar.binnacle")}</span>
-                                    </Button> */}
                                     <Button
                                         variant="text"
                                         className="normal-case font-spinnaker hidden lg:inline-block text-ang-400 text-lg"
@@ -118,9 +111,6 @@ function NavBar() {
                             <button onClick={handleHome} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span >Home</span>
                             </button>
-                            {/* <button onClick={handleBitacora} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
-                                <span>{t("navbar.binnacle")}</span>
-                            </button> */}
                             <button onClick={handleHistoria} className="font-spinnaker text-ang-400 bg-ang-200 p-3 rounded-lg text-sm">
                                 <span>{t("navbar.history")}</span>
                             </button>

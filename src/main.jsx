@@ -55,11 +55,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter>
         <I18nextProvider i18n={i18next}>
           <Routes>
-            {/* <Route
-              exact
-              path="/"
-              element={<Inicio />}
-            /> */}
             <Route
               exact
               path="/"
@@ -69,11 +64,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               exact
               path="/budget-wise"
               element={<Proyecto />}
-            />
-            <Route
-              exact
-              path="/bitacora"
-              element={<Bitacora />}
             />
             <Route
               exact
