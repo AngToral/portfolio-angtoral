@@ -17,14 +17,14 @@ function Historia() {
                     alt="image 1"
                     className="md:w-1/2 w-full h-auto object-cover"
                 />
-                <div className="flex flex-col justify-center items-center m-20">
-                    <span className="font-spinnaker mb-4 text-4xl">{t("story.hello")}</span>
-                    <span className="md:text-xl font-spinnaker texto mb-2">{t("story.intro")}</span>
+                <div className="flex flex-col justify-center items-center md:m-20 m-10">
+                    <span className="text-2xl font-spinnaker texto mb-4">{t("story.hello")}</span>
+                    <span className="md:text-xl font-spinnaker texto mb-2 text-center">{t("story.intro")}</span>
                 </div>
             </div>
 
             <div className="flex md:flex-row flex-col-reverse">
-                <div className="flex flex-col justify-center items-center m-20">
+                <div className="flex flex-col justify-center items-center md:m-20 m-10">
                     <span className="md:text-xl font-spinnaker texto mb-2">{t("story.page2-1")}</span>
                     <span className="md:text-xl font-spinnaker texto mb-2">{t("story.page2-2")}</span>
                     <span className="md:text-xl font-spinnaker texto mb-2">{t("story.page2-3")}</span>
@@ -34,7 +34,7 @@ function Historia() {
                 <img
                     src="../historia2.webp"
                     alt="image 2"
-                    className="md:w-1/2 w-full h-auto object-cover"
+                    className="md:w-1/2 w-full object-cover"
                 />
             </div>
 
@@ -44,7 +44,7 @@ function Historia() {
                     alt="image 3"
                     className="md:w-1/2 w-full h-auto object-cover"
                 />
-                <div className="flex flex-col justify-center items-center m-20">
+                <div className="flex flex-col justify-center items-center md:m-20 m-10">
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page3-1")}</span>
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page3-2")}</span>
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page3-3")}</span>
@@ -52,7 +52,7 @@ function Historia() {
             </div>
 
             <div className="flex md:flex-row flex-col-reverse">
-                <div className="flex flex-col justify-center items-center m-20">
+                <div className="flex flex-col justify-center items-center md:m-20 m-10">
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page4-1")}</span>
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page4-2")}</span>
                 </div>
@@ -69,16 +69,16 @@ function Historia() {
                     alt="image 5"
                     className="md:w-1/2 w-full h-auto object-cover"
                 />
-                <div className="flex flex-col justify-center items-center m-20">
+                <div className="flex flex-col justify-center items-center md:m-20 m-10">
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page5-1")}</span>
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page5-2")}</span>
                 </div>
             </div>
 
             <div className="flex md:flex-row flex-col-reverse">
-                <div className="flex flex-col justify-center items-center md:m-20 m-8 w-1/2">
-                    <span className="lg:text-4xl font-bold font-spinnaker texto mb-4">{t("story.page6-1")}</span>
-                    <span className="lg:text-xl font-semibold font-spinnaker texto mb-2">{t("story.page6-2")}</span>
+                <div className="flex flex-col justify-center items-center md:m-20 m-10 md:w-1/2">
+                    <span className="lg:text-4xl text-2xl font-bold font-spinnaker texto mb-4">{t("story.page6-1")}</span>
+                    <span className="lg:text-xl font-semibold font-spinnaker texto mb-2 text-center">{t("story.page6-2")}</span>
                 </div>
                 <img
                     src="../historia-final.webp"
