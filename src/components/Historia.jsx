@@ -17,14 +17,14 @@ function Historia() {
                     alt="image 1"
                     className="w-1/2 h-auto"
                 />
-                <div className="flex flex-col justify-center items-center m-10">
-                    <span className="font-spinnaker mb-4 text-2xl">{t("story.hello")}</span>
+                <div className="flex flex-col justify-center items-center m-20">
+                    <span className="font-spinnaker mb-4 text-4xl">{t("story.hello")}</span>
                     <span className="md:text-xl font-spinnaker texto mb-2">{t("story.intro")}</span>
                 </div>
             </div>
 
             <div className="flex">
-                <div className="flex flex-col justify-center items-center m-10">
+                <div className="flex flex-col justify-center items-center m-20">
                     <span className="md:text-xl font-spinnaker texto mb-2">{t("story.page2-1")}</span>
                     <span className="md:text-xl font-spinnaker texto mb-2">{t("story.page2-2")}</span>
                     <span className="md:text-xl font-spinnaker texto mb-2">{t("story.page2-3")}</span>
@@ -38,58 +38,53 @@ function Historia() {
                 />
             </div>
 
-            <div className="flex flex-col w-screen">
+            <div className="flex">
                 <img
                     src="../historia3.webp"
                     alt="image 3"
-                    className=" h-screen w-auto object-cover"
+                    className="w-1/2 h-auto"
                 />
-                <div className="flex flex-col justify-center bg-black/75">
-                    <div className="flex flex-col md:p-20 p-10">
-                        <span className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">{t("story.page3-1")}</span>
-                        <span className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">{t("story.page3-2")}</span>
-                        <span className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">{t("story.page3-3")}</span>
-                    </div>
+                <div className="flex flex-col justify-center items-center m-20">
+                    <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page3-1")}</span>
+                    <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page3-2")}</span>
+                    <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page3-3")}</span>
                 </div>
             </div>
-            <div className="flex flex-col w-screen">
+
+            <div className="flex">
+                <div className="flex flex-col justify-center items-center m-20">
+                    <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page4-1")}</span>
+                    <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page4-2")}</span>
+                </div>
                 <img
                     src="../historia4.webp"
                     alt="image 4"
-                    className="h-screen w-auto object-cover"
+                    className="w-1/2 h-auto"
                 />
-                <div className="flex flex-col justify-center bg-black/75">
-                    <div className="flex flex-col md:p-20 p-10">
-                        <span className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">{t("story.page4-1")}</span>
-                        <span className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">{t("story.page4-2")}</span>
-                    </div>
-                </div>
             </div>
-            <div className="flex flex-col w-screen">
+
+            <div className="flex">
                 <img
                     src="../historia5.webp"
                     alt="image 5"
-                    className="h-screen w-auto object-cover"
+                    className="w-1/2 h-auto"
                 />
-                <div className="flex flex-col justify-center bg-black/75">
-                    <div className="flex flex-col md:p-20 p-10">
-                        <span className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">{t("story.page5-1")}</span>
-                        <span className="lg:text-2xl font-spinnaker text-ang-300 texto mb-2">{t("story.page5-2")}</span>
-                    </div>
+                <div className="flex flex-col justify-center items-center m-20">
+                    <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page5-1")}</span>
+                    <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page5-2")}</span>
                 </div>
             </div>
-            <div className="flex flex-col w-screen">
+
+            <div className="flex">
+                <div className="flex flex-col justify-center items-center m-20 w-1/2">
+                    <span className="lg:text-4xl font-bold font-spinnaker texto mb-4">{t("story.page6-1")}</span>
+                    <span className="lg:text-xl font-semibold font-spinnaker texto mb-2">{t("story.page6-2")}</span>
+                </div>
                 <img
                     src="../historia-final.webp"
                     alt="image 6"
-                    className="h-screen w-auto object-cover"
+                    className="w-1/2 h-auto"
                 />
-                <div className="flex flex-col justify-center bg-black/75">
-                    <div className="flex flex-col md:p-20 p-10">
-                        <span className="md:text-4xl font-bold font-spinnaker text-ang-300 mb-4 text-3xl lg:text-5xl">{t("story.page6-1")}</span>
-                        <span className="md:text-3xl font-semibold font-spinnaker text-ang-300 texto mb-2">{t("story.page6-2")}</span>
-                    </div>
-                </div>
             </div>
         </>
     )
