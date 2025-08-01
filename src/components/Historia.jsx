@@ -15,7 +15,7 @@ function Historia() {
                 <img
                     src="../angelatoral.webp"
                     alt="image 1"
-                    className="md:w-1/2 w-full h-auto object-cover"
+                    className="md:w-1/2 w-full h-auto object-cover brightness-[80%]"
                 />
                 <div className="flex flex-col justify-center items-center md:m-20 m-10">
                     <span className="text-2xl font-spinnaker texto mb-4">{t("story.hello")}</span>
@@ -34,7 +34,7 @@ function Historia() {
                 <img
                     src="../historia2.webp"
                     alt="image 2"
-                    className="md:w-1/2 w-full object-cover"
+                    className="md:w-1/2 w-full object-cover brightness-[80%]"
                 />
             </div>
 
@@ -42,7 +42,7 @@ function Historia() {
                 <img
                     src="../historia3.webp"
                     alt="image 3"
-                    className="md:w-1/2 w-full h-auto object-cover"
+                    className="md:w-1/2 w-full h-auto object-cover brightness-[80%]"
                 />
                 <div className="flex flex-col justify-center items-center md:m-20 m-10">
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page3-1")}</span>
@@ -59,7 +59,7 @@ function Historia() {
                 <img
                     src="../historia4.webp"
                     alt="image 4"
-                    className="md:w-1/2 w-full h-auto object-cover"
+                    className="md:w-1/2 w-full h-auto object-cover brightness-[80%]"
                 />
             </div>
 
@@ -67,7 +67,7 @@ function Historia() {
                 <img
                     src="../historia5.webp"
                     alt="image 5"
-                    className="md:w-1/2 w-full h-auto object-cover"
+                    className="md:w-1/2 w-full h-auto object-cover brightness-[80%]"
                 />
                 <div className="flex flex-col justify-center items-center md:m-20 m-10">
                     <span className="lg:text-xl font-spinnaker texto mb-2">{t("story.page5-1")}</span>
@@ -83,7 +83,7 @@ function Historia() {
                 <img
                     src="../historia-final.webp"
                     alt="image 6"
-                    className="md:w-1/2 w-full h-auto object-cover"
+                    className="md:w-1/2 w-full h-auto object-cover brightness-[80%]"
                 />
             </div>
         </>
